@@ -1,0 +1,2 @@
+/bin/ar cr ../../../libtransport.a  CMakeFiles/transport.dir/transport.o
+/bin/ranlib ../../../libtransport.a

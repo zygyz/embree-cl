@@ -1,0 +1,2 @@
+/bin/ar cr ../../../libtutorial_device.a  CMakeFiles/tutorial_device.dir/tutorial_device.o
+/bin/ranlib ../../../libtutorial_device.a

@@ -1,0 +1,2 @@
+/bin/ar cr ../../libembree_sse42.a  CMakeFiles/embree_sse42.dir/bvh4/bvh4_intersector4_hybrid.o
+/bin/ranlib ../../libembree_sse42.a

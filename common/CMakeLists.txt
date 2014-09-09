@@ -1,0 +1,9 @@
+SET(__XEON__ 1)
+ADD_SUBDIRECTORY(sys)
+ADD_SUBDIRECTORY(simd)
+
+IF (XEON_PHI_ISA)
+  SET(__XEON__ 0)
+  ADD_SUBDIRECTORY(sys sys_xeonphi)
+  ADD_SUBDIRECTORY(simd simd_xeonphi)
+ENDIF ()

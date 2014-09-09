@@ -1,0 +1,2 @@
+/bin/ar cr ../../libsimd.a  CMakeFiles/simd.dir/sse.o
+/bin/ranlib ../../libsimd.a

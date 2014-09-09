@@ -1,0 +1,2 @@
+/bin/ar cr ../../../libtutorial_device_ispc.a  tutorial_device.dev.o tutorial_device.dev_sse2.o tutorial_device.dev_sse4.o tutorial_device.dev_avx.o tutorial_device.dev_avx2.o
+/bin/ranlib ../../../libtutorial_device_ispc.a

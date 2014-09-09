@@ -1,0 +1,2 @@
+/bin/ar cr ../../../libtutorial.a  CMakeFiles/tutorial.dir/glutdisplay.o CMakeFiles/tutorial.dir/obj_loader.o CMakeFiles/tutorial.dir/hair_loader.o CMakeFiles/tutorial.dir/cy_hair_loader.o
+/bin/ranlib ../../../libtutorial.a

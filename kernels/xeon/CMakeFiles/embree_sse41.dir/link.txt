@@ -1,0 +1,2 @@
+/bin/ar cr ../../libembree_sse41.a  CMakeFiles/embree_sse41.dir/bvh4/bvh4_builder_binner.o CMakeFiles/embree_sse41.dir/bvh4/bvh4_builder_toplevel.o CMakeFiles/embree_sse41.dir/bvh4/bvh4_intersector1.o CMakeFiles/embree_sse41.dir/bvh4/bvh4_intersector4_chunk.o
+/bin/ranlib ../../libembree_sse41.a

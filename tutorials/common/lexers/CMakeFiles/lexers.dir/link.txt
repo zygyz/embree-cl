@@ -1,0 +1,2 @@
+/bin/ar cr ../../../liblexers.a  CMakeFiles/lexers.dir/stringstream.o CMakeFiles/lexers.dir/tokenstream.o
+/bin/ranlib ../../../liblexers.a
