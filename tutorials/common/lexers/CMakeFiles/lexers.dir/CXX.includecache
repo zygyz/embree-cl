@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/gyz/code/work/embree-cl/tutorials/common/lexers/stream.h
+/home/gyz/code/good/embree-cl/tutorials/common/lexers/stream.h
 sys/platform.h
-/home/gyz/code/work/embree-cl/tutorials/common/lexers/sys/platform.h
+/home/gyz/code/good/embree-cl/tutorials/common/lexers/sys/platform.h
 sys/ref.h
-/home/gyz/code/work/embree-cl/tutorials/common/lexers/sys/ref.h
+/home/gyz/code/good/embree-cl/tutorials/common/lexers/sys/ref.h
 sys/filename.h
-/home/gyz/code/work/embree-cl/tutorials/common/lexers/sys/filename.h
+/home/gyz/code/good/embree-cl/tutorials/common/lexers/sys/filename.h
 sys/stl/string.h
-/home/gyz/code/work/embree-cl/tutorials/common/lexers/sys/stl/string.h
+/home/gyz/code/good/embree-cl/tutorials/common/lexers/sys/stl/string.h
 vector
 -
 iostream
@@ -24,21 +24,21 @@ cstdio
 string.h
 -
 
-/home/gyz/code/work/embree-cl/tutorials/common/lexers/stringstream.cpp
+/home/gyz/code/good/embree-cl/tutorials/common/lexers/stringstream.cpp
 stringstream.h
-/home/gyz/code/work/embree-cl/tutorials/common/lexers/stringstream.h
+/home/gyz/code/good/embree-cl/tutorials/common/lexers/stringstream.h
 
-/home/gyz/code/work/embree-cl/tutorials/common/lexers/stringstream.h
+/home/gyz/code/good/embree-cl/tutorials/common/lexers/stringstream.h
 stream.h
-/home/gyz/code/work/embree-cl/tutorials/common/lexers/stream.h
+/home/gyz/code/good/embree-cl/tutorials/common/lexers/stream.h
 
-/home/gyz/code/work/embree-cl/tutorials/common/lexers/tokenstream.cpp
+/home/gyz/code/good/embree-cl/tutorials/common/lexers/tokenstream.cpp
 tokenstream.h
-/home/gyz/code/work/embree-cl/tutorials/common/lexers/tokenstream.h
+/home/gyz/code/good/embree-cl/tutorials/common/lexers/tokenstream.h
 
-/home/gyz/code/work/embree-cl/tutorials/common/lexers/tokenstream.h
+/home/gyz/code/good/embree-cl/tutorials/common/lexers/tokenstream.h
 stream.h
-/home/gyz/code/work/embree-cl/tutorials/common/lexers/stream.h
+/home/gyz/code/good/embree-cl/tutorials/common/lexers/stream.h
 string
 -
 vector

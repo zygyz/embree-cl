@@ -4,10 +4,10 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/gyz/code/work/embree-cl/tutorials/common/tutorial/cy_hair_loader.cpp" "/home/gyz/code/work/embree-cl/tutorials/common/tutorial/CMakeFiles/tutorial.dir/cy_hair_loader.o"
-  "/home/gyz/code/work/embree-cl/tutorials/common/tutorial/glutdisplay.cpp" "/home/gyz/code/work/embree-cl/tutorials/common/tutorial/CMakeFiles/tutorial.dir/glutdisplay.o"
-  "/home/gyz/code/work/embree-cl/tutorials/common/tutorial/hair_loader.cpp" "/home/gyz/code/work/embree-cl/tutorials/common/tutorial/CMakeFiles/tutorial.dir/hair_loader.o"
-  "/home/gyz/code/work/embree-cl/tutorials/common/tutorial/obj_loader.cpp" "/home/gyz/code/work/embree-cl/tutorials/common/tutorial/CMakeFiles/tutorial.dir/obj_loader.o"
+  "/home/gyz/code/good/embree-cl/tutorials/common/tutorial/cy_hair_loader.cpp" "/home/gyz/code/good/embree-cl/tutorials/common/tutorial/CMakeFiles/tutorial.dir/cy_hair_loader.o"
+  "/home/gyz/code/good/embree-cl/tutorials/common/tutorial/glutdisplay.cpp" "/home/gyz/code/good/embree-cl/tutorials/common/tutorial/CMakeFiles/tutorial.dir/glutdisplay.o"
+  "/home/gyz/code/good/embree-cl/tutorials/common/tutorial/hair_loader.cpp" "/home/gyz/code/good/embree-cl/tutorials/common/tutorial/CMakeFiles/tutorial.dir/hair_loader.o"
+  "/home/gyz/code/good/embree-cl/tutorials/common/tutorial/obj_loader.cpp" "/home/gyz/code/good/embree-cl/tutorials/common/tutorial/CMakeFiles/tutorial.dir/obj_loader.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -20,8 +20,8 @@ SET(CMAKE_TARGET_DEFINITIONS
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/gyz/code/work/embree-cl/common/sys/CMakeFiles/sys.dir/DependInfo.cmake"
-  "/home/gyz/code/work/embree-cl/cl_kernels/common/lexers/CMakeFiles/lexers.dir/DependInfo.cmake"
+  "/home/gyz/code/good/embree-cl/common/sys/CMakeFiles/sys.dir/DependInfo.cmake"
+  "/home/gyz/code/good/embree-cl/tutorials/common/lexers/CMakeFiles/lexers.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

@@ -4,12 +4,12 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/gyz/code/work/embree-cl/tutorials/tutorial08/extensions/api.cpp" "/home/gyz/code/work/embree-cl/tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/api.o"
-  "/home/gyz/code/work/embree-cl/tutorials/tutorial08/extensions/catmullclark.cpp" "/home/gyz/code/work/embree-cl/tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/catmullclark.o"
-  "/home/gyz/code/work/embree-cl/tutorials/tutorial08/extensions/subdivisionmesh.cpp" "/home/gyz/code/work/embree-cl/tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/subdivisionmesh.o"
-  "/home/gyz/code/work/embree-cl/tutorials/tutorial08/extensions/triangulatemesh.cpp" "/home/gyz/code/work/embree-cl/tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/triangulatemesh.o"
-  "/home/gyz/code/work/embree-cl/tutorials/tutorial08/tutorial08.cpp" "/home/gyz/code/work/embree-cl/tutorials/tutorial08/CMakeFiles/tutorial08.dir/tutorial08.o"
-  "/home/gyz/code/work/embree-cl/tutorials/tutorial08/tutorial08_device.cpp" "/home/gyz/code/work/embree-cl/tutorials/tutorial08/CMakeFiles/tutorial08.dir/tutorial08_device.o"
+  "/home/gyz/code/good/embree-cl/tutorials/tutorial08/extensions/api.cpp" "/home/gyz/code/good/embree-cl/tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/api.o"
+  "/home/gyz/code/good/embree-cl/tutorials/tutorial08/extensions/catmullclark.cpp" "/home/gyz/code/good/embree-cl/tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/catmullclark.o"
+  "/home/gyz/code/good/embree-cl/tutorials/tutorial08/extensions/subdivisionmesh.cpp" "/home/gyz/code/good/embree-cl/tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/subdivisionmesh.o"
+  "/home/gyz/code/good/embree-cl/tutorials/tutorial08/extensions/triangulatemesh.cpp" "/home/gyz/code/good/embree-cl/tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/triangulatemesh.o"
+  "/home/gyz/code/good/embree-cl/tutorials/tutorial08/tutorial08.cpp" "/home/gyz/code/good/embree-cl/tutorials/tutorial08/CMakeFiles/tutorial08.dir/tutorial08.o"
+  "/home/gyz/code/good/embree-cl/tutorials/tutorial08/tutorial08_device.cpp" "/home/gyz/code/good/embree-cl/tutorials/tutorial08/CMakeFiles/tutorial08.dir/tutorial08_device.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -22,18 +22,18 @@ SET(CMAKE_TARGET_DEFINITIONS
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/gyz/code/work/embree-cl/kernels/xeon/CMakeFiles/embree.dir/DependInfo.cmake"
-  "/home/gyz/code/work/embree-cl/cl_kernels/common/tutorial/CMakeFiles/tutorial.dir/DependInfo.cmake"
-  "/home/gyz/code/work/embree-cl/cl_kernels/common/image/CMakeFiles/image.dir/DependInfo.cmake"
-  "/home/gyz/code/work/embree-cl/cl_kernels/common/transport/CMakeFiles/transport.dir/DependInfo.cmake"
-  "/home/gyz/code/work/embree-cl/cl_kernels/common/tutorial/CMakeFiles/tutorial_device.dir/DependInfo.cmake"
-  "/home/gyz/code/work/embree-cl/kernels/xeon/CMakeFiles/embree_sse41.dir/DependInfo.cmake"
-  "/home/gyz/code/work/embree-cl/kernels/xeon/CMakeFiles/embree_sse42.dir/DependInfo.cmake"
-  "/home/gyz/code/work/embree-cl/kernels/xeon/CMakeFiles/embree_avx.dir/DependInfo.cmake"
-  "/home/gyz/code/work/embree-cl/kernels/xeon/CMakeFiles/embree_avx2.dir/DependInfo.cmake"
-  "/home/gyz/code/work/embree-cl/common/simd/CMakeFiles/simd.dir/DependInfo.cmake"
-  "/home/gyz/code/work/embree-cl/cl_kernels/common/lexers/CMakeFiles/lexers.dir/DependInfo.cmake"
-  "/home/gyz/code/work/embree-cl/common/sys/CMakeFiles/sys.dir/DependInfo.cmake"
+  "/home/gyz/code/good/embree-cl/kernels/xeon/CMakeFiles/embree.dir/DependInfo.cmake"
+  "/home/gyz/code/good/embree-cl/tutorials/common/tutorial/CMakeFiles/tutorial.dir/DependInfo.cmake"
+  "/home/gyz/code/good/embree-cl/tutorials/common/image/CMakeFiles/image.dir/DependInfo.cmake"
+  "/home/gyz/code/good/embree-cl/tutorials/common/transport/CMakeFiles/transport.dir/DependInfo.cmake"
+  "/home/gyz/code/good/embree-cl/tutorials/common/tutorial/CMakeFiles/tutorial_device.dir/DependInfo.cmake"
+  "/home/gyz/code/good/embree-cl/kernels/xeon/CMakeFiles/embree_sse41.dir/DependInfo.cmake"
+  "/home/gyz/code/good/embree-cl/kernels/xeon/CMakeFiles/embree_sse42.dir/DependInfo.cmake"
+  "/home/gyz/code/good/embree-cl/kernels/xeon/CMakeFiles/embree_avx.dir/DependInfo.cmake"
+  "/home/gyz/code/good/embree-cl/kernels/xeon/CMakeFiles/embree_avx2.dir/DependInfo.cmake"
+  "/home/gyz/code/good/embree-cl/common/simd/CMakeFiles/simd.dir/DependInfo.cmake"
+  "/home/gyz/code/good/embree-cl/tutorials/common/lexers/CMakeFiles/lexers.dir/DependInfo.cmake"
+  "/home/gyz/code/good/embree-cl/common/sys/CMakeFiles/sys.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

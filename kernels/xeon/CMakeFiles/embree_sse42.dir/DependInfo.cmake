@@ -4,7 +4,11 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/gyz/code/work/embree-cl/kernels/xeon/bvh4/bvh4_intersector4_hybrid.cpp" "/home/gyz/code/work/embree-cl/kernels/xeon/CMakeFiles/embree_sse42.dir/bvh4/bvh4_intersector4_hybrid.o"
+  "/home/gyz/code/good/embree-cl/kernels/common/cl_geometry.cpp" "/home/gyz/code/good/embree-cl/kernels/xeon/CMakeFiles/embree_sse42.dir/__/common/cl_geometry.o"
+  "/home/gyz/code/good/embree-cl/kernels/common/cl_rtcore.cpp" "/home/gyz/code/good/embree-cl/kernels/xeon/CMakeFiles/embree_sse42.dir/__/common/cl_rtcore.o"
+  "/home/gyz/code/good/embree-cl/kernels/common/cl_scene.cpp" "/home/gyz/code/good/embree-cl/kernels/xeon/CMakeFiles/embree_sse42.dir/__/common/cl_scene.o"
+  "/home/gyz/code/good/embree-cl/kernels/common/cl_triangleMesh.cpp" "/home/gyz/code/good/embree-cl/kernels/xeon/CMakeFiles/embree_sse42.dir/__/common/cl_triangleMesh.o"
+  "/home/gyz/code/good/embree-cl/kernels/xeon/bvh4/bvh4_intersector4_hybrid.cpp" "/home/gyz/code/good/embree-cl/kernels/xeon/CMakeFiles/embree_sse42.dir/bvh4/bvh4_intersector4_hybrid.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

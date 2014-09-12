@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gyz/code/work/embree-cl
+CMAKE_SOURCE_DIR = /home/gyz/code/good/embree-cl
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gyz/code/work/embree-cl
+CMAKE_BINARY_DIR = /home/gyz/code/good/embree-cl
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/gyz/code/work/embree-cl && $(CMAKE_COMMAND) -E cmake_progress_start /home/gyz/code/work/embree-cl/CMakeFiles /home/gyz/code/work/embree-cl/tutorials/common/lexers/CMakeFiles/progress.marks
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 tutorials/common/lexers/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gyz/code/work/embree-cl/CMakeFiles 0
+	cd /home/gyz/code/good/embree-cl && $(CMAKE_COMMAND) -E cmake_progress_start /home/gyz/code/good/embree-cl/CMakeFiles /home/gyz/code/good/embree-cl/tutorials/common/lexers/CMakeFiles/progress.marks
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 tutorials/common/lexers/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gyz/code/good/embree-cl/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 tutorials/common/lexers/clean
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 tutorials/common/lexers/clean
 .PHONY : clean
 
 # The main clean target
@@ -129,22 +129,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 tutorials/common/lexers/preinstall
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 tutorials/common/lexers/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 tutorials/common/lexers/preinstall
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 tutorials/common/lexers/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/gyz/code/work/embree-cl && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/gyz/code/good/embree-cl && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tutorials/common/lexers/CMakeFiles/lexers.dir/rule:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 tutorials/common/lexers/CMakeFiles/lexers.dir/rule
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 tutorials/common/lexers/CMakeFiles/lexers.dir/rule
 .PHONY : tutorials/common/lexers/CMakeFiles/lexers.dir/rule
 
 # Convenience name for target.
@@ -153,37 +153,37 @@ lexers: tutorials/common/lexers/CMakeFiles/lexers.dir/rule
 
 # fast build rule for target.
 lexers/fast:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/common/lexers/CMakeFiles/lexers.dir/build.make tutorials/common/lexers/CMakeFiles/lexers.dir/build
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/common/lexers/CMakeFiles/lexers.dir/build.make tutorials/common/lexers/CMakeFiles/lexers.dir/build
 .PHONY : lexers/fast
 
 # target to build an object file
 stringstream.o:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/common/lexers/CMakeFiles/lexers.dir/build.make tutorials/common/lexers/CMakeFiles/lexers.dir/stringstream.o
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/common/lexers/CMakeFiles/lexers.dir/build.make tutorials/common/lexers/CMakeFiles/lexers.dir/stringstream.o
 .PHONY : stringstream.o
 
 # target to preprocess a source file
 stringstream.i:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/common/lexers/CMakeFiles/lexers.dir/build.make tutorials/common/lexers/CMakeFiles/lexers.dir/stringstream.i
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/common/lexers/CMakeFiles/lexers.dir/build.make tutorials/common/lexers/CMakeFiles/lexers.dir/stringstream.i
 .PHONY : stringstream.i
 
 # target to generate assembly for a file
 stringstream.s:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/common/lexers/CMakeFiles/lexers.dir/build.make tutorials/common/lexers/CMakeFiles/lexers.dir/stringstream.s
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/common/lexers/CMakeFiles/lexers.dir/build.make tutorials/common/lexers/CMakeFiles/lexers.dir/stringstream.s
 .PHONY : stringstream.s
 
 # target to build an object file
 tokenstream.o:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/common/lexers/CMakeFiles/lexers.dir/build.make tutorials/common/lexers/CMakeFiles/lexers.dir/tokenstream.o
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/common/lexers/CMakeFiles/lexers.dir/build.make tutorials/common/lexers/CMakeFiles/lexers.dir/tokenstream.o
 .PHONY : tokenstream.o
 
 # target to preprocess a source file
 tokenstream.i:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/common/lexers/CMakeFiles/lexers.dir/build.make tutorials/common/lexers/CMakeFiles/lexers.dir/tokenstream.i
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/common/lexers/CMakeFiles/lexers.dir/build.make tutorials/common/lexers/CMakeFiles/lexers.dir/tokenstream.i
 .PHONY : tokenstream.i
 
 # target to generate assembly for a file
 tokenstream.s:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/common/lexers/CMakeFiles/lexers.dir/build.make tutorials/common/lexers/CMakeFiles/lexers.dir/tokenstream.s
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/common/lexers/CMakeFiles/lexers.dir/build.make tutorials/common/lexers/CMakeFiles/lexers.dir/tokenstream.s
 .PHONY : tokenstream.s
 
 # Help Target
@@ -216,6 +216,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/gyz/code/work/embree-cl && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/gyz/code/good/embree-cl && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/gyz/code/work/embree-cl/kernels/xeon
+# Install script for directory: /home/gyz/code/good/embree-cl/kernels/xeon
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -46,9 +46,9 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     ENDIF()
   ENDFOREACH()
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES
-    "/home/gyz/code/work/embree-cl/libembree.so.2.3.1"
-    "/home/gyz/code/work/embree-cl/libembree.so.2"
-    "/home/gyz/code/work/embree-cl/libembree.so"
+    "/home/gyz/code/good/embree-cl/libembree.so.2.3.1"
+    "/home/gyz/code/good/embree-cl/libembree.so.2"
+    "/home/gyz/code/good/embree-cl/libembree.so"
     )
   FOREACH(file
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libembree.so.2.3.1"

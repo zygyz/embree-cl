@@ -145,7 +145,6 @@ namespace embree
     /*! Intersects a single ray with the scene. */
     __forceinline void intersect (RTCRay& ray) {
       assert(intersectors.intersector1.intersect);
-      std::cout << "intersect 1 " << std::endl;
       intersectors.intersector1.intersect(intersectors.ptr,ray);
     }
 

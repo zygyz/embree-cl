@@ -4,8 +4,8 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/gyz/code/work/embree-cl/tutorials/common/lexers/stringstream.cpp" "/home/gyz/code/work/embree-cl/tutorials/common/lexers/CMakeFiles/lexers.dir/stringstream.o"
-  "/home/gyz/code/work/embree-cl/tutorials/common/lexers/tokenstream.cpp" "/home/gyz/code/work/embree-cl/tutorials/common/lexers/CMakeFiles/lexers.dir/tokenstream.o"
+  "/home/gyz/code/good/embree-cl/tutorials/common/lexers/stringstream.cpp" "/home/gyz/code/good/embree-cl/tutorials/common/lexers/CMakeFiles/lexers.dir/stringstream.o"
+  "/home/gyz/code/good/embree-cl/tutorials/common/lexers/tokenstream.cpp" "/home/gyz/code/good/embree-cl/tutorials/common/lexers/CMakeFiles/lexers.dir/tokenstream.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -18,7 +18,7 @@ SET(CMAKE_TARGET_DEFINITIONS
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/gyz/code/work/embree-cl/common/sys/CMakeFiles/sys.dir/DependInfo.cmake"
+  "/home/gyz/code/good/embree-cl/common/sys/CMakeFiles/sys.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

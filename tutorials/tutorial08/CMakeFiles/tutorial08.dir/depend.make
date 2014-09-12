@@ -53,6 +53,7 @@ tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/api.o: common/sys/sync
 tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/api.o: common/sys/sysinfo.h
 tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/api.o: common/sys/taskscheduler.h
 tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/api.o: common/sys/thread.h
+tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/api.o: include/embree2/cl_rtcore.h
 tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/api.o: include/embree2/rtcore.h
 tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/api.o: include/embree2/rtcore_geometry.h
 tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/api.o: include/embree2/rtcore_geometry_user.h
@@ -175,6 +176,7 @@ tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/triangulatemesh.o: com
 tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/triangulatemesh.o: common/sys/sysinfo.h
 tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/triangulatemesh.o: common/sys/taskscheduler.h
 tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/triangulatemesh.o: common/sys/thread.h
+tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/triangulatemesh.o: include/embree2/cl_rtcore.h
 tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/triangulatemesh.o: include/embree2/rtcore.h
 tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/triangulatemesh.o: include/embree2/rtcore_geometry.h
 tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/triangulatemesh.o: include/embree2/rtcore_geometry_user.h
@@ -289,6 +291,7 @@ tutorials/tutorial08/CMakeFiles/tutorial08.dir/tutorial08_device.o: common/sys/s
 tutorials/tutorial08/CMakeFiles/tutorial08.dir/tutorial08_device.o: common/sys/sysinfo.h
 tutorials/tutorial08/CMakeFiles/tutorial08.dir/tutorial08_device.o: common/sys/taskscheduler.h
 tutorials/tutorial08/CMakeFiles/tutorial08.dir/tutorial08_device.o: common/sys/thread.h
+tutorials/tutorial08/CMakeFiles/tutorial08.dir/tutorial08_device.o: include/embree2/cl_rtcore.h
 tutorials/tutorial08/CMakeFiles/tutorial08.dir/tutorial08_device.o: include/embree2/rtcore.h
 tutorials/tutorial08/CMakeFiles/tutorial08.dir/tutorial08_device.o: include/embree2/rtcore_geometry.h
 tutorials/tutorial08/CMakeFiles/tutorial08.dir/tutorial08_device.o: include/embree2/rtcore_geometry_user.h

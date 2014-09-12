@@ -6,21 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/home/gyz/code/work/embree-cl/tutorials/common/transport/transport.cpp
+/home/gyz/code/good/embree-cl/tutorials/common/transport/transport.cpp
 transport_host.h
-/home/gyz/code/work/embree-cl/tutorials/common/transport/transport_host.h
+/home/gyz/code/good/embree-cl/tutorials/common/transport/transport_host.h
 transport_device.h
-/home/gyz/code/work/embree-cl/tutorials/common/transport/transport_device.h
+/home/gyz/code/good/embree-cl/tutorials/common/transport/transport_device.h
 tutorial/obj_loader.h
-/home/gyz/code/work/embree-cl/tutorials/common/transport/tutorial/obj_loader.h
+/home/gyz/code/good/embree-cl/tutorials/common/transport/tutorial/obj_loader.h
 
-/home/gyz/code/work/embree-cl/tutorials/common/transport/transport_device.h
+/home/gyz/code/good/embree-cl/tutorials/common/transport/transport_device.h
 math/vec3.h
-/home/gyz/code/work/embree-cl/tutorials/common/transport/math/vec3.h
+/home/gyz/code/good/embree-cl/tutorials/common/transport/math/vec3.h
 
-/home/gyz/code/work/embree-cl/tutorials/common/transport/transport_host.h
+/home/gyz/code/good/embree-cl/tutorials/common/transport/transport_host.h
 math/vec3.h
-/home/gyz/code/work/embree-cl/tutorials/common/transport/math/vec3.h
+/home/gyz/code/good/embree-cl/tutorials/common/transport/math/vec3.h
 
 common/math/math.h
 sys/platform.h

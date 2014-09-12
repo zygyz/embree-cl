@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/gyz/code/work/embree-cl/tutorials/common/tutorial/tutorial_device.cpp" "/home/gyz/code/work/embree-cl/tutorials/common/tutorial/CMakeFiles/tutorial_device.dir/tutorial_device.o"
+  "/home/gyz/code/good/embree-cl/tutorials/common/tutorial/tutorial_device.cpp" "/home/gyz/code/good/embree-cl/tutorials/common/tutorial/CMakeFiles/tutorial_device.dir/tutorial_device.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

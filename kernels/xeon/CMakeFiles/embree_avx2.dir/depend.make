@@ -52,6 +52,7 @@ kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4/bvh4_intersector1.o: common/sys/syn
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4/bvh4_intersector1.o: common/sys/sysinfo.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4/bvh4_intersector1.o: common/sys/taskscheduler.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4/bvh4_intersector1.o: common/sys/thread.h
+kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4/bvh4_intersector1.o: include/embree2/cl_rtcore.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4/bvh4_intersector1.o: include/embree2/rtcore.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4/bvh4_intersector1.o: include/embree2/rtcore_geometry.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4/bvh4_intersector1.o: include/embree2/rtcore_geometry_user.h
@@ -150,6 +151,7 @@ kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4/bvh4_intersector4_chunk.o: common/s
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4/bvh4_intersector4_chunk.o: common/sys/sysinfo.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4/bvh4_intersector4_chunk.o: common/sys/taskscheduler.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4/bvh4_intersector4_chunk.o: common/sys/thread.h
+kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4/bvh4_intersector4_chunk.o: include/embree2/cl_rtcore.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4/bvh4_intersector4_chunk.o: include/embree2/rtcore.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4/bvh4_intersector4_chunk.o: include/embree2/rtcore_geometry.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4/bvh4_intersector4_chunk.o: include/embree2/rtcore_geometry_user.h
@@ -249,6 +251,7 @@ kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4/bvh4_intersector4_hybrid.o: common/
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4/bvh4_intersector4_hybrid.o: common/sys/sysinfo.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4/bvh4_intersector4_hybrid.o: common/sys/taskscheduler.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4/bvh4_intersector4_hybrid.o: common/sys/thread.h
+kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4/bvh4_intersector4_hybrid.o: include/embree2/cl_rtcore.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4/bvh4_intersector4_hybrid.o: include/embree2/rtcore.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4/bvh4_intersector4_hybrid.o: include/embree2/rtcore_geometry.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4/bvh4_intersector4_hybrid.o: include/embree2/rtcore_geometry_user.h
@@ -337,6 +340,7 @@ kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4/bvh4_intersector8_chunk.o: common/s
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4/bvh4_intersector8_chunk.o: common/sys/sysinfo.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4/bvh4_intersector8_chunk.o: common/sys/taskscheduler.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4/bvh4_intersector8_chunk.o: common/sys/thread.h
+kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4/bvh4_intersector8_chunk.o: include/embree2/cl_rtcore.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4/bvh4_intersector8_chunk.o: include/embree2/rtcore.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4/bvh4_intersector8_chunk.o: include/embree2/rtcore_geometry.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4/bvh4_intersector8_chunk.o: include/embree2/rtcore_geometry_user.h
@@ -436,6 +440,7 @@ kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4/bvh4_intersector8_hybrid.o: common/
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4/bvh4_intersector8_hybrid.o: common/sys/sysinfo.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4/bvh4_intersector8_hybrid.o: common/sys/taskscheduler.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4/bvh4_intersector8_hybrid.o: common/sys/thread.h
+kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4/bvh4_intersector8_hybrid.o: include/embree2/cl_rtcore.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4/bvh4_intersector8_hybrid.o: include/embree2/rtcore.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4/bvh4_intersector8_hybrid.o: include/embree2/rtcore_geometry.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4/bvh4_intersector8_hybrid.o: include/embree2/rtcore_geometry_user.h
@@ -524,6 +529,7 @@ kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4hair/bvh4hair_intersector1.o: common
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4hair/bvh4hair_intersector1.o: common/sys/sysinfo.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4hair/bvh4hair_intersector1.o: common/sys/taskscheduler.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4hair/bvh4hair_intersector1.o: common/sys/thread.h
+kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4hair/bvh4hair_intersector1.o: include/embree2/cl_rtcore.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4hair/bvh4hair_intersector1.o: include/embree2/rtcore.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4hair/bvh4hair_intersector1.o: include/embree2/rtcore_geometry.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4hair/bvh4hair_intersector1.o: include/embree2/rtcore_geometry_user.h
@@ -609,6 +615,7 @@ kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4hair/bvh4hair_intersector4.o: common
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4hair/bvh4hair_intersector4.o: common/sys/sysinfo.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4hair/bvh4hair_intersector4.o: common/sys/taskscheduler.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4hair/bvh4hair_intersector4.o: common/sys/thread.h
+kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4hair/bvh4hair_intersector4.o: include/embree2/cl_rtcore.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4hair/bvh4hair_intersector4.o: include/embree2/rtcore.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4hair/bvh4hair_intersector4.o: include/embree2/rtcore_geometry.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4hair/bvh4hair_intersector4.o: include/embree2/rtcore_geometry_user.h
@@ -694,6 +701,7 @@ kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4hair/bvh4hair_intersector8.o: common
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4hair/bvh4hair_intersector8.o: common/sys/sysinfo.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4hair/bvh4hair_intersector8.o: common/sys/taskscheduler.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4hair/bvh4hair_intersector8.o: common/sys/thread.h
+kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4hair/bvh4hair_intersector8.o: include/embree2/cl_rtcore.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4hair/bvh4hair_intersector8.o: include/embree2/rtcore.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4hair/bvh4hair_intersector8.o: include/embree2/rtcore_geometry.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4hair/bvh4hair_intersector8.o: include/embree2/rtcore_geometry_user.h
@@ -779,6 +787,7 @@ kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4mb/bvh4mb_intersector1.o: common/sys
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4mb/bvh4mb_intersector1.o: common/sys/sysinfo.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4mb/bvh4mb_intersector1.o: common/sys/taskscheduler.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4mb/bvh4mb_intersector1.o: common/sys/thread.h
+kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4mb/bvh4mb_intersector1.o: include/embree2/cl_rtcore.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4mb/bvh4mb_intersector1.o: include/embree2/rtcore.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4mb/bvh4mb_intersector1.o: include/embree2/rtcore_geometry.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4mb/bvh4mb_intersector1.o: include/embree2/rtcore_geometry_user.h
@@ -861,6 +870,7 @@ kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4mb/bvh4mb_intersector4.o: common/sys
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4mb/bvh4mb_intersector4.o: common/sys/sysinfo.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4mb/bvh4mb_intersector4.o: common/sys/taskscheduler.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4mb/bvh4mb_intersector4.o: common/sys/thread.h
+kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4mb/bvh4mb_intersector4.o: include/embree2/cl_rtcore.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4mb/bvh4mb_intersector4.o: include/embree2/rtcore.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4mb/bvh4mb_intersector4.o: include/embree2/rtcore_geometry.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4mb/bvh4mb_intersector4.o: include/embree2/rtcore_geometry_user.h
@@ -943,6 +953,7 @@ kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4mb/bvh4mb_intersector8.o: common/sys
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4mb/bvh4mb_intersector8.o: common/sys/sysinfo.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4mb/bvh4mb_intersector8.o: common/sys/taskscheduler.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4mb/bvh4mb_intersector8.o: common/sys/thread.h
+kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4mb/bvh4mb_intersector8.o: include/embree2/cl_rtcore.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4mb/bvh4mb_intersector8.o: include/embree2/rtcore.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4mb/bvh4mb_intersector8.o: include/embree2/rtcore_geometry.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh4mb/bvh4mb_intersector8.o: include/embree2/rtcore_geometry_user.h
@@ -1025,6 +1036,7 @@ kernels/xeon/CMakeFiles/embree_avx2.dir/bvh8/bvh8_intersector1.o: common/sys/syn
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh8/bvh8_intersector1.o: common/sys/sysinfo.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh8/bvh8_intersector1.o: common/sys/taskscheduler.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh8/bvh8_intersector1.o: common/sys/thread.h
+kernels/xeon/CMakeFiles/embree_avx2.dir/bvh8/bvh8_intersector1.o: include/embree2/cl_rtcore.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh8/bvh8_intersector1.o: include/embree2/rtcore.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh8/bvh8_intersector1.o: include/embree2/rtcore_geometry.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh8/bvh8_intersector1.o: include/embree2/rtcore_geometry_user.h
@@ -1107,6 +1119,7 @@ kernels/xeon/CMakeFiles/embree_avx2.dir/bvh8/bvh8_intersector4_hybrid.o: common/
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh8/bvh8_intersector4_hybrid.o: common/sys/sysinfo.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh8/bvh8_intersector4_hybrid.o: common/sys/taskscheduler.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh8/bvh8_intersector4_hybrid.o: common/sys/thread.h
+kernels/xeon/CMakeFiles/embree_avx2.dir/bvh8/bvh8_intersector4_hybrid.o: include/embree2/cl_rtcore.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh8/bvh8_intersector4_hybrid.o: include/embree2/rtcore.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh8/bvh8_intersector4_hybrid.o: include/embree2/rtcore_geometry.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh8/bvh8_intersector4_hybrid.o: include/embree2/rtcore_geometry_user.h
@@ -1190,6 +1203,7 @@ kernels/xeon/CMakeFiles/embree_avx2.dir/bvh8/bvh8_intersector8_chunk.o: common/s
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh8/bvh8_intersector8_chunk.o: common/sys/sysinfo.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh8/bvh8_intersector8_chunk.o: common/sys/taskscheduler.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh8/bvh8_intersector8_chunk.o: common/sys/thread.h
+kernels/xeon/CMakeFiles/embree_avx2.dir/bvh8/bvh8_intersector8_chunk.o: include/embree2/cl_rtcore.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh8/bvh8_intersector8_chunk.o: include/embree2/rtcore.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh8/bvh8_intersector8_chunk.o: include/embree2/rtcore_geometry.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh8/bvh8_intersector8_chunk.o: include/embree2/rtcore_geometry_user.h
@@ -1273,6 +1287,7 @@ kernels/xeon/CMakeFiles/embree_avx2.dir/bvh8/bvh8_intersector8_hybrid.o: common/
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh8/bvh8_intersector8_hybrid.o: common/sys/sysinfo.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh8/bvh8_intersector8_hybrid.o: common/sys/taskscheduler.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh8/bvh8_intersector8_hybrid.o: common/sys/thread.h
+kernels/xeon/CMakeFiles/embree_avx2.dir/bvh8/bvh8_intersector8_hybrid.o: include/embree2/cl_rtcore.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh8/bvh8_intersector8_hybrid.o: include/embree2/rtcore.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh8/bvh8_intersector8_hybrid.o: include/embree2/rtcore_geometry.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh8/bvh8_intersector8_hybrid.o: include/embree2/rtcore_geometry_user.h
@@ -1355,6 +1370,7 @@ kernels/xeon/CMakeFiles/embree_avx2.dir/geometry/instance_intersector1.o: common
 kernels/xeon/CMakeFiles/embree_avx2.dir/geometry/instance_intersector1.o: common/sys/sysinfo.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/geometry/instance_intersector1.o: common/sys/taskscheduler.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/geometry/instance_intersector1.o: common/sys/thread.h
+kernels/xeon/CMakeFiles/embree_avx2.dir/geometry/instance_intersector1.o: include/embree2/cl_rtcore.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/geometry/instance_intersector1.o: include/embree2/rtcore.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/geometry/instance_intersector1.o: include/embree2/rtcore_geometry.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/geometry/instance_intersector1.o: include/embree2/rtcore_geometry_user.h
@@ -1419,6 +1435,7 @@ kernels/xeon/CMakeFiles/embree_avx2.dir/geometry/instance_intersector4.o: common
 kernels/xeon/CMakeFiles/embree_avx2.dir/geometry/instance_intersector4.o: common/sys/sysinfo.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/geometry/instance_intersector4.o: common/sys/taskscheduler.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/geometry/instance_intersector4.o: common/sys/thread.h
+kernels/xeon/CMakeFiles/embree_avx2.dir/geometry/instance_intersector4.o: include/embree2/cl_rtcore.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/geometry/instance_intersector4.o: include/embree2/rtcore.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/geometry/instance_intersector4.o: include/embree2/rtcore_geometry.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/geometry/instance_intersector4.o: include/embree2/rtcore_geometry_user.h
@@ -1484,6 +1501,7 @@ kernels/xeon/CMakeFiles/embree_avx2.dir/geometry/instance_intersector8.o: common
 kernels/xeon/CMakeFiles/embree_avx2.dir/geometry/instance_intersector8.o: common/sys/sysinfo.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/geometry/instance_intersector8.o: common/sys/taskscheduler.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/geometry/instance_intersector8.o: common/sys/thread.h
+kernels/xeon/CMakeFiles/embree_avx2.dir/geometry/instance_intersector8.o: include/embree2/cl_rtcore.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/geometry/instance_intersector8.o: include/embree2/rtcore.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/geometry/instance_intersector8.o: include/embree2/rtcore_geometry.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/geometry/instance_intersector8.o: include/embree2/rtcore_geometry_user.h
@@ -1549,6 +1567,7 @@ kernels/xeon/CMakeFiles/embree_avx2.dir/geometry/ispc_wrapper_avx.o: common/sys/
 kernels/xeon/CMakeFiles/embree_avx2.dir/geometry/ispc_wrapper_avx.o: common/sys/sysinfo.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/geometry/ispc_wrapper_avx.o: common/sys/taskscheduler.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/geometry/ispc_wrapper_avx.o: common/sys/thread.h
+kernels/xeon/CMakeFiles/embree_avx2.dir/geometry/ispc_wrapper_avx.o: include/embree2/cl_rtcore.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/geometry/ispc_wrapper_avx.o: include/embree2/rtcore.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/geometry/ispc_wrapper_avx.o: include/embree2/rtcore_geometry.h
 kernels/xeon/CMakeFiles/embree_avx2.dir/geometry/ispc_wrapper_avx.o: include/embree2/rtcore_geometry_user.h

@@ -75,9 +75,11 @@ namespace embree
   ISPCMesh* convertMesh (OBJScene::Mesh* in)
   {
     ISPCMesh* out = new ISPCMesh;
+    std::cout << "OBJScene:: Mesh* in->v.size() " << in->v.size() << std::endl;
     out->positions = in->v.size() ? &in->v[0] : NULL;
     out->normals = in->vn.size() ? &in->vn[0] : NULL;
     out->texcoords = in->vt.size() ? &in->vt[0] : NULL;
+    std::cout << "OBJScene:: Triangle* in->triangle.size() " << in->triangles.size() << std::endl;
     out->triangles = in->triangles.size() ? &in->triangles[0] : NULL;
     out->numVertices = in->v.size();
     out->numTriangles = in->triangles.size();

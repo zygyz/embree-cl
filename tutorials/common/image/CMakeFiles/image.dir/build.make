@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gyz/code/work/embree-cl
+CMAKE_SOURCE_DIR = /home/gyz/code/good/embree-cl
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gyz/code/work/embree-cl
+CMAKE_BINARY_DIR = /home/gyz/code/good/embree-cl
 
 # Include any dependencies generated for this target.
 include tutorials/common/image/CMakeFiles/image.dir/depend.make
@@ -54,17 +54,17 @@ include tutorials/common/image/CMakeFiles/image.dir/flags.make
 
 tutorials/common/image/CMakeFiles/image.dir/exr.o: tutorials/common/image/CMakeFiles/image.dir/flags.make
 tutorials/common/image/CMakeFiles/image.dir/exr.o: tutorials/common/image/exr.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object tutorials/common/image/CMakeFiles/image.dir/exr.o"
-	cd /home/gyz/code/work/embree-cl/tutorials/common/image && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/image.dir/exr.o -c /home/gyz/code/work/embree-cl/tutorials/common/image/exr.cpp
+	cd /home/gyz/code/good/embree-cl/tutorials/common/image && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/image.dir/exr.o -c /home/gyz/code/good/embree-cl/tutorials/common/image/exr.cpp
 
 tutorials/common/image/CMakeFiles/image.dir/exr.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/image.dir/exr.i"
-	cd /home/gyz/code/work/embree-cl/tutorials/common/image && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/tutorials/common/image/exr.cpp > CMakeFiles/image.dir/exr.i
+	cd /home/gyz/code/good/embree-cl/tutorials/common/image && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/tutorials/common/image/exr.cpp > CMakeFiles/image.dir/exr.i
 
 tutorials/common/image/CMakeFiles/image.dir/exr.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/image.dir/exr.s"
-	cd /home/gyz/code/work/embree-cl/tutorials/common/image && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/tutorials/common/image/exr.cpp -o CMakeFiles/image.dir/exr.s
+	cd /home/gyz/code/good/embree-cl/tutorials/common/image && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/tutorials/common/image/exr.cpp -o CMakeFiles/image.dir/exr.s
 
 tutorials/common/image/CMakeFiles/image.dir/exr.o.requires:
 .PHONY : tutorials/common/image/CMakeFiles/image.dir/exr.o.requires
@@ -77,17 +77,17 @@ tutorials/common/image/CMakeFiles/image.dir/exr.o.provides.build: tutorials/comm
 
 tutorials/common/image/CMakeFiles/image.dir/image.o: tutorials/common/image/CMakeFiles/image.dir/flags.make
 tutorials/common/image/CMakeFiles/image.dir/image.o: tutorials/common/image/image.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object tutorials/common/image/CMakeFiles/image.dir/image.o"
-	cd /home/gyz/code/work/embree-cl/tutorials/common/image && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/image.dir/image.o -c /home/gyz/code/work/embree-cl/tutorials/common/image/image.cpp
+	cd /home/gyz/code/good/embree-cl/tutorials/common/image && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/image.dir/image.o -c /home/gyz/code/good/embree-cl/tutorials/common/image/image.cpp
 
 tutorials/common/image/CMakeFiles/image.dir/image.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/image.dir/image.i"
-	cd /home/gyz/code/work/embree-cl/tutorials/common/image && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/tutorials/common/image/image.cpp > CMakeFiles/image.dir/image.i
+	cd /home/gyz/code/good/embree-cl/tutorials/common/image && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/tutorials/common/image/image.cpp > CMakeFiles/image.dir/image.i
 
 tutorials/common/image/CMakeFiles/image.dir/image.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/image.dir/image.s"
-	cd /home/gyz/code/work/embree-cl/tutorials/common/image && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/tutorials/common/image/image.cpp -o CMakeFiles/image.dir/image.s
+	cd /home/gyz/code/good/embree-cl/tutorials/common/image && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/tutorials/common/image/image.cpp -o CMakeFiles/image.dir/image.s
 
 tutorials/common/image/CMakeFiles/image.dir/image.o.requires:
 .PHONY : tutorials/common/image/CMakeFiles/image.dir/image.o.requires
@@ -100,17 +100,17 @@ tutorials/common/image/CMakeFiles/image.dir/image.o.provides.build: tutorials/co
 
 tutorials/common/image/CMakeFiles/image.dir/jpeg.o: tutorials/common/image/CMakeFiles/image.dir/flags.make
 tutorials/common/image/CMakeFiles/image.dir/jpeg.o: tutorials/common/image/jpeg.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object tutorials/common/image/CMakeFiles/image.dir/jpeg.o"
-	cd /home/gyz/code/work/embree-cl/tutorials/common/image && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/image.dir/jpeg.o -c /home/gyz/code/work/embree-cl/tutorials/common/image/jpeg.cpp
+	cd /home/gyz/code/good/embree-cl/tutorials/common/image && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/image.dir/jpeg.o -c /home/gyz/code/good/embree-cl/tutorials/common/image/jpeg.cpp
 
 tutorials/common/image/CMakeFiles/image.dir/jpeg.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/image.dir/jpeg.i"
-	cd /home/gyz/code/work/embree-cl/tutorials/common/image && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/tutorials/common/image/jpeg.cpp > CMakeFiles/image.dir/jpeg.i
+	cd /home/gyz/code/good/embree-cl/tutorials/common/image && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/tutorials/common/image/jpeg.cpp > CMakeFiles/image.dir/jpeg.i
 
 tutorials/common/image/CMakeFiles/image.dir/jpeg.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/image.dir/jpeg.s"
-	cd /home/gyz/code/work/embree-cl/tutorials/common/image && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/tutorials/common/image/jpeg.cpp -o CMakeFiles/image.dir/jpeg.s
+	cd /home/gyz/code/good/embree-cl/tutorials/common/image && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/tutorials/common/image/jpeg.cpp -o CMakeFiles/image.dir/jpeg.s
 
 tutorials/common/image/CMakeFiles/image.dir/jpeg.o.requires:
 .PHONY : tutorials/common/image/CMakeFiles/image.dir/jpeg.o.requires
@@ -123,17 +123,17 @@ tutorials/common/image/CMakeFiles/image.dir/jpeg.o.provides.build: tutorials/com
 
 tutorials/common/image/CMakeFiles/image.dir/magick.o: tutorials/common/image/CMakeFiles/image.dir/flags.make
 tutorials/common/image/CMakeFiles/image.dir/magick.o: tutorials/common/image/magick.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object tutorials/common/image/CMakeFiles/image.dir/magick.o"
-	cd /home/gyz/code/work/embree-cl/tutorials/common/image && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/image.dir/magick.o -c /home/gyz/code/work/embree-cl/tutorials/common/image/magick.cpp
+	cd /home/gyz/code/good/embree-cl/tutorials/common/image && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/image.dir/magick.o -c /home/gyz/code/good/embree-cl/tutorials/common/image/magick.cpp
 
 tutorials/common/image/CMakeFiles/image.dir/magick.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/image.dir/magick.i"
-	cd /home/gyz/code/work/embree-cl/tutorials/common/image && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/tutorials/common/image/magick.cpp > CMakeFiles/image.dir/magick.i
+	cd /home/gyz/code/good/embree-cl/tutorials/common/image && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/tutorials/common/image/magick.cpp > CMakeFiles/image.dir/magick.i
 
 tutorials/common/image/CMakeFiles/image.dir/magick.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/image.dir/magick.s"
-	cd /home/gyz/code/work/embree-cl/tutorials/common/image && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/tutorials/common/image/magick.cpp -o CMakeFiles/image.dir/magick.s
+	cd /home/gyz/code/good/embree-cl/tutorials/common/image && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/tutorials/common/image/magick.cpp -o CMakeFiles/image.dir/magick.s
 
 tutorials/common/image/CMakeFiles/image.dir/magick.o.requires:
 .PHONY : tutorials/common/image/CMakeFiles/image.dir/magick.o.requires
@@ -146,17 +146,17 @@ tutorials/common/image/CMakeFiles/image.dir/magick.o.provides.build: tutorials/c
 
 tutorials/common/image/CMakeFiles/image.dir/pfm.o: tutorials/common/image/CMakeFiles/image.dir/flags.make
 tutorials/common/image/CMakeFiles/image.dir/pfm.o: tutorials/common/image/pfm.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object tutorials/common/image/CMakeFiles/image.dir/pfm.o"
-	cd /home/gyz/code/work/embree-cl/tutorials/common/image && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/image.dir/pfm.o -c /home/gyz/code/work/embree-cl/tutorials/common/image/pfm.cpp
+	cd /home/gyz/code/good/embree-cl/tutorials/common/image && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/image.dir/pfm.o -c /home/gyz/code/good/embree-cl/tutorials/common/image/pfm.cpp
 
 tutorials/common/image/CMakeFiles/image.dir/pfm.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/image.dir/pfm.i"
-	cd /home/gyz/code/work/embree-cl/tutorials/common/image && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/tutorials/common/image/pfm.cpp > CMakeFiles/image.dir/pfm.i
+	cd /home/gyz/code/good/embree-cl/tutorials/common/image && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/tutorials/common/image/pfm.cpp > CMakeFiles/image.dir/pfm.i
 
 tutorials/common/image/CMakeFiles/image.dir/pfm.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/image.dir/pfm.s"
-	cd /home/gyz/code/work/embree-cl/tutorials/common/image && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/tutorials/common/image/pfm.cpp -o CMakeFiles/image.dir/pfm.s
+	cd /home/gyz/code/good/embree-cl/tutorials/common/image && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/tutorials/common/image/pfm.cpp -o CMakeFiles/image.dir/pfm.s
 
 tutorials/common/image/CMakeFiles/image.dir/pfm.o.requires:
 .PHONY : tutorials/common/image/CMakeFiles/image.dir/pfm.o.requires
@@ -169,17 +169,17 @@ tutorials/common/image/CMakeFiles/image.dir/pfm.o.provides.build: tutorials/comm
 
 tutorials/common/image/CMakeFiles/image.dir/ppm.o: tutorials/common/image/CMakeFiles/image.dir/flags.make
 tutorials/common/image/CMakeFiles/image.dir/ppm.o: tutorials/common/image/ppm.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object tutorials/common/image/CMakeFiles/image.dir/ppm.o"
-	cd /home/gyz/code/work/embree-cl/tutorials/common/image && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/image.dir/ppm.o -c /home/gyz/code/work/embree-cl/tutorials/common/image/ppm.cpp
+	cd /home/gyz/code/good/embree-cl/tutorials/common/image && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/image.dir/ppm.o -c /home/gyz/code/good/embree-cl/tutorials/common/image/ppm.cpp
 
 tutorials/common/image/CMakeFiles/image.dir/ppm.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/image.dir/ppm.i"
-	cd /home/gyz/code/work/embree-cl/tutorials/common/image && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/tutorials/common/image/ppm.cpp > CMakeFiles/image.dir/ppm.i
+	cd /home/gyz/code/good/embree-cl/tutorials/common/image && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/tutorials/common/image/ppm.cpp > CMakeFiles/image.dir/ppm.i
 
 tutorials/common/image/CMakeFiles/image.dir/ppm.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/image.dir/ppm.s"
-	cd /home/gyz/code/work/embree-cl/tutorials/common/image && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/tutorials/common/image/ppm.cpp -o CMakeFiles/image.dir/ppm.s
+	cd /home/gyz/code/good/embree-cl/tutorials/common/image && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/tutorials/common/image/ppm.cpp -o CMakeFiles/image.dir/ppm.s
 
 tutorials/common/image/CMakeFiles/image.dir/ppm.o.requires:
 .PHONY : tutorials/common/image/CMakeFiles/image.dir/ppm.o.requires
@@ -192,17 +192,17 @@ tutorials/common/image/CMakeFiles/image.dir/ppm.o.provides.build: tutorials/comm
 
 tutorials/common/image/CMakeFiles/image.dir/tga.o: tutorials/common/image/CMakeFiles/image.dir/flags.make
 tutorials/common/image/CMakeFiles/image.dir/tga.o: tutorials/common/image/tga.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object tutorials/common/image/CMakeFiles/image.dir/tga.o"
-	cd /home/gyz/code/work/embree-cl/tutorials/common/image && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/image.dir/tga.o -c /home/gyz/code/work/embree-cl/tutorials/common/image/tga.cpp
+	cd /home/gyz/code/good/embree-cl/tutorials/common/image && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/image.dir/tga.o -c /home/gyz/code/good/embree-cl/tutorials/common/image/tga.cpp
 
 tutorials/common/image/CMakeFiles/image.dir/tga.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/image.dir/tga.i"
-	cd /home/gyz/code/work/embree-cl/tutorials/common/image && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/tutorials/common/image/tga.cpp > CMakeFiles/image.dir/tga.i
+	cd /home/gyz/code/good/embree-cl/tutorials/common/image && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/tutorials/common/image/tga.cpp > CMakeFiles/image.dir/tga.i
 
 tutorials/common/image/CMakeFiles/image.dir/tga.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/image.dir/tga.s"
-	cd /home/gyz/code/work/embree-cl/tutorials/common/image && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/tutorials/common/image/tga.cpp -o CMakeFiles/image.dir/tga.s
+	cd /home/gyz/code/good/embree-cl/tutorials/common/image && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/tutorials/common/image/tga.cpp -o CMakeFiles/image.dir/tga.s
 
 tutorials/common/image/CMakeFiles/image.dir/tga.o.requires:
 .PHONY : tutorials/common/image/CMakeFiles/image.dir/tga.o.requires
@@ -236,8 +236,8 @@ libimage.a: tutorials/common/image/CMakeFiles/image.dir/tga.o
 libimage.a: tutorials/common/image/CMakeFiles/image.dir/build.make
 libimage.a: tutorials/common/image/CMakeFiles/image.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library ../../../libimage.a"
-	cd /home/gyz/code/work/embree-cl/tutorials/common/image && $(CMAKE_COMMAND) -P CMakeFiles/image.dir/cmake_clean_target.cmake
-	cd /home/gyz/code/work/embree-cl/tutorials/common/image && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/image.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/gyz/code/good/embree-cl/tutorials/common/image && $(CMAKE_COMMAND) -P CMakeFiles/image.dir/cmake_clean_target.cmake
+	cd /home/gyz/code/good/embree-cl/tutorials/common/image && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/image.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tutorials/common/image/CMakeFiles/image.dir/build: libimage.a
@@ -253,10 +253,10 @@ tutorials/common/image/CMakeFiles/image.dir/requires: tutorials/common/image/CMa
 .PHONY : tutorials/common/image/CMakeFiles/image.dir/requires
 
 tutorials/common/image/CMakeFiles/image.dir/clean:
-	cd /home/gyz/code/work/embree-cl/tutorials/common/image && $(CMAKE_COMMAND) -P CMakeFiles/image.dir/cmake_clean.cmake
+	cd /home/gyz/code/good/embree-cl/tutorials/common/image && $(CMAKE_COMMAND) -P CMakeFiles/image.dir/cmake_clean.cmake
 .PHONY : tutorials/common/image/CMakeFiles/image.dir/clean
 
 tutorials/common/image/CMakeFiles/image.dir/depend:
-	cd /home/gyz/code/work/embree-cl && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gyz/code/work/embree-cl /home/gyz/code/work/embree-cl/tutorials/common/image /home/gyz/code/work/embree-cl /home/gyz/code/work/embree-cl/tutorials/common/image /home/gyz/code/work/embree-cl/tutorials/common/image/CMakeFiles/image.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gyz/code/good/embree-cl && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gyz/code/good/embree-cl /home/gyz/code/good/embree-cl/tutorials/common/image /home/gyz/code/good/embree-cl /home/gyz/code/good/embree-cl/tutorials/common/image /home/gyz/code/good/embree-cl/tutorials/common/image/CMakeFiles/image.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tutorials/common/image/CMakeFiles/image.dir/depend
 

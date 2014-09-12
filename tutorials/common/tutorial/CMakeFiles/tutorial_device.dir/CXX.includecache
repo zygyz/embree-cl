@@ -6,47 +6,47 @@
 
 #IncludeRegexTransform: 
 
-/home/gyz/code/work/embree-cl/tutorials/common/tutorial/ray.h
+/home/gyz/code/good/embree-cl/tutorials/common/tutorial/ray.h
 sys/platform.h
-/home/gyz/code/work/embree-cl/tutorials/common/tutorial/sys/platform.h
+/home/gyz/code/good/embree-cl/tutorials/common/tutorial/sys/platform.h
 sys/ref.h
-/home/gyz/code/work/embree-cl/tutorials/common/tutorial/sys/ref.h
+/home/gyz/code/good/embree-cl/tutorials/common/tutorial/sys/ref.h
 sys/intrinsics.h
-/home/gyz/code/work/embree-cl/tutorials/common/tutorial/sys/intrinsics.h
+/home/gyz/code/good/embree-cl/tutorials/common/tutorial/sys/intrinsics.h
 sys/sysinfo.h
-/home/gyz/code/work/embree-cl/tutorials/common/tutorial/sys/sysinfo.h
+/home/gyz/code/good/embree-cl/tutorials/common/tutorial/sys/sysinfo.h
 sys/sync/atomic.h
-/home/gyz/code/work/embree-cl/tutorials/common/tutorial/sys/sync/atomic.h
+/home/gyz/code/good/embree-cl/tutorials/common/tutorial/sys/sync/atomic.h
 sys/stl/vector.h
-/home/gyz/code/work/embree-cl/tutorials/common/tutorial/sys/stl/vector.h
+/home/gyz/code/good/embree-cl/tutorials/common/tutorial/sys/stl/vector.h
 sys/stl/string.h
-/home/gyz/code/work/embree-cl/tutorials/common/tutorial/sys/stl/string.h
+/home/gyz/code/good/embree-cl/tutorials/common/tutorial/sys/stl/string.h
 math/math.h
-/home/gyz/code/work/embree-cl/tutorials/common/tutorial/math/math.h
+/home/gyz/code/good/embree-cl/tutorials/common/tutorial/math/math.h
 math/vec2.h
-/home/gyz/code/work/embree-cl/tutorials/common/tutorial/math/vec2.h
+/home/gyz/code/good/embree-cl/tutorials/common/tutorial/math/vec2.h
 math/vec3.h
-/home/gyz/code/work/embree-cl/tutorials/common/tutorial/math/vec3.h
+/home/gyz/code/good/embree-cl/tutorials/common/tutorial/math/vec3.h
 math/vec4.h
-/home/gyz/code/work/embree-cl/tutorials/common/tutorial/math/vec4.h
+/home/gyz/code/good/embree-cl/tutorials/common/tutorial/math/vec4.h
 math/bbox.h
-/home/gyz/code/work/embree-cl/tutorials/common/tutorial/math/bbox.h
+/home/gyz/code/good/embree-cl/tutorials/common/tutorial/math/bbox.h
 math/affinespace.h
-/home/gyz/code/work/embree-cl/tutorials/common/tutorial/math/affinespace.h
+/home/gyz/code/good/embree-cl/tutorials/common/tutorial/math/affinespace.h
 simd/simd.h
-/home/gyz/code/work/embree-cl/tutorials/common/tutorial/simd/simd.h
+/home/gyz/code/good/embree-cl/tutorials/common/tutorial/simd/simd.h
 
-/home/gyz/code/work/embree-cl/tutorials/common/tutorial/tutorial_device.cpp
+/home/gyz/code/good/embree-cl/tutorials/common/tutorial/tutorial_device.cpp
 tutorial_device.h
-/home/gyz/code/work/embree-cl/tutorials/common/tutorial/tutorial_device.h
+/home/gyz/code/good/embree-cl/tutorials/common/tutorial/tutorial_device.h
 
-/home/gyz/code/work/embree-cl/tutorials/common/tutorial/tutorial_device.h
+/home/gyz/code/good/embree-cl/tutorials/common/tutorial/tutorial_device.h
 embree2/rtcore.h
-/home/gyz/code/work/embree-cl/tutorials/common/tutorial/embree2/rtcore.h
+/home/gyz/code/good/embree-cl/tutorials/common/tutorial/embree2/rtcore.h
 ray.h
-/home/gyz/code/work/embree-cl/tutorials/common/tutorial/ray.h
+/home/gyz/code/good/embree-cl/tutorials/common/tutorial/ray.h
 sys/taskscheduler.h
-/home/gyz/code/work/embree-cl/tutorials/common/tutorial/sys/taskscheduler.h
+/home/gyz/code/good/embree-cl/tutorials/common/tutorial/sys/taskscheduler.h
 
 common/math/affinespace.h
 math/linearspace3.h
@@ -400,6 +400,10 @@ common/sys/thread.h
 platform.h
 common/sys/platform.h
 
+include/embree2/cl_rtcore.h
+stddef.h
+-
+
 include/embree2/rtcore.h
 stddef.h
 -
@@ -409,6 +413,8 @@ rtcore_geometry.h
 include/embree2/rtcore_geometry.h
 rtcore_geometry_user.h
 include/embree2/rtcore_geometry_user.h
+cl_rtcore.h
+include/embree2/cl_rtcore.h
 
 include/embree2/rtcore_geometry.h
 

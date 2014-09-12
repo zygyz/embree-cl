@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gyz/code/work/embree-cl
+CMAKE_SOURCE_DIR = /home/gyz/code/good/embree-cl
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gyz/code/work/embree-cl
+CMAKE_BINARY_DIR = /home/gyz/code/good/embree-cl
 
 # Include any dependencies generated for this target.
 include kernels/xeon/CMakeFiles/embree.dir/depend.make
@@ -53,9 +53,9 @@ include kernels/xeon/CMakeFiles/embree.dir/progress.make
 include kernels/xeon/CMakeFiles/embree.dir/flags.make
 
 kernels/xeon/../common/rtcore_ispc.dev.o: kernels/xeon/../common/rtcore_ispc.ispc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../common/rtcore_ispc.dev.o, ../common/rtcore_ispc.dev_sse2.o, ../common/rtcore_ispc.dev_sse4.o, ../common/rtcore_ispc.dev_avx.o, ../common/rtcore_ispc.dev_avx2.o, rtcore_ispc_ispc.h"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && mkdir -p /home/gyz/code/work/embree-cl/kernels/xeon/../common ; ispc -I /home/gyz/code/work/embree-cl/kernels/xeon -I /home/gyz/code/work/embree-cl --arch=x86-64 --pic -O3 --target=sse2,sse4,avx,avx2 --woff --opt=fast-math -h /home/gyz/code/work/embree-cl/kernels/xeon/rtcore_ispc_ispc.h -MMM /home/gyz/code/work/embree-cl/kernels/xeon/../common/rtcore_ispc.dev.idep -o /home/gyz/code/work/embree-cl/kernels/xeon/../common/rtcore_ispc.dev.o /home/gyz/code/work/embree-cl/kernels/xeon/../common/rtcore_ispc.ispc ;
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && mkdir -p /home/gyz/code/good/embree-cl/kernels/xeon/../common ; ispc -I /home/gyz/code/good/embree-cl/kernels/xeon -I /home/gyz/code/good/embree-cl --arch=x86-64 --pic -O3 --target=sse2,sse4,avx,avx2 --woff --opt=fast-math -h /home/gyz/code/good/embree-cl/kernels/xeon/rtcore_ispc_ispc.h -MMM /home/gyz/code/good/embree-cl/kernels/xeon/../common/rtcore_ispc.dev.idep -o /home/gyz/code/good/embree-cl/kernels/xeon/../common/rtcore_ispc.dev.o /home/gyz/code/good/embree-cl/kernels/xeon/../common/rtcore_ispc.ispc ;
 
 kernels/xeon/../common/rtcore_ispc.dev_sse2.o: kernels/xeon/../common/rtcore_ispc.dev.o
 
@@ -69,17 +69,17 @@ kernels/xeon/rtcore_ispc_ispc.h: kernels/xeon/../common/rtcore_ispc.dev.o
 
 kernels/xeon/CMakeFiles/embree.dir/__/common/stat.o: kernels/xeon/CMakeFiles/embree.dir/flags.make
 kernels/xeon/CMakeFiles/embree.dir/__/common/stat.o: kernels/common/stat.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kernels/xeon/CMakeFiles/embree.dir/__/common/stat.o"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/__/common/stat.o -c /home/gyz/code/work/embree-cl/kernels/common/stat.cpp
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/__/common/stat.o -c /home/gyz/code/good/embree-cl/kernels/common/stat.cpp
 
 kernels/xeon/CMakeFiles/embree.dir/__/common/stat.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/embree.dir/__/common/stat.i"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/kernels/common/stat.cpp > CMakeFiles/embree.dir/__/common/stat.i
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/kernels/common/stat.cpp > CMakeFiles/embree.dir/__/common/stat.i
 
 kernels/xeon/CMakeFiles/embree.dir/__/common/stat.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/embree.dir/__/common/stat.s"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/kernels/common/stat.cpp -o CMakeFiles/embree.dir/__/common/stat.s
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/kernels/common/stat.cpp -o CMakeFiles/embree.dir/__/common/stat.s
 
 kernels/xeon/CMakeFiles/embree.dir/__/common/stat.o.requires:
 .PHONY : kernels/xeon/CMakeFiles/embree.dir/__/common/stat.o.requires
@@ -92,17 +92,17 @@ kernels/xeon/CMakeFiles/embree.dir/__/common/stat.o.provides.build: kernels/xeon
 
 kernels/xeon/CMakeFiles/embree.dir/__/common/globals.o: kernels/xeon/CMakeFiles/embree.dir/flags.make
 kernels/xeon/CMakeFiles/embree.dir/__/common/globals.o: kernels/common/globals.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kernels/xeon/CMakeFiles/embree.dir/__/common/globals.o"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/__/common/globals.o -c /home/gyz/code/work/embree-cl/kernels/common/globals.cpp
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/__/common/globals.o -c /home/gyz/code/good/embree-cl/kernels/common/globals.cpp
 
 kernels/xeon/CMakeFiles/embree.dir/__/common/globals.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/embree.dir/__/common/globals.i"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/kernels/common/globals.cpp > CMakeFiles/embree.dir/__/common/globals.i
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/kernels/common/globals.cpp > CMakeFiles/embree.dir/__/common/globals.i
 
 kernels/xeon/CMakeFiles/embree.dir/__/common/globals.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/embree.dir/__/common/globals.s"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/kernels/common/globals.cpp -o CMakeFiles/embree.dir/__/common/globals.s
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/kernels/common/globals.cpp -o CMakeFiles/embree.dir/__/common/globals.s
 
 kernels/xeon/CMakeFiles/embree.dir/__/common/globals.o.requires:
 .PHONY : kernels/xeon/CMakeFiles/embree.dir/__/common/globals.o.requires
@@ -115,17 +115,17 @@ kernels/xeon/CMakeFiles/embree.dir/__/common/globals.o.provides.build: kernels/x
 
 kernels/xeon/CMakeFiles/embree.dir/__/common/alloc.o: kernels/xeon/CMakeFiles/embree.dir/flags.make
 kernels/xeon/CMakeFiles/embree.dir/__/common/alloc.o: kernels/common/alloc.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kernels/xeon/CMakeFiles/embree.dir/__/common/alloc.o"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/__/common/alloc.o -c /home/gyz/code/work/embree-cl/kernels/common/alloc.cpp
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/__/common/alloc.o -c /home/gyz/code/good/embree-cl/kernels/common/alloc.cpp
 
 kernels/xeon/CMakeFiles/embree.dir/__/common/alloc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/embree.dir/__/common/alloc.i"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/kernels/common/alloc.cpp > CMakeFiles/embree.dir/__/common/alloc.i
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/kernels/common/alloc.cpp > CMakeFiles/embree.dir/__/common/alloc.i
 
 kernels/xeon/CMakeFiles/embree.dir/__/common/alloc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/embree.dir/__/common/alloc.s"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/kernels/common/alloc.cpp -o CMakeFiles/embree.dir/__/common/alloc.s
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/kernels/common/alloc.cpp -o CMakeFiles/embree.dir/__/common/alloc.s
 
 kernels/xeon/CMakeFiles/embree.dir/__/common/alloc.o.requires:
 .PHONY : kernels/xeon/CMakeFiles/embree.dir/__/common/alloc.o.requires
@@ -138,17 +138,17 @@ kernels/xeon/CMakeFiles/embree.dir/__/common/alloc.o.provides.build: kernels/xeo
 
 kernels/xeon/CMakeFiles/embree.dir/__/common/tasksys.o: kernels/xeon/CMakeFiles/embree.dir/flags.make
 kernels/xeon/CMakeFiles/embree.dir/__/common/tasksys.o: kernels/common/tasksys.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kernels/xeon/CMakeFiles/embree.dir/__/common/tasksys.o"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/__/common/tasksys.o -c /home/gyz/code/work/embree-cl/kernels/common/tasksys.cpp
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/__/common/tasksys.o -c /home/gyz/code/good/embree-cl/kernels/common/tasksys.cpp
 
 kernels/xeon/CMakeFiles/embree.dir/__/common/tasksys.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/embree.dir/__/common/tasksys.i"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/kernels/common/tasksys.cpp > CMakeFiles/embree.dir/__/common/tasksys.i
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/kernels/common/tasksys.cpp > CMakeFiles/embree.dir/__/common/tasksys.i
 
 kernels/xeon/CMakeFiles/embree.dir/__/common/tasksys.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/embree.dir/__/common/tasksys.s"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/kernels/common/tasksys.cpp -o CMakeFiles/embree.dir/__/common/tasksys.s
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/kernels/common/tasksys.cpp -o CMakeFiles/embree.dir/__/common/tasksys.s
 
 kernels/xeon/CMakeFiles/embree.dir/__/common/tasksys.o.requires:
 .PHONY : kernels/xeon/CMakeFiles/embree.dir/__/common/tasksys.o.requires
@@ -161,17 +161,17 @@ kernels/xeon/CMakeFiles/embree.dir/__/common/tasksys.o.provides.build: kernels/x
 
 kernels/xeon/CMakeFiles/embree.dir/__/common/acceln.o: kernels/xeon/CMakeFiles/embree.dir/flags.make
 kernels/xeon/CMakeFiles/embree.dir/__/common/acceln.o: kernels/common/acceln.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kernels/xeon/CMakeFiles/embree.dir/__/common/acceln.o"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/__/common/acceln.o -c /home/gyz/code/work/embree-cl/kernels/common/acceln.cpp
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/__/common/acceln.o -c /home/gyz/code/good/embree-cl/kernels/common/acceln.cpp
 
 kernels/xeon/CMakeFiles/embree.dir/__/common/acceln.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/embree.dir/__/common/acceln.i"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/kernels/common/acceln.cpp > CMakeFiles/embree.dir/__/common/acceln.i
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/kernels/common/acceln.cpp > CMakeFiles/embree.dir/__/common/acceln.i
 
 kernels/xeon/CMakeFiles/embree.dir/__/common/acceln.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/embree.dir/__/common/acceln.s"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/kernels/common/acceln.cpp -o CMakeFiles/embree.dir/__/common/acceln.s
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/kernels/common/acceln.cpp -o CMakeFiles/embree.dir/__/common/acceln.s
 
 kernels/xeon/CMakeFiles/embree.dir/__/common/acceln.o.requires:
 .PHONY : kernels/xeon/CMakeFiles/embree.dir/__/common/acceln.o.requires
@@ -184,17 +184,17 @@ kernels/xeon/CMakeFiles/embree.dir/__/common/acceln.o.provides.build: kernels/xe
 
 kernels/xeon/CMakeFiles/embree.dir/__/common/rtcore.o: kernels/xeon/CMakeFiles/embree.dir/flags.make
 kernels/xeon/CMakeFiles/embree.dir/__/common/rtcore.o: kernels/common/rtcore.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kernels/xeon/CMakeFiles/embree.dir/__/common/rtcore.o"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/__/common/rtcore.o -c /home/gyz/code/work/embree-cl/kernels/common/rtcore.cpp
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/__/common/rtcore.o -c /home/gyz/code/good/embree-cl/kernels/common/rtcore.cpp
 
 kernels/xeon/CMakeFiles/embree.dir/__/common/rtcore.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/embree.dir/__/common/rtcore.i"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/kernels/common/rtcore.cpp > CMakeFiles/embree.dir/__/common/rtcore.i
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/kernels/common/rtcore.cpp > CMakeFiles/embree.dir/__/common/rtcore.i
 
 kernels/xeon/CMakeFiles/embree.dir/__/common/rtcore.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/embree.dir/__/common/rtcore.s"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/kernels/common/rtcore.cpp -o CMakeFiles/embree.dir/__/common/rtcore.s
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/kernels/common/rtcore.cpp -o CMakeFiles/embree.dir/__/common/rtcore.s
 
 kernels/xeon/CMakeFiles/embree.dir/__/common/rtcore.o.requires:
 .PHONY : kernels/xeon/CMakeFiles/embree.dir/__/common/rtcore.o.requires
@@ -207,17 +207,17 @@ kernels/xeon/CMakeFiles/embree.dir/__/common/rtcore.o.provides.build: kernels/xe
 
 kernels/xeon/CMakeFiles/embree.dir/__/common/rtcore_ispc.o: kernels/xeon/CMakeFiles/embree.dir/flags.make
 kernels/xeon/CMakeFiles/embree.dir/__/common/rtcore_ispc.o: kernels/common/rtcore_ispc.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kernels/xeon/CMakeFiles/embree.dir/__/common/rtcore_ispc.o"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/__/common/rtcore_ispc.o -c /home/gyz/code/work/embree-cl/kernels/common/rtcore_ispc.cpp
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/__/common/rtcore_ispc.o -c /home/gyz/code/good/embree-cl/kernels/common/rtcore_ispc.cpp
 
 kernels/xeon/CMakeFiles/embree.dir/__/common/rtcore_ispc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/embree.dir/__/common/rtcore_ispc.i"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/kernels/common/rtcore_ispc.cpp > CMakeFiles/embree.dir/__/common/rtcore_ispc.i
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/kernels/common/rtcore_ispc.cpp > CMakeFiles/embree.dir/__/common/rtcore_ispc.i
 
 kernels/xeon/CMakeFiles/embree.dir/__/common/rtcore_ispc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/embree.dir/__/common/rtcore_ispc.s"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/kernels/common/rtcore_ispc.cpp -o CMakeFiles/embree.dir/__/common/rtcore_ispc.s
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/kernels/common/rtcore_ispc.cpp -o CMakeFiles/embree.dir/__/common/rtcore_ispc.s
 
 kernels/xeon/CMakeFiles/embree.dir/__/common/rtcore_ispc.o.requires:
 .PHONY : kernels/xeon/CMakeFiles/embree.dir/__/common/rtcore_ispc.o.requires
@@ -230,17 +230,17 @@ kernels/xeon/CMakeFiles/embree.dir/__/common/rtcore_ispc.o.provides.build: kerne
 
 kernels/xeon/CMakeFiles/embree.dir/__/common/buffer.o: kernels/xeon/CMakeFiles/embree.dir/flags.make
 kernels/xeon/CMakeFiles/embree.dir/__/common/buffer.o: kernels/common/buffer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kernels/xeon/CMakeFiles/embree.dir/__/common/buffer.o"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/__/common/buffer.o -c /home/gyz/code/work/embree-cl/kernels/common/buffer.cpp
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/__/common/buffer.o -c /home/gyz/code/good/embree-cl/kernels/common/buffer.cpp
 
 kernels/xeon/CMakeFiles/embree.dir/__/common/buffer.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/embree.dir/__/common/buffer.i"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/kernels/common/buffer.cpp > CMakeFiles/embree.dir/__/common/buffer.i
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/kernels/common/buffer.cpp > CMakeFiles/embree.dir/__/common/buffer.i
 
 kernels/xeon/CMakeFiles/embree.dir/__/common/buffer.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/embree.dir/__/common/buffer.s"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/kernels/common/buffer.cpp -o CMakeFiles/embree.dir/__/common/buffer.s
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/kernels/common/buffer.cpp -o CMakeFiles/embree.dir/__/common/buffer.s
 
 kernels/xeon/CMakeFiles/embree.dir/__/common/buffer.o.requires:
 .PHONY : kernels/xeon/CMakeFiles/embree.dir/__/common/buffer.o.requires
@@ -253,17 +253,17 @@ kernels/xeon/CMakeFiles/embree.dir/__/common/buffer.o.provides.build: kernels/xe
 
 kernels/xeon/CMakeFiles/embree.dir/__/common/scene.o: kernels/xeon/CMakeFiles/embree.dir/flags.make
 kernels/xeon/CMakeFiles/embree.dir/__/common/scene.o: kernels/common/scene.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kernels/xeon/CMakeFiles/embree.dir/__/common/scene.o"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/__/common/scene.o -c /home/gyz/code/work/embree-cl/kernels/common/scene.cpp
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/__/common/scene.o -c /home/gyz/code/good/embree-cl/kernels/common/scene.cpp
 
 kernels/xeon/CMakeFiles/embree.dir/__/common/scene.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/embree.dir/__/common/scene.i"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/kernels/common/scene.cpp > CMakeFiles/embree.dir/__/common/scene.i
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/kernels/common/scene.cpp > CMakeFiles/embree.dir/__/common/scene.i
 
 kernels/xeon/CMakeFiles/embree.dir/__/common/scene.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/embree.dir/__/common/scene.s"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/kernels/common/scene.cpp -o CMakeFiles/embree.dir/__/common/scene.s
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/kernels/common/scene.cpp -o CMakeFiles/embree.dir/__/common/scene.s
 
 kernels/xeon/CMakeFiles/embree.dir/__/common/scene.o.requires:
 .PHONY : kernels/xeon/CMakeFiles/embree.dir/__/common/scene.o.requires
@@ -276,17 +276,17 @@ kernels/xeon/CMakeFiles/embree.dir/__/common/scene.o.provides.build: kernels/xeo
 
 kernels/xeon/CMakeFiles/embree.dir/__/common/geometry.o: kernels/xeon/CMakeFiles/embree.dir/flags.make
 kernels/xeon/CMakeFiles/embree.dir/__/common/geometry.o: kernels/common/geometry.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kernels/xeon/CMakeFiles/embree.dir/__/common/geometry.o"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/__/common/geometry.o -c /home/gyz/code/work/embree-cl/kernels/common/geometry.cpp
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/__/common/geometry.o -c /home/gyz/code/good/embree-cl/kernels/common/geometry.cpp
 
 kernels/xeon/CMakeFiles/embree.dir/__/common/geometry.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/embree.dir/__/common/geometry.i"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/kernels/common/geometry.cpp > CMakeFiles/embree.dir/__/common/geometry.i
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/kernels/common/geometry.cpp > CMakeFiles/embree.dir/__/common/geometry.i
 
 kernels/xeon/CMakeFiles/embree.dir/__/common/geometry.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/embree.dir/__/common/geometry.s"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/kernels/common/geometry.cpp -o CMakeFiles/embree.dir/__/common/geometry.s
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/kernels/common/geometry.cpp -o CMakeFiles/embree.dir/__/common/geometry.s
 
 kernels/xeon/CMakeFiles/embree.dir/__/common/geometry.o.requires:
 .PHONY : kernels/xeon/CMakeFiles/embree.dir/__/common/geometry.o.requires
@@ -299,17 +299,17 @@ kernels/xeon/CMakeFiles/embree.dir/__/common/geometry.o.provides.build: kernels/
 
 kernels/xeon/CMakeFiles/embree.dir/__/common/scene_user_geometry.o: kernels/xeon/CMakeFiles/embree.dir/flags.make
 kernels/xeon/CMakeFiles/embree.dir/__/common/scene_user_geometry.o: kernels/common/scene_user_geometry.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kernels/xeon/CMakeFiles/embree.dir/__/common/scene_user_geometry.o"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/__/common/scene_user_geometry.o -c /home/gyz/code/work/embree-cl/kernels/common/scene_user_geometry.cpp
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/__/common/scene_user_geometry.o -c /home/gyz/code/good/embree-cl/kernels/common/scene_user_geometry.cpp
 
 kernels/xeon/CMakeFiles/embree.dir/__/common/scene_user_geometry.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/embree.dir/__/common/scene_user_geometry.i"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/kernels/common/scene_user_geometry.cpp > CMakeFiles/embree.dir/__/common/scene_user_geometry.i
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/kernels/common/scene_user_geometry.cpp > CMakeFiles/embree.dir/__/common/scene_user_geometry.i
 
 kernels/xeon/CMakeFiles/embree.dir/__/common/scene_user_geometry.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/embree.dir/__/common/scene_user_geometry.s"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/kernels/common/scene_user_geometry.cpp -o CMakeFiles/embree.dir/__/common/scene_user_geometry.s
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/kernels/common/scene_user_geometry.cpp -o CMakeFiles/embree.dir/__/common/scene_user_geometry.s
 
 kernels/xeon/CMakeFiles/embree.dir/__/common/scene_user_geometry.o.requires:
 .PHONY : kernels/xeon/CMakeFiles/embree.dir/__/common/scene_user_geometry.o.requires
@@ -322,17 +322,17 @@ kernels/xeon/CMakeFiles/embree.dir/__/common/scene_user_geometry.o.provides.buil
 
 kernels/xeon/CMakeFiles/embree.dir/__/common/scene_triangle_mesh.o: kernels/xeon/CMakeFiles/embree.dir/flags.make
 kernels/xeon/CMakeFiles/embree.dir/__/common/scene_triangle_mesh.o: kernels/common/scene_triangle_mesh.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kernels/xeon/CMakeFiles/embree.dir/__/common/scene_triangle_mesh.o"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/__/common/scene_triangle_mesh.o -c /home/gyz/code/work/embree-cl/kernels/common/scene_triangle_mesh.cpp
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/__/common/scene_triangle_mesh.o -c /home/gyz/code/good/embree-cl/kernels/common/scene_triangle_mesh.cpp
 
 kernels/xeon/CMakeFiles/embree.dir/__/common/scene_triangle_mesh.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/embree.dir/__/common/scene_triangle_mesh.i"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/kernels/common/scene_triangle_mesh.cpp > CMakeFiles/embree.dir/__/common/scene_triangle_mesh.i
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/kernels/common/scene_triangle_mesh.cpp > CMakeFiles/embree.dir/__/common/scene_triangle_mesh.i
 
 kernels/xeon/CMakeFiles/embree.dir/__/common/scene_triangle_mesh.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/embree.dir/__/common/scene_triangle_mesh.s"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/kernels/common/scene_triangle_mesh.cpp -o CMakeFiles/embree.dir/__/common/scene_triangle_mesh.s
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/kernels/common/scene_triangle_mesh.cpp -o CMakeFiles/embree.dir/__/common/scene_triangle_mesh.s
 
 kernels/xeon/CMakeFiles/embree.dir/__/common/scene_triangle_mesh.o.requires:
 .PHONY : kernels/xeon/CMakeFiles/embree.dir/__/common/scene_triangle_mesh.o.requires
@@ -345,17 +345,17 @@ kernels/xeon/CMakeFiles/embree.dir/__/common/scene_triangle_mesh.o.provides.buil
 
 kernels/xeon/CMakeFiles/embree.dir/__/common/scene_bezier_curves.o: kernels/xeon/CMakeFiles/embree.dir/flags.make
 kernels/xeon/CMakeFiles/embree.dir/__/common/scene_bezier_curves.o: kernels/common/scene_bezier_curves.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kernels/xeon/CMakeFiles/embree.dir/__/common/scene_bezier_curves.o"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/__/common/scene_bezier_curves.o -c /home/gyz/code/work/embree-cl/kernels/common/scene_bezier_curves.cpp
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/__/common/scene_bezier_curves.o -c /home/gyz/code/good/embree-cl/kernels/common/scene_bezier_curves.cpp
 
 kernels/xeon/CMakeFiles/embree.dir/__/common/scene_bezier_curves.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/embree.dir/__/common/scene_bezier_curves.i"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/kernels/common/scene_bezier_curves.cpp > CMakeFiles/embree.dir/__/common/scene_bezier_curves.i
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/kernels/common/scene_bezier_curves.cpp > CMakeFiles/embree.dir/__/common/scene_bezier_curves.i
 
 kernels/xeon/CMakeFiles/embree.dir/__/common/scene_bezier_curves.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/embree.dir/__/common/scene_bezier_curves.s"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/kernels/common/scene_bezier_curves.cpp -o CMakeFiles/embree.dir/__/common/scene_bezier_curves.s
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/kernels/common/scene_bezier_curves.cpp -o CMakeFiles/embree.dir/__/common/scene_bezier_curves.s
 
 kernels/xeon/CMakeFiles/embree.dir/__/common/scene_bezier_curves.o.requires:
 .PHONY : kernels/xeon/CMakeFiles/embree.dir/__/common/scene_bezier_curves.o.requires
@@ -368,17 +368,17 @@ kernels/xeon/CMakeFiles/embree.dir/__/common/scene_bezier_curves.o.provides.buil
 
 kernels/xeon/CMakeFiles/embree.dir/builders/bezierrefgen.o: kernels/xeon/CMakeFiles/embree.dir/flags.make
 kernels/xeon/CMakeFiles/embree.dir/builders/bezierrefgen.o: kernels/xeon/builders/bezierrefgen.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kernels/xeon/CMakeFiles/embree.dir/builders/bezierrefgen.o"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/builders/bezierrefgen.o -c /home/gyz/code/work/embree-cl/kernels/xeon/builders/bezierrefgen.cpp
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/builders/bezierrefgen.o -c /home/gyz/code/good/embree-cl/kernels/xeon/builders/bezierrefgen.cpp
 
 kernels/xeon/CMakeFiles/embree.dir/builders/bezierrefgen.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/embree.dir/builders/bezierrefgen.i"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/kernels/xeon/builders/bezierrefgen.cpp > CMakeFiles/embree.dir/builders/bezierrefgen.i
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/kernels/xeon/builders/bezierrefgen.cpp > CMakeFiles/embree.dir/builders/bezierrefgen.i
 
 kernels/xeon/CMakeFiles/embree.dir/builders/bezierrefgen.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/embree.dir/builders/bezierrefgen.s"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/kernels/xeon/builders/bezierrefgen.cpp -o CMakeFiles/embree.dir/builders/bezierrefgen.s
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/kernels/xeon/builders/bezierrefgen.cpp -o CMakeFiles/embree.dir/builders/bezierrefgen.s
 
 kernels/xeon/CMakeFiles/embree.dir/builders/bezierrefgen.o.requires:
 .PHONY : kernels/xeon/CMakeFiles/embree.dir/builders/bezierrefgen.o.requires
@@ -391,17 +391,17 @@ kernels/xeon/CMakeFiles/embree.dir/builders/bezierrefgen.o.provides.build: kerne
 
 kernels/xeon/CMakeFiles/embree.dir/builders/primrefgen.o: kernels/xeon/CMakeFiles/embree.dir/flags.make
 kernels/xeon/CMakeFiles/embree.dir/builders/primrefgen.o: kernels/xeon/builders/primrefgen.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kernels/xeon/CMakeFiles/embree.dir/builders/primrefgen.o"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/builders/primrefgen.o -c /home/gyz/code/work/embree-cl/kernels/xeon/builders/primrefgen.cpp
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/builders/primrefgen.o -c /home/gyz/code/good/embree-cl/kernels/xeon/builders/primrefgen.cpp
 
 kernels/xeon/CMakeFiles/embree.dir/builders/primrefgen.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/embree.dir/builders/primrefgen.i"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/kernels/xeon/builders/primrefgen.cpp > CMakeFiles/embree.dir/builders/primrefgen.i
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/kernels/xeon/builders/primrefgen.cpp > CMakeFiles/embree.dir/builders/primrefgen.i
 
 kernels/xeon/CMakeFiles/embree.dir/builders/primrefgen.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/embree.dir/builders/primrefgen.s"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/kernels/xeon/builders/primrefgen.cpp -o CMakeFiles/embree.dir/builders/primrefgen.s
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/kernels/xeon/builders/primrefgen.cpp -o CMakeFiles/embree.dir/builders/primrefgen.s
 
 kernels/xeon/CMakeFiles/embree.dir/builders/primrefgen.o.requires:
 .PHONY : kernels/xeon/CMakeFiles/embree.dir/builders/primrefgen.o.requires
@@ -414,17 +414,17 @@ kernels/xeon/CMakeFiles/embree.dir/builders/primrefgen.o.provides.build: kernels
 
 kernels/xeon/CMakeFiles/embree.dir/builders/heuristic_object_partition_unaligned.o: kernels/xeon/CMakeFiles/embree.dir/flags.make
 kernels/xeon/CMakeFiles/embree.dir/builders/heuristic_object_partition_unaligned.o: kernels/xeon/builders/heuristic_object_partition_unaligned.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kernels/xeon/CMakeFiles/embree.dir/builders/heuristic_object_partition_unaligned.o"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/builders/heuristic_object_partition_unaligned.o -c /home/gyz/code/work/embree-cl/kernels/xeon/builders/heuristic_object_partition_unaligned.cpp
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/builders/heuristic_object_partition_unaligned.o -c /home/gyz/code/good/embree-cl/kernels/xeon/builders/heuristic_object_partition_unaligned.cpp
 
 kernels/xeon/CMakeFiles/embree.dir/builders/heuristic_object_partition_unaligned.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/embree.dir/builders/heuristic_object_partition_unaligned.i"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/kernels/xeon/builders/heuristic_object_partition_unaligned.cpp > CMakeFiles/embree.dir/builders/heuristic_object_partition_unaligned.i
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/kernels/xeon/builders/heuristic_object_partition_unaligned.cpp > CMakeFiles/embree.dir/builders/heuristic_object_partition_unaligned.i
 
 kernels/xeon/CMakeFiles/embree.dir/builders/heuristic_object_partition_unaligned.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/embree.dir/builders/heuristic_object_partition_unaligned.s"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/kernels/xeon/builders/heuristic_object_partition_unaligned.cpp -o CMakeFiles/embree.dir/builders/heuristic_object_partition_unaligned.s
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/kernels/xeon/builders/heuristic_object_partition_unaligned.cpp -o CMakeFiles/embree.dir/builders/heuristic_object_partition_unaligned.s
 
 kernels/xeon/CMakeFiles/embree.dir/builders/heuristic_object_partition_unaligned.o.requires:
 .PHONY : kernels/xeon/CMakeFiles/embree.dir/builders/heuristic_object_partition_unaligned.o.requires
@@ -437,17 +437,17 @@ kernels/xeon/CMakeFiles/embree.dir/builders/heuristic_object_partition_unaligned
 
 kernels/xeon/CMakeFiles/embree.dir/builders/heuristic_object_partition.o: kernels/xeon/CMakeFiles/embree.dir/flags.make
 kernels/xeon/CMakeFiles/embree.dir/builders/heuristic_object_partition.o: kernels/xeon/builders/heuristic_object_partition.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_18)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kernels/xeon/CMakeFiles/embree.dir/builders/heuristic_object_partition.o"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/builders/heuristic_object_partition.o -c /home/gyz/code/work/embree-cl/kernels/xeon/builders/heuristic_object_partition.cpp
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/builders/heuristic_object_partition.o -c /home/gyz/code/good/embree-cl/kernels/xeon/builders/heuristic_object_partition.cpp
 
 kernels/xeon/CMakeFiles/embree.dir/builders/heuristic_object_partition.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/embree.dir/builders/heuristic_object_partition.i"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/kernels/xeon/builders/heuristic_object_partition.cpp > CMakeFiles/embree.dir/builders/heuristic_object_partition.i
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/kernels/xeon/builders/heuristic_object_partition.cpp > CMakeFiles/embree.dir/builders/heuristic_object_partition.i
 
 kernels/xeon/CMakeFiles/embree.dir/builders/heuristic_object_partition.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/embree.dir/builders/heuristic_object_partition.s"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/kernels/xeon/builders/heuristic_object_partition.cpp -o CMakeFiles/embree.dir/builders/heuristic_object_partition.s
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/kernels/xeon/builders/heuristic_object_partition.cpp -o CMakeFiles/embree.dir/builders/heuristic_object_partition.s
 
 kernels/xeon/CMakeFiles/embree.dir/builders/heuristic_object_partition.o.requires:
 .PHONY : kernels/xeon/CMakeFiles/embree.dir/builders/heuristic_object_partition.o.requires
@@ -460,17 +460,17 @@ kernels/xeon/CMakeFiles/embree.dir/builders/heuristic_object_partition.o.provide
 
 kernels/xeon/CMakeFiles/embree.dir/builders/heuristic_spatial_split.o: kernels/xeon/CMakeFiles/embree.dir/flags.make
 kernels/xeon/CMakeFiles/embree.dir/builders/heuristic_spatial_split.o: kernels/xeon/builders/heuristic_spatial_split.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_19)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kernels/xeon/CMakeFiles/embree.dir/builders/heuristic_spatial_split.o"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/builders/heuristic_spatial_split.o -c /home/gyz/code/work/embree-cl/kernels/xeon/builders/heuristic_spatial_split.cpp
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/builders/heuristic_spatial_split.o -c /home/gyz/code/good/embree-cl/kernels/xeon/builders/heuristic_spatial_split.cpp
 
 kernels/xeon/CMakeFiles/embree.dir/builders/heuristic_spatial_split.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/embree.dir/builders/heuristic_spatial_split.i"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/kernels/xeon/builders/heuristic_spatial_split.cpp > CMakeFiles/embree.dir/builders/heuristic_spatial_split.i
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/kernels/xeon/builders/heuristic_spatial_split.cpp > CMakeFiles/embree.dir/builders/heuristic_spatial_split.i
 
 kernels/xeon/CMakeFiles/embree.dir/builders/heuristic_spatial_split.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/embree.dir/builders/heuristic_spatial_split.s"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/kernels/xeon/builders/heuristic_spatial_split.cpp -o CMakeFiles/embree.dir/builders/heuristic_spatial_split.s
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/kernels/xeon/builders/heuristic_spatial_split.cpp -o CMakeFiles/embree.dir/builders/heuristic_spatial_split.s
 
 kernels/xeon/CMakeFiles/embree.dir/builders/heuristic_spatial_split.o.requires:
 .PHONY : kernels/xeon/CMakeFiles/embree.dir/builders/heuristic_spatial_split.o.requires
@@ -483,17 +483,17 @@ kernels/xeon/CMakeFiles/embree.dir/builders/heuristic_spatial_split.o.provides.b
 
 kernels/xeon/CMakeFiles/embree.dir/builders/heuristic_strand_partition.o: kernels/xeon/CMakeFiles/embree.dir/flags.make
 kernels/xeon/CMakeFiles/embree.dir/builders/heuristic_strand_partition.o: kernels/xeon/builders/heuristic_strand_partition.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_20)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kernels/xeon/CMakeFiles/embree.dir/builders/heuristic_strand_partition.o"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/builders/heuristic_strand_partition.o -c /home/gyz/code/work/embree-cl/kernels/xeon/builders/heuristic_strand_partition.cpp
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/builders/heuristic_strand_partition.o -c /home/gyz/code/good/embree-cl/kernels/xeon/builders/heuristic_strand_partition.cpp
 
 kernels/xeon/CMakeFiles/embree.dir/builders/heuristic_strand_partition.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/embree.dir/builders/heuristic_strand_partition.i"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/kernels/xeon/builders/heuristic_strand_partition.cpp > CMakeFiles/embree.dir/builders/heuristic_strand_partition.i
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/kernels/xeon/builders/heuristic_strand_partition.cpp > CMakeFiles/embree.dir/builders/heuristic_strand_partition.i
 
 kernels/xeon/CMakeFiles/embree.dir/builders/heuristic_strand_partition.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/embree.dir/builders/heuristic_strand_partition.s"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/kernels/xeon/builders/heuristic_strand_partition.cpp -o CMakeFiles/embree.dir/builders/heuristic_strand_partition.s
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/kernels/xeon/builders/heuristic_strand_partition.cpp -o CMakeFiles/embree.dir/builders/heuristic_strand_partition.s
 
 kernels/xeon/CMakeFiles/embree.dir/builders/heuristic_strand_partition.o.requires:
 .PHONY : kernels/xeon/CMakeFiles/embree.dir/builders/heuristic_strand_partition.o.requires
@@ -506,17 +506,17 @@ kernels/xeon/CMakeFiles/embree.dir/builders/heuristic_strand_partition.o.provide
 
 kernels/xeon/CMakeFiles/embree.dir/builders/heuristic_fallback.o: kernels/xeon/CMakeFiles/embree.dir/flags.make
 kernels/xeon/CMakeFiles/embree.dir/builders/heuristic_fallback.o: kernels/xeon/builders/heuristic_fallback.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_21)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kernels/xeon/CMakeFiles/embree.dir/builders/heuristic_fallback.o"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/builders/heuristic_fallback.o -c /home/gyz/code/work/embree-cl/kernels/xeon/builders/heuristic_fallback.cpp
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/builders/heuristic_fallback.o -c /home/gyz/code/good/embree-cl/kernels/xeon/builders/heuristic_fallback.cpp
 
 kernels/xeon/CMakeFiles/embree.dir/builders/heuristic_fallback.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/embree.dir/builders/heuristic_fallback.i"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/kernels/xeon/builders/heuristic_fallback.cpp > CMakeFiles/embree.dir/builders/heuristic_fallback.i
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/kernels/xeon/builders/heuristic_fallback.cpp > CMakeFiles/embree.dir/builders/heuristic_fallback.i
 
 kernels/xeon/CMakeFiles/embree.dir/builders/heuristic_fallback.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/embree.dir/builders/heuristic_fallback.s"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/kernels/xeon/builders/heuristic_fallback.cpp -o CMakeFiles/embree.dir/builders/heuristic_fallback.s
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/kernels/xeon/builders/heuristic_fallback.cpp -o CMakeFiles/embree.dir/builders/heuristic_fallback.s
 
 kernels/xeon/CMakeFiles/embree.dir/builders/heuristic_fallback.o.requires:
 .PHONY : kernels/xeon/CMakeFiles/embree.dir/builders/heuristic_fallback.o.requires
@@ -529,17 +529,17 @@ kernels/xeon/CMakeFiles/embree.dir/builders/heuristic_fallback.o.provides.build:
 
 kernels/xeon/CMakeFiles/embree.dir/geometry/bezier1.o: kernels/xeon/CMakeFiles/embree.dir/flags.make
 kernels/xeon/CMakeFiles/embree.dir/geometry/bezier1.o: kernels/xeon/geometry/bezier1.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_22)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kernels/xeon/CMakeFiles/embree.dir/geometry/bezier1.o"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/geometry/bezier1.o -c /home/gyz/code/work/embree-cl/kernels/xeon/geometry/bezier1.cpp
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/geometry/bezier1.o -c /home/gyz/code/good/embree-cl/kernels/xeon/geometry/bezier1.cpp
 
 kernels/xeon/CMakeFiles/embree.dir/geometry/bezier1.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/embree.dir/geometry/bezier1.i"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/kernels/xeon/geometry/bezier1.cpp > CMakeFiles/embree.dir/geometry/bezier1.i
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/kernels/xeon/geometry/bezier1.cpp > CMakeFiles/embree.dir/geometry/bezier1.i
 
 kernels/xeon/CMakeFiles/embree.dir/geometry/bezier1.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/embree.dir/geometry/bezier1.s"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/kernels/xeon/geometry/bezier1.cpp -o CMakeFiles/embree.dir/geometry/bezier1.s
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/kernels/xeon/geometry/bezier1.cpp -o CMakeFiles/embree.dir/geometry/bezier1.s
 
 kernels/xeon/CMakeFiles/embree.dir/geometry/bezier1.o.requires:
 .PHONY : kernels/xeon/CMakeFiles/embree.dir/geometry/bezier1.o.requires
@@ -552,17 +552,17 @@ kernels/xeon/CMakeFiles/embree.dir/geometry/bezier1.o.provides.build: kernels/xe
 
 kernels/xeon/CMakeFiles/embree.dir/geometry/bezier1i.o: kernels/xeon/CMakeFiles/embree.dir/flags.make
 kernels/xeon/CMakeFiles/embree.dir/geometry/bezier1i.o: kernels/xeon/geometry/bezier1i.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_23)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_23)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kernels/xeon/CMakeFiles/embree.dir/geometry/bezier1i.o"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/geometry/bezier1i.o -c /home/gyz/code/work/embree-cl/kernels/xeon/geometry/bezier1i.cpp
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/geometry/bezier1i.o -c /home/gyz/code/good/embree-cl/kernels/xeon/geometry/bezier1i.cpp
 
 kernels/xeon/CMakeFiles/embree.dir/geometry/bezier1i.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/embree.dir/geometry/bezier1i.i"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/kernels/xeon/geometry/bezier1i.cpp > CMakeFiles/embree.dir/geometry/bezier1i.i
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/kernels/xeon/geometry/bezier1i.cpp > CMakeFiles/embree.dir/geometry/bezier1i.i
 
 kernels/xeon/CMakeFiles/embree.dir/geometry/bezier1i.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/embree.dir/geometry/bezier1i.s"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/kernels/xeon/geometry/bezier1i.cpp -o CMakeFiles/embree.dir/geometry/bezier1i.s
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/kernels/xeon/geometry/bezier1i.cpp -o CMakeFiles/embree.dir/geometry/bezier1i.s
 
 kernels/xeon/CMakeFiles/embree.dir/geometry/bezier1i.o.requires:
 .PHONY : kernels/xeon/CMakeFiles/embree.dir/geometry/bezier1i.o.requires
@@ -575,17 +575,17 @@ kernels/xeon/CMakeFiles/embree.dir/geometry/bezier1i.o.provides.build: kernels/x
 
 kernels/xeon/CMakeFiles/embree.dir/geometry/triangle1.o: kernels/xeon/CMakeFiles/embree.dir/flags.make
 kernels/xeon/CMakeFiles/embree.dir/geometry/triangle1.o: kernels/xeon/geometry/triangle1.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_24)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_24)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kernels/xeon/CMakeFiles/embree.dir/geometry/triangle1.o"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/geometry/triangle1.o -c /home/gyz/code/work/embree-cl/kernels/xeon/geometry/triangle1.cpp
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/geometry/triangle1.o -c /home/gyz/code/good/embree-cl/kernels/xeon/geometry/triangle1.cpp
 
 kernels/xeon/CMakeFiles/embree.dir/geometry/triangle1.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/embree.dir/geometry/triangle1.i"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/kernels/xeon/geometry/triangle1.cpp > CMakeFiles/embree.dir/geometry/triangle1.i
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/kernels/xeon/geometry/triangle1.cpp > CMakeFiles/embree.dir/geometry/triangle1.i
 
 kernels/xeon/CMakeFiles/embree.dir/geometry/triangle1.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/embree.dir/geometry/triangle1.s"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/kernels/xeon/geometry/triangle1.cpp -o CMakeFiles/embree.dir/geometry/triangle1.s
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/kernels/xeon/geometry/triangle1.cpp -o CMakeFiles/embree.dir/geometry/triangle1.s
 
 kernels/xeon/CMakeFiles/embree.dir/geometry/triangle1.o.requires:
 .PHONY : kernels/xeon/CMakeFiles/embree.dir/geometry/triangle1.o.requires
@@ -598,17 +598,17 @@ kernels/xeon/CMakeFiles/embree.dir/geometry/triangle1.o.provides.build: kernels/
 
 kernels/xeon/CMakeFiles/embree.dir/geometry/triangle4.o: kernels/xeon/CMakeFiles/embree.dir/flags.make
 kernels/xeon/CMakeFiles/embree.dir/geometry/triangle4.o: kernels/xeon/geometry/triangle4.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_25)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_25)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kernels/xeon/CMakeFiles/embree.dir/geometry/triangle4.o"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/geometry/triangle4.o -c /home/gyz/code/work/embree-cl/kernels/xeon/geometry/triangle4.cpp
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/geometry/triangle4.o -c /home/gyz/code/good/embree-cl/kernels/xeon/geometry/triangle4.cpp
 
 kernels/xeon/CMakeFiles/embree.dir/geometry/triangle4.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/embree.dir/geometry/triangle4.i"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/kernels/xeon/geometry/triangle4.cpp > CMakeFiles/embree.dir/geometry/triangle4.i
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/kernels/xeon/geometry/triangle4.cpp > CMakeFiles/embree.dir/geometry/triangle4.i
 
 kernels/xeon/CMakeFiles/embree.dir/geometry/triangle4.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/embree.dir/geometry/triangle4.s"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/kernels/xeon/geometry/triangle4.cpp -o CMakeFiles/embree.dir/geometry/triangle4.s
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/kernels/xeon/geometry/triangle4.cpp -o CMakeFiles/embree.dir/geometry/triangle4.s
 
 kernels/xeon/CMakeFiles/embree.dir/geometry/triangle4.o.requires:
 .PHONY : kernels/xeon/CMakeFiles/embree.dir/geometry/triangle4.o.requires
@@ -621,17 +621,17 @@ kernels/xeon/CMakeFiles/embree.dir/geometry/triangle4.o.provides.build: kernels/
 
 kernels/xeon/CMakeFiles/embree.dir/geometry/triangle1v.o: kernels/xeon/CMakeFiles/embree.dir/flags.make
 kernels/xeon/CMakeFiles/embree.dir/geometry/triangle1v.o: kernels/xeon/geometry/triangle1v.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_26)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_26)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kernels/xeon/CMakeFiles/embree.dir/geometry/triangle1v.o"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/geometry/triangle1v.o -c /home/gyz/code/work/embree-cl/kernels/xeon/geometry/triangle1v.cpp
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/geometry/triangle1v.o -c /home/gyz/code/good/embree-cl/kernels/xeon/geometry/triangle1v.cpp
 
 kernels/xeon/CMakeFiles/embree.dir/geometry/triangle1v.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/embree.dir/geometry/triangle1v.i"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/kernels/xeon/geometry/triangle1v.cpp > CMakeFiles/embree.dir/geometry/triangle1v.i
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/kernels/xeon/geometry/triangle1v.cpp > CMakeFiles/embree.dir/geometry/triangle1v.i
 
 kernels/xeon/CMakeFiles/embree.dir/geometry/triangle1v.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/embree.dir/geometry/triangle1v.s"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/kernels/xeon/geometry/triangle1v.cpp -o CMakeFiles/embree.dir/geometry/triangle1v.s
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/kernels/xeon/geometry/triangle1v.cpp -o CMakeFiles/embree.dir/geometry/triangle1v.s
 
 kernels/xeon/CMakeFiles/embree.dir/geometry/triangle1v.o.requires:
 .PHONY : kernels/xeon/CMakeFiles/embree.dir/geometry/triangle1v.o.requires
@@ -644,17 +644,17 @@ kernels/xeon/CMakeFiles/embree.dir/geometry/triangle1v.o.provides.build: kernels
 
 kernels/xeon/CMakeFiles/embree.dir/geometry/triangle4v.o: kernels/xeon/CMakeFiles/embree.dir/flags.make
 kernels/xeon/CMakeFiles/embree.dir/geometry/triangle4v.o: kernels/xeon/geometry/triangle4v.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_27)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_27)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kernels/xeon/CMakeFiles/embree.dir/geometry/triangle4v.o"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/geometry/triangle4v.o -c /home/gyz/code/work/embree-cl/kernels/xeon/geometry/triangle4v.cpp
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/geometry/triangle4v.o -c /home/gyz/code/good/embree-cl/kernels/xeon/geometry/triangle4v.cpp
 
 kernels/xeon/CMakeFiles/embree.dir/geometry/triangle4v.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/embree.dir/geometry/triangle4v.i"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/kernels/xeon/geometry/triangle4v.cpp > CMakeFiles/embree.dir/geometry/triangle4v.i
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/kernels/xeon/geometry/triangle4v.cpp > CMakeFiles/embree.dir/geometry/triangle4v.i
 
 kernels/xeon/CMakeFiles/embree.dir/geometry/triangle4v.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/embree.dir/geometry/triangle4v.s"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/kernels/xeon/geometry/triangle4v.cpp -o CMakeFiles/embree.dir/geometry/triangle4v.s
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/kernels/xeon/geometry/triangle4v.cpp -o CMakeFiles/embree.dir/geometry/triangle4v.s
 
 kernels/xeon/CMakeFiles/embree.dir/geometry/triangle4v.o.requires:
 .PHONY : kernels/xeon/CMakeFiles/embree.dir/geometry/triangle4v.o.requires
@@ -667,17 +667,17 @@ kernels/xeon/CMakeFiles/embree.dir/geometry/triangle4v.o.provides.build: kernels
 
 kernels/xeon/CMakeFiles/embree.dir/geometry/triangle4i.o: kernels/xeon/CMakeFiles/embree.dir/flags.make
 kernels/xeon/CMakeFiles/embree.dir/geometry/triangle4i.o: kernels/xeon/geometry/triangle4i.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_28)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_28)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kernels/xeon/CMakeFiles/embree.dir/geometry/triangle4i.o"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/geometry/triangle4i.o -c /home/gyz/code/work/embree-cl/kernels/xeon/geometry/triangle4i.cpp
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/geometry/triangle4i.o -c /home/gyz/code/good/embree-cl/kernels/xeon/geometry/triangle4i.cpp
 
 kernels/xeon/CMakeFiles/embree.dir/geometry/triangle4i.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/embree.dir/geometry/triangle4i.i"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/kernels/xeon/geometry/triangle4i.cpp > CMakeFiles/embree.dir/geometry/triangle4i.i
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/kernels/xeon/geometry/triangle4i.cpp > CMakeFiles/embree.dir/geometry/triangle4i.i
 
 kernels/xeon/CMakeFiles/embree.dir/geometry/triangle4i.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/embree.dir/geometry/triangle4i.s"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/kernels/xeon/geometry/triangle4i.cpp -o CMakeFiles/embree.dir/geometry/triangle4i.s
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/kernels/xeon/geometry/triangle4i.cpp -o CMakeFiles/embree.dir/geometry/triangle4i.s
 
 kernels/xeon/CMakeFiles/embree.dir/geometry/triangle4i.o.requires:
 .PHONY : kernels/xeon/CMakeFiles/embree.dir/geometry/triangle4i.o.requires
@@ -690,17 +690,17 @@ kernels/xeon/CMakeFiles/embree.dir/geometry/triangle4i.o.provides.build: kernels
 
 kernels/xeon/CMakeFiles/embree.dir/geometry/ispc_wrapper_sse.o: kernels/xeon/CMakeFiles/embree.dir/flags.make
 kernels/xeon/CMakeFiles/embree.dir/geometry/ispc_wrapper_sse.o: kernels/xeon/geometry/ispc_wrapper_sse.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_29)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_29)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kernels/xeon/CMakeFiles/embree.dir/geometry/ispc_wrapper_sse.o"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/geometry/ispc_wrapper_sse.o -c /home/gyz/code/work/embree-cl/kernels/xeon/geometry/ispc_wrapper_sse.cpp
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/geometry/ispc_wrapper_sse.o -c /home/gyz/code/good/embree-cl/kernels/xeon/geometry/ispc_wrapper_sse.cpp
 
 kernels/xeon/CMakeFiles/embree.dir/geometry/ispc_wrapper_sse.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/embree.dir/geometry/ispc_wrapper_sse.i"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/kernels/xeon/geometry/ispc_wrapper_sse.cpp > CMakeFiles/embree.dir/geometry/ispc_wrapper_sse.i
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/kernels/xeon/geometry/ispc_wrapper_sse.cpp > CMakeFiles/embree.dir/geometry/ispc_wrapper_sse.i
 
 kernels/xeon/CMakeFiles/embree.dir/geometry/ispc_wrapper_sse.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/embree.dir/geometry/ispc_wrapper_sse.s"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/kernels/xeon/geometry/ispc_wrapper_sse.cpp -o CMakeFiles/embree.dir/geometry/ispc_wrapper_sse.s
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/kernels/xeon/geometry/ispc_wrapper_sse.cpp -o CMakeFiles/embree.dir/geometry/ispc_wrapper_sse.s
 
 kernels/xeon/CMakeFiles/embree.dir/geometry/ispc_wrapper_sse.o.requires:
 .PHONY : kernels/xeon/CMakeFiles/embree.dir/geometry/ispc_wrapper_sse.o.requires
@@ -713,17 +713,17 @@ kernels/xeon/CMakeFiles/embree.dir/geometry/ispc_wrapper_sse.o.provides.build: k
 
 kernels/xeon/CMakeFiles/embree.dir/geometry/instance_intersector1.o: kernels/xeon/CMakeFiles/embree.dir/flags.make
 kernels/xeon/CMakeFiles/embree.dir/geometry/instance_intersector1.o: kernels/xeon/geometry/instance_intersector1.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_30)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_30)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kernels/xeon/CMakeFiles/embree.dir/geometry/instance_intersector1.o"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/geometry/instance_intersector1.o -c /home/gyz/code/work/embree-cl/kernels/xeon/geometry/instance_intersector1.cpp
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/geometry/instance_intersector1.o -c /home/gyz/code/good/embree-cl/kernels/xeon/geometry/instance_intersector1.cpp
 
 kernels/xeon/CMakeFiles/embree.dir/geometry/instance_intersector1.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/embree.dir/geometry/instance_intersector1.i"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/kernels/xeon/geometry/instance_intersector1.cpp > CMakeFiles/embree.dir/geometry/instance_intersector1.i
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/kernels/xeon/geometry/instance_intersector1.cpp > CMakeFiles/embree.dir/geometry/instance_intersector1.i
 
 kernels/xeon/CMakeFiles/embree.dir/geometry/instance_intersector1.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/embree.dir/geometry/instance_intersector1.s"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/kernels/xeon/geometry/instance_intersector1.cpp -o CMakeFiles/embree.dir/geometry/instance_intersector1.s
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/kernels/xeon/geometry/instance_intersector1.cpp -o CMakeFiles/embree.dir/geometry/instance_intersector1.s
 
 kernels/xeon/CMakeFiles/embree.dir/geometry/instance_intersector1.o.requires:
 .PHONY : kernels/xeon/CMakeFiles/embree.dir/geometry/instance_intersector1.o.requires
@@ -736,17 +736,17 @@ kernels/xeon/CMakeFiles/embree.dir/geometry/instance_intersector1.o.provides.bui
 
 kernels/xeon/CMakeFiles/embree.dir/geometry/instance_intersector4.o: kernels/xeon/CMakeFiles/embree.dir/flags.make
 kernels/xeon/CMakeFiles/embree.dir/geometry/instance_intersector4.o: kernels/xeon/geometry/instance_intersector4.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_31)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_31)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kernels/xeon/CMakeFiles/embree.dir/geometry/instance_intersector4.o"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/geometry/instance_intersector4.o -c /home/gyz/code/work/embree-cl/kernels/xeon/geometry/instance_intersector4.cpp
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/geometry/instance_intersector4.o -c /home/gyz/code/good/embree-cl/kernels/xeon/geometry/instance_intersector4.cpp
 
 kernels/xeon/CMakeFiles/embree.dir/geometry/instance_intersector4.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/embree.dir/geometry/instance_intersector4.i"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/kernels/xeon/geometry/instance_intersector4.cpp > CMakeFiles/embree.dir/geometry/instance_intersector4.i
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/kernels/xeon/geometry/instance_intersector4.cpp > CMakeFiles/embree.dir/geometry/instance_intersector4.i
 
 kernels/xeon/CMakeFiles/embree.dir/geometry/instance_intersector4.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/embree.dir/geometry/instance_intersector4.s"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/kernels/xeon/geometry/instance_intersector4.cpp -o CMakeFiles/embree.dir/geometry/instance_intersector4.s
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/kernels/xeon/geometry/instance_intersector4.cpp -o CMakeFiles/embree.dir/geometry/instance_intersector4.s
 
 kernels/xeon/CMakeFiles/embree.dir/geometry/instance_intersector4.o.requires:
 .PHONY : kernels/xeon/CMakeFiles/embree.dir/geometry/instance_intersector4.o.requires
@@ -759,17 +759,17 @@ kernels/xeon/CMakeFiles/embree.dir/geometry/instance_intersector4.o.provides.bui
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4.o: kernels/xeon/CMakeFiles/embree.dir/flags.make
 kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4.o: kernels/xeon/bvh4/bvh4.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_32)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_32)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4.o"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/bvh4/bvh4.o -c /home/gyz/code/work/embree-cl/kernels/xeon/bvh4/bvh4.cpp
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/bvh4/bvh4.o -c /home/gyz/code/good/embree-cl/kernels/xeon/bvh4/bvh4.cpp
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/embree.dir/bvh4/bvh4.i"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/kernels/xeon/bvh4/bvh4.cpp > CMakeFiles/embree.dir/bvh4/bvh4.i
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/kernels/xeon/bvh4/bvh4.cpp > CMakeFiles/embree.dir/bvh4/bvh4.i
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/embree.dir/bvh4/bvh4.s"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/kernels/xeon/bvh4/bvh4.cpp -o CMakeFiles/embree.dir/bvh4/bvh4.s
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/kernels/xeon/bvh4/bvh4.cpp -o CMakeFiles/embree.dir/bvh4/bvh4.s
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4.o.requires:
 .PHONY : kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4.o.requires
@@ -782,17 +782,17 @@ kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4.o.provides.build: kernels/xeon/CMak
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_rotate.o: kernels/xeon/CMakeFiles/embree.dir/flags.make
 kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_rotate.o: kernels/xeon/bvh4/bvh4_rotate.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_33)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_33)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_rotate.o"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/bvh4/bvh4_rotate.o -c /home/gyz/code/work/embree-cl/kernels/xeon/bvh4/bvh4_rotate.cpp
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/bvh4/bvh4_rotate.o -c /home/gyz/code/good/embree-cl/kernels/xeon/bvh4/bvh4_rotate.cpp
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_rotate.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/embree.dir/bvh4/bvh4_rotate.i"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/kernels/xeon/bvh4/bvh4_rotate.cpp > CMakeFiles/embree.dir/bvh4/bvh4_rotate.i
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/kernels/xeon/bvh4/bvh4_rotate.cpp > CMakeFiles/embree.dir/bvh4/bvh4_rotate.i
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_rotate.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/embree.dir/bvh4/bvh4_rotate.s"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/kernels/xeon/bvh4/bvh4_rotate.cpp -o CMakeFiles/embree.dir/bvh4/bvh4_rotate.s
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/kernels/xeon/bvh4/bvh4_rotate.cpp -o CMakeFiles/embree.dir/bvh4/bvh4_rotate.s
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_rotate.o.requires:
 .PHONY : kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_rotate.o.requires
@@ -805,17 +805,17 @@ kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_rotate.o.provides.build: kernels/xe
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_refit.o: kernels/xeon/CMakeFiles/embree.dir/flags.make
 kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_refit.o: kernels/xeon/bvh4/bvh4_refit.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_34)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_34)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_refit.o"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/bvh4/bvh4_refit.o -c /home/gyz/code/work/embree-cl/kernels/xeon/bvh4/bvh4_refit.cpp
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/bvh4/bvh4_refit.o -c /home/gyz/code/good/embree-cl/kernels/xeon/bvh4/bvh4_refit.cpp
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_refit.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/embree.dir/bvh4/bvh4_refit.i"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/kernels/xeon/bvh4/bvh4_refit.cpp > CMakeFiles/embree.dir/bvh4/bvh4_refit.i
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/kernels/xeon/bvh4/bvh4_refit.cpp > CMakeFiles/embree.dir/bvh4/bvh4_refit.i
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_refit.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/embree.dir/bvh4/bvh4_refit.s"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/kernels/xeon/bvh4/bvh4_refit.cpp -o CMakeFiles/embree.dir/bvh4/bvh4_refit.s
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/kernels/xeon/bvh4/bvh4_refit.cpp -o CMakeFiles/embree.dir/bvh4/bvh4_refit.s
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_refit.o.requires:
 .PHONY : kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_refit.o.requires
@@ -828,17 +828,17 @@ kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_refit.o.provides.build: kernels/xeo
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_builder.o: kernels/xeon/CMakeFiles/embree.dir/flags.make
 kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_builder.o: kernels/xeon/bvh4/bvh4_builder.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_35)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_35)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_builder.o"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/bvh4/bvh4_builder.o -c /home/gyz/code/work/embree-cl/kernels/xeon/bvh4/bvh4_builder.cpp
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/bvh4/bvh4_builder.o -c /home/gyz/code/good/embree-cl/kernels/xeon/bvh4/bvh4_builder.cpp
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_builder.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/embree.dir/bvh4/bvh4_builder.i"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/kernels/xeon/bvh4/bvh4_builder.cpp > CMakeFiles/embree.dir/bvh4/bvh4_builder.i
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/kernels/xeon/bvh4/bvh4_builder.cpp > CMakeFiles/embree.dir/bvh4/bvh4_builder.i
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_builder.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/embree.dir/bvh4/bvh4_builder.s"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/kernels/xeon/bvh4/bvh4_builder.cpp -o CMakeFiles/embree.dir/bvh4/bvh4_builder.s
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/kernels/xeon/bvh4/bvh4_builder.cpp -o CMakeFiles/embree.dir/bvh4/bvh4_builder.s
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_builder.o.requires:
 .PHONY : kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_builder.o.requires
@@ -851,17 +851,17 @@ kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_builder.o.provides.build: kernels/x
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_builder_fast.o: kernels/xeon/CMakeFiles/embree.dir/flags.make
 kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_builder_fast.o: kernels/xeon/bvh4/bvh4_builder_fast.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_36)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_36)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_builder_fast.o"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/bvh4/bvh4_builder_fast.o -c /home/gyz/code/work/embree-cl/kernels/xeon/bvh4/bvh4_builder_fast.cpp
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/bvh4/bvh4_builder_fast.o -c /home/gyz/code/good/embree-cl/kernels/xeon/bvh4/bvh4_builder_fast.cpp
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_builder_fast.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/embree.dir/bvh4/bvh4_builder_fast.i"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/kernels/xeon/bvh4/bvh4_builder_fast.cpp > CMakeFiles/embree.dir/bvh4/bvh4_builder_fast.i
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/kernels/xeon/bvh4/bvh4_builder_fast.cpp > CMakeFiles/embree.dir/bvh4/bvh4_builder_fast.i
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_builder_fast.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/embree.dir/bvh4/bvh4_builder_fast.s"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/kernels/xeon/bvh4/bvh4_builder_fast.cpp -o CMakeFiles/embree.dir/bvh4/bvh4_builder_fast.s
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/kernels/xeon/bvh4/bvh4_builder_fast.cpp -o CMakeFiles/embree.dir/bvh4/bvh4_builder_fast.s
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_builder_fast.o.requires:
 .PHONY : kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_builder_fast.o.requires
@@ -874,17 +874,17 @@ kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_builder_fast.o.provides.build: kern
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_builder_morton.o: kernels/xeon/CMakeFiles/embree.dir/flags.make
 kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_builder_morton.o: kernels/xeon/bvh4/bvh4_builder_morton.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_37)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_37)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_builder_morton.o"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/bvh4/bvh4_builder_morton.o -c /home/gyz/code/work/embree-cl/kernels/xeon/bvh4/bvh4_builder_morton.cpp
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/bvh4/bvh4_builder_morton.o -c /home/gyz/code/good/embree-cl/kernels/xeon/bvh4/bvh4_builder_morton.cpp
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_builder_morton.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/embree.dir/bvh4/bvh4_builder_morton.i"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/kernels/xeon/bvh4/bvh4_builder_morton.cpp > CMakeFiles/embree.dir/bvh4/bvh4_builder_morton.i
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/kernels/xeon/bvh4/bvh4_builder_morton.cpp > CMakeFiles/embree.dir/bvh4/bvh4_builder_morton.i
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_builder_morton.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/embree.dir/bvh4/bvh4_builder_morton.s"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/kernels/xeon/bvh4/bvh4_builder_morton.cpp -o CMakeFiles/embree.dir/bvh4/bvh4_builder_morton.s
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/kernels/xeon/bvh4/bvh4_builder_morton.cpp -o CMakeFiles/embree.dir/bvh4/bvh4_builder_morton.s
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_builder_morton.o.requires:
 .PHONY : kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_builder_morton.o.requires
@@ -897,17 +897,17 @@ kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_builder_morton.o.provides.build: ke
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_builder_binner.o: kernels/xeon/CMakeFiles/embree.dir/flags.make
 kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_builder_binner.o: kernels/xeon/bvh4/bvh4_builder_binner.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_38)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_38)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_builder_binner.o"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/bvh4/bvh4_builder_binner.o -c /home/gyz/code/work/embree-cl/kernels/xeon/bvh4/bvh4_builder_binner.cpp
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/bvh4/bvh4_builder_binner.o -c /home/gyz/code/good/embree-cl/kernels/xeon/bvh4/bvh4_builder_binner.cpp
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_builder_binner.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/embree.dir/bvh4/bvh4_builder_binner.i"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/kernels/xeon/bvh4/bvh4_builder_binner.cpp > CMakeFiles/embree.dir/bvh4/bvh4_builder_binner.i
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/kernels/xeon/bvh4/bvh4_builder_binner.cpp > CMakeFiles/embree.dir/bvh4/bvh4_builder_binner.i
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_builder_binner.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/embree.dir/bvh4/bvh4_builder_binner.s"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/kernels/xeon/bvh4/bvh4_builder_binner.cpp -o CMakeFiles/embree.dir/bvh4/bvh4_builder_binner.s
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/kernels/xeon/bvh4/bvh4_builder_binner.cpp -o CMakeFiles/embree.dir/bvh4/bvh4_builder_binner.s
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_builder_binner.o.requires:
 .PHONY : kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_builder_binner.o.requires
@@ -920,17 +920,17 @@ kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_builder_binner.o.provides.build: ke
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_builder_toplevel.o: kernels/xeon/CMakeFiles/embree.dir/flags.make
 kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_builder_toplevel.o: kernels/xeon/bvh4/bvh4_builder_toplevel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_39)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_39)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_builder_toplevel.o"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/bvh4/bvh4_builder_toplevel.o -c /home/gyz/code/work/embree-cl/kernels/xeon/bvh4/bvh4_builder_toplevel.cpp
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/bvh4/bvh4_builder_toplevel.o -c /home/gyz/code/good/embree-cl/kernels/xeon/bvh4/bvh4_builder_toplevel.cpp
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_builder_toplevel.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/embree.dir/bvh4/bvh4_builder_toplevel.i"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/kernels/xeon/bvh4/bvh4_builder_toplevel.cpp > CMakeFiles/embree.dir/bvh4/bvh4_builder_toplevel.i
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/kernels/xeon/bvh4/bvh4_builder_toplevel.cpp > CMakeFiles/embree.dir/bvh4/bvh4_builder_toplevel.i
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_builder_toplevel.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/embree.dir/bvh4/bvh4_builder_toplevel.s"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/kernels/xeon/bvh4/bvh4_builder_toplevel.cpp -o CMakeFiles/embree.dir/bvh4/bvh4_builder_toplevel.s
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/kernels/xeon/bvh4/bvh4_builder_toplevel.cpp -o CMakeFiles/embree.dir/bvh4/bvh4_builder_toplevel.s
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_builder_toplevel.o.requires:
 .PHONY : kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_builder_toplevel.o.requires
@@ -943,17 +943,17 @@ kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_builder_toplevel.o.provides.build: 
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_intersector1.o: kernels/xeon/CMakeFiles/embree.dir/flags.make
 kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_intersector1.o: kernels/xeon/bvh4/bvh4_intersector1.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_40)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_40)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_intersector1.o"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/bvh4/bvh4_intersector1.o -c /home/gyz/code/work/embree-cl/kernels/xeon/bvh4/bvh4_intersector1.cpp
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/bvh4/bvh4_intersector1.o -c /home/gyz/code/good/embree-cl/kernels/xeon/bvh4/bvh4_intersector1.cpp
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_intersector1.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/embree.dir/bvh4/bvh4_intersector1.i"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/kernels/xeon/bvh4/bvh4_intersector1.cpp > CMakeFiles/embree.dir/bvh4/bvh4_intersector1.i
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/kernels/xeon/bvh4/bvh4_intersector1.cpp > CMakeFiles/embree.dir/bvh4/bvh4_intersector1.i
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_intersector1.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/embree.dir/bvh4/bvh4_intersector1.s"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/kernels/xeon/bvh4/bvh4_intersector1.cpp -o CMakeFiles/embree.dir/bvh4/bvh4_intersector1.s
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/kernels/xeon/bvh4/bvh4_intersector1.cpp -o CMakeFiles/embree.dir/bvh4/bvh4_intersector1.s
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_intersector1.o.requires:
 .PHONY : kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_intersector1.o.requires
@@ -966,17 +966,17 @@ kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_intersector1.o.provides.build: kern
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_intersector4_chunk.o: kernels/xeon/CMakeFiles/embree.dir/flags.make
 kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_intersector4_chunk.o: kernels/xeon/bvh4/bvh4_intersector4_chunk.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_41)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_41)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_intersector4_chunk.o"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/bvh4/bvh4_intersector4_chunk.o -c /home/gyz/code/work/embree-cl/kernels/xeon/bvh4/bvh4_intersector4_chunk.cpp
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/bvh4/bvh4_intersector4_chunk.o -c /home/gyz/code/good/embree-cl/kernels/xeon/bvh4/bvh4_intersector4_chunk.cpp
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_intersector4_chunk.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/embree.dir/bvh4/bvh4_intersector4_chunk.i"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/kernels/xeon/bvh4/bvh4_intersector4_chunk.cpp > CMakeFiles/embree.dir/bvh4/bvh4_intersector4_chunk.i
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/kernels/xeon/bvh4/bvh4_intersector4_chunk.cpp > CMakeFiles/embree.dir/bvh4/bvh4_intersector4_chunk.i
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_intersector4_chunk.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/embree.dir/bvh4/bvh4_intersector4_chunk.s"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/kernels/xeon/bvh4/bvh4_intersector4_chunk.cpp -o CMakeFiles/embree.dir/bvh4/bvh4_intersector4_chunk.s
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/kernels/xeon/bvh4/bvh4_intersector4_chunk.cpp -o CMakeFiles/embree.dir/bvh4/bvh4_intersector4_chunk.s
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_intersector4_chunk.o.requires:
 .PHONY : kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_intersector4_chunk.o.requires
@@ -989,17 +989,17 @@ kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_intersector4_chunk.o.provides.build
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_statistics.o: kernels/xeon/CMakeFiles/embree.dir/flags.make
 kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_statistics.o: kernels/xeon/bvh4/bvh4_statistics.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_42)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_42)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_statistics.o"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/bvh4/bvh4_statistics.o -c /home/gyz/code/work/embree-cl/kernels/xeon/bvh4/bvh4_statistics.cpp
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/bvh4/bvh4_statistics.o -c /home/gyz/code/good/embree-cl/kernels/xeon/bvh4/bvh4_statistics.cpp
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_statistics.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/embree.dir/bvh4/bvh4_statistics.i"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/kernels/xeon/bvh4/bvh4_statistics.cpp > CMakeFiles/embree.dir/bvh4/bvh4_statistics.i
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/kernels/xeon/bvh4/bvh4_statistics.cpp > CMakeFiles/embree.dir/bvh4/bvh4_statistics.i
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_statistics.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/embree.dir/bvh4/bvh4_statistics.s"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/kernels/xeon/bvh4/bvh4_statistics.cpp -o CMakeFiles/embree.dir/bvh4/bvh4_statistics.s
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/kernels/xeon/bvh4/bvh4_statistics.cpp -o CMakeFiles/embree.dir/bvh4/bvh4_statistics.s
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_statistics.o.requires:
 .PHONY : kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_statistics.o.requires
@@ -1012,17 +1012,17 @@ kernels/xeon/CMakeFiles/embree.dir/bvh4/bvh4_statistics.o.provides.build: kernel
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4mb/bvh4mb.o: kernels/xeon/CMakeFiles/embree.dir/flags.make
 kernels/xeon/CMakeFiles/embree.dir/bvh4mb/bvh4mb.o: kernels/xeon/bvh4mb/bvh4mb.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_43)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_43)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kernels/xeon/CMakeFiles/embree.dir/bvh4mb/bvh4mb.o"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/bvh4mb/bvh4mb.o -c /home/gyz/code/work/embree-cl/kernels/xeon/bvh4mb/bvh4mb.cpp
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/bvh4mb/bvh4mb.o -c /home/gyz/code/good/embree-cl/kernels/xeon/bvh4mb/bvh4mb.cpp
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4mb/bvh4mb.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/embree.dir/bvh4mb/bvh4mb.i"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/kernels/xeon/bvh4mb/bvh4mb.cpp > CMakeFiles/embree.dir/bvh4mb/bvh4mb.i
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/kernels/xeon/bvh4mb/bvh4mb.cpp > CMakeFiles/embree.dir/bvh4mb/bvh4mb.i
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4mb/bvh4mb.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/embree.dir/bvh4mb/bvh4mb.s"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/kernels/xeon/bvh4mb/bvh4mb.cpp -o CMakeFiles/embree.dir/bvh4mb/bvh4mb.s
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/kernels/xeon/bvh4mb/bvh4mb.cpp -o CMakeFiles/embree.dir/bvh4mb/bvh4mb.s
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4mb/bvh4mb.o.requires:
 .PHONY : kernels/xeon/CMakeFiles/embree.dir/bvh4mb/bvh4mb.o.requires
@@ -1035,17 +1035,17 @@ kernels/xeon/CMakeFiles/embree.dir/bvh4mb/bvh4mb.o.provides.build: kernels/xeon/
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4mb/bvh4mb_builder.o: kernels/xeon/CMakeFiles/embree.dir/flags.make
 kernels/xeon/CMakeFiles/embree.dir/bvh4mb/bvh4mb_builder.o: kernels/xeon/bvh4mb/bvh4mb_builder.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_44)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_44)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kernels/xeon/CMakeFiles/embree.dir/bvh4mb/bvh4mb_builder.o"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/bvh4mb/bvh4mb_builder.o -c /home/gyz/code/work/embree-cl/kernels/xeon/bvh4mb/bvh4mb_builder.cpp
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/bvh4mb/bvh4mb_builder.o -c /home/gyz/code/good/embree-cl/kernels/xeon/bvh4mb/bvh4mb_builder.cpp
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4mb/bvh4mb_builder.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/embree.dir/bvh4mb/bvh4mb_builder.i"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/kernels/xeon/bvh4mb/bvh4mb_builder.cpp > CMakeFiles/embree.dir/bvh4mb/bvh4mb_builder.i
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/kernels/xeon/bvh4mb/bvh4mb_builder.cpp > CMakeFiles/embree.dir/bvh4mb/bvh4mb_builder.i
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4mb/bvh4mb_builder.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/embree.dir/bvh4mb/bvh4mb_builder.s"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/kernels/xeon/bvh4mb/bvh4mb_builder.cpp -o CMakeFiles/embree.dir/bvh4mb/bvh4mb_builder.s
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/kernels/xeon/bvh4mb/bvh4mb_builder.cpp -o CMakeFiles/embree.dir/bvh4mb/bvh4mb_builder.s
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4mb/bvh4mb_builder.o.requires:
 .PHONY : kernels/xeon/CMakeFiles/embree.dir/bvh4mb/bvh4mb_builder.o.requires
@@ -1058,17 +1058,17 @@ kernels/xeon/CMakeFiles/embree.dir/bvh4mb/bvh4mb_builder.o.provides.build: kerne
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4mb/bvh4mb_intersector1.o: kernels/xeon/CMakeFiles/embree.dir/flags.make
 kernels/xeon/CMakeFiles/embree.dir/bvh4mb/bvh4mb_intersector1.o: kernels/xeon/bvh4mb/bvh4mb_intersector1.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_45)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_45)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kernels/xeon/CMakeFiles/embree.dir/bvh4mb/bvh4mb_intersector1.o"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/bvh4mb/bvh4mb_intersector1.o -c /home/gyz/code/work/embree-cl/kernels/xeon/bvh4mb/bvh4mb_intersector1.cpp
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/bvh4mb/bvh4mb_intersector1.o -c /home/gyz/code/good/embree-cl/kernels/xeon/bvh4mb/bvh4mb_intersector1.cpp
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4mb/bvh4mb_intersector1.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/embree.dir/bvh4mb/bvh4mb_intersector1.i"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/kernels/xeon/bvh4mb/bvh4mb_intersector1.cpp > CMakeFiles/embree.dir/bvh4mb/bvh4mb_intersector1.i
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/kernels/xeon/bvh4mb/bvh4mb_intersector1.cpp > CMakeFiles/embree.dir/bvh4mb/bvh4mb_intersector1.i
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4mb/bvh4mb_intersector1.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/embree.dir/bvh4mb/bvh4mb_intersector1.s"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/kernels/xeon/bvh4mb/bvh4mb_intersector1.cpp -o CMakeFiles/embree.dir/bvh4mb/bvh4mb_intersector1.s
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/kernels/xeon/bvh4mb/bvh4mb_intersector1.cpp -o CMakeFiles/embree.dir/bvh4mb/bvh4mb_intersector1.s
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4mb/bvh4mb_intersector1.o.requires:
 .PHONY : kernels/xeon/CMakeFiles/embree.dir/bvh4mb/bvh4mb_intersector1.o.requires
@@ -1081,17 +1081,17 @@ kernels/xeon/CMakeFiles/embree.dir/bvh4mb/bvh4mb_intersector1.o.provides.build: 
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4mb/bvh4mb_intersector4.o: kernels/xeon/CMakeFiles/embree.dir/flags.make
 kernels/xeon/CMakeFiles/embree.dir/bvh4mb/bvh4mb_intersector4.o: kernels/xeon/bvh4mb/bvh4mb_intersector4.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_46)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_46)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kernels/xeon/CMakeFiles/embree.dir/bvh4mb/bvh4mb_intersector4.o"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/bvh4mb/bvh4mb_intersector4.o -c /home/gyz/code/work/embree-cl/kernels/xeon/bvh4mb/bvh4mb_intersector4.cpp
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/bvh4mb/bvh4mb_intersector4.o -c /home/gyz/code/good/embree-cl/kernels/xeon/bvh4mb/bvh4mb_intersector4.cpp
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4mb/bvh4mb_intersector4.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/embree.dir/bvh4mb/bvh4mb_intersector4.i"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/kernels/xeon/bvh4mb/bvh4mb_intersector4.cpp > CMakeFiles/embree.dir/bvh4mb/bvh4mb_intersector4.i
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/kernels/xeon/bvh4mb/bvh4mb_intersector4.cpp > CMakeFiles/embree.dir/bvh4mb/bvh4mb_intersector4.i
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4mb/bvh4mb_intersector4.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/embree.dir/bvh4mb/bvh4mb_intersector4.s"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/kernels/xeon/bvh4mb/bvh4mb_intersector4.cpp -o CMakeFiles/embree.dir/bvh4mb/bvh4mb_intersector4.s
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/kernels/xeon/bvh4mb/bvh4mb_intersector4.cpp -o CMakeFiles/embree.dir/bvh4mb/bvh4mb_intersector4.s
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4mb/bvh4mb_intersector4.o.requires:
 .PHONY : kernels/xeon/CMakeFiles/embree.dir/bvh4mb/bvh4mb_intersector4.o.requires
@@ -1104,17 +1104,17 @@ kernels/xeon/CMakeFiles/embree.dir/bvh4mb/bvh4mb_intersector4.o.provides.build: 
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4hair/bvh4hair.o: kernels/xeon/CMakeFiles/embree.dir/flags.make
 kernels/xeon/CMakeFiles/embree.dir/bvh4hair/bvh4hair.o: kernels/xeon/bvh4hair/bvh4hair.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_47)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_47)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kernels/xeon/CMakeFiles/embree.dir/bvh4hair/bvh4hair.o"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/bvh4hair/bvh4hair.o -c /home/gyz/code/work/embree-cl/kernels/xeon/bvh4hair/bvh4hair.cpp
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/bvh4hair/bvh4hair.o -c /home/gyz/code/good/embree-cl/kernels/xeon/bvh4hair/bvh4hair.cpp
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4hair/bvh4hair.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/embree.dir/bvh4hair/bvh4hair.i"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/kernels/xeon/bvh4hair/bvh4hair.cpp > CMakeFiles/embree.dir/bvh4hair/bvh4hair.i
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/kernels/xeon/bvh4hair/bvh4hair.cpp > CMakeFiles/embree.dir/bvh4hair/bvh4hair.i
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4hair/bvh4hair.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/embree.dir/bvh4hair/bvh4hair.s"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/kernels/xeon/bvh4hair/bvh4hair.cpp -o CMakeFiles/embree.dir/bvh4hair/bvh4hair.s
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/kernels/xeon/bvh4hair/bvh4hair.cpp -o CMakeFiles/embree.dir/bvh4hair/bvh4hair.s
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4hair/bvh4hair.o.requires:
 .PHONY : kernels/xeon/CMakeFiles/embree.dir/bvh4hair/bvh4hair.o.requires
@@ -1127,17 +1127,17 @@ kernels/xeon/CMakeFiles/embree.dir/bvh4hair/bvh4hair.o.provides.build: kernels/x
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4hair/bvh4hair_statistics.o: kernels/xeon/CMakeFiles/embree.dir/flags.make
 kernels/xeon/CMakeFiles/embree.dir/bvh4hair/bvh4hair_statistics.o: kernels/xeon/bvh4hair/bvh4hair_statistics.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_48)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_48)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kernels/xeon/CMakeFiles/embree.dir/bvh4hair/bvh4hair_statistics.o"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/bvh4hair/bvh4hair_statistics.o -c /home/gyz/code/work/embree-cl/kernels/xeon/bvh4hair/bvh4hair_statistics.cpp
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/bvh4hair/bvh4hair_statistics.o -c /home/gyz/code/good/embree-cl/kernels/xeon/bvh4hair/bvh4hair_statistics.cpp
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4hair/bvh4hair_statistics.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/embree.dir/bvh4hair/bvh4hair_statistics.i"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/kernels/xeon/bvh4hair/bvh4hair_statistics.cpp > CMakeFiles/embree.dir/bvh4hair/bvh4hair_statistics.i
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/kernels/xeon/bvh4hair/bvh4hair_statistics.cpp > CMakeFiles/embree.dir/bvh4hair/bvh4hair_statistics.i
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4hair/bvh4hair_statistics.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/embree.dir/bvh4hair/bvh4hair_statistics.s"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/kernels/xeon/bvh4hair/bvh4hair_statistics.cpp -o CMakeFiles/embree.dir/bvh4hair/bvh4hair_statistics.s
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/kernels/xeon/bvh4hair/bvh4hair_statistics.cpp -o CMakeFiles/embree.dir/bvh4hair/bvh4hair_statistics.s
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4hair/bvh4hair_statistics.o.requires:
 .PHONY : kernels/xeon/CMakeFiles/embree.dir/bvh4hair/bvh4hair_statistics.o.requires
@@ -1150,17 +1150,17 @@ kernels/xeon/CMakeFiles/embree.dir/bvh4hair/bvh4hair_statistics.o.provides.build
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4hair/bvh4hair_builder.o: kernels/xeon/CMakeFiles/embree.dir/flags.make
 kernels/xeon/CMakeFiles/embree.dir/bvh4hair/bvh4hair_builder.o: kernels/xeon/bvh4hair/bvh4hair_builder.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_49)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_49)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kernels/xeon/CMakeFiles/embree.dir/bvh4hair/bvh4hair_builder.o"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/bvh4hair/bvh4hair_builder.o -c /home/gyz/code/work/embree-cl/kernels/xeon/bvh4hair/bvh4hair_builder.cpp
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/bvh4hair/bvh4hair_builder.o -c /home/gyz/code/good/embree-cl/kernels/xeon/bvh4hair/bvh4hair_builder.cpp
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4hair/bvh4hair_builder.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/embree.dir/bvh4hair/bvh4hair_builder.i"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/kernels/xeon/bvh4hair/bvh4hair_builder.cpp > CMakeFiles/embree.dir/bvh4hair/bvh4hair_builder.i
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/kernels/xeon/bvh4hair/bvh4hair_builder.cpp > CMakeFiles/embree.dir/bvh4hair/bvh4hair_builder.i
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4hair/bvh4hair_builder.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/embree.dir/bvh4hair/bvh4hair_builder.s"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/kernels/xeon/bvh4hair/bvh4hair_builder.cpp -o CMakeFiles/embree.dir/bvh4hair/bvh4hair_builder.s
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/kernels/xeon/bvh4hair/bvh4hair_builder.cpp -o CMakeFiles/embree.dir/bvh4hair/bvh4hair_builder.s
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4hair/bvh4hair_builder.o.requires:
 .PHONY : kernels/xeon/CMakeFiles/embree.dir/bvh4hair/bvh4hair_builder.o.requires
@@ -1173,17 +1173,17 @@ kernels/xeon/CMakeFiles/embree.dir/bvh4hair/bvh4hair_builder.o.provides.build: k
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4hair/bvh4hair_intersector1.o: kernels/xeon/CMakeFiles/embree.dir/flags.make
 kernels/xeon/CMakeFiles/embree.dir/bvh4hair/bvh4hair_intersector1.o: kernels/xeon/bvh4hair/bvh4hair_intersector1.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_50)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_50)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kernels/xeon/CMakeFiles/embree.dir/bvh4hair/bvh4hair_intersector1.o"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/bvh4hair/bvh4hair_intersector1.o -c /home/gyz/code/work/embree-cl/kernels/xeon/bvh4hair/bvh4hair_intersector1.cpp
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/bvh4hair/bvh4hair_intersector1.o -c /home/gyz/code/good/embree-cl/kernels/xeon/bvh4hair/bvh4hair_intersector1.cpp
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4hair/bvh4hair_intersector1.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/embree.dir/bvh4hair/bvh4hair_intersector1.i"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/kernels/xeon/bvh4hair/bvh4hair_intersector1.cpp > CMakeFiles/embree.dir/bvh4hair/bvh4hair_intersector1.i
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/kernels/xeon/bvh4hair/bvh4hair_intersector1.cpp > CMakeFiles/embree.dir/bvh4hair/bvh4hair_intersector1.i
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4hair/bvh4hair_intersector1.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/embree.dir/bvh4hair/bvh4hair_intersector1.s"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/kernels/xeon/bvh4hair/bvh4hair_intersector1.cpp -o CMakeFiles/embree.dir/bvh4hair/bvh4hair_intersector1.s
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/kernels/xeon/bvh4hair/bvh4hair_intersector1.cpp -o CMakeFiles/embree.dir/bvh4hair/bvh4hair_intersector1.s
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4hair/bvh4hair_intersector1.o.requires:
 .PHONY : kernels/xeon/CMakeFiles/embree.dir/bvh4hair/bvh4hair_intersector1.o.requires
@@ -1196,17 +1196,17 @@ kernels/xeon/CMakeFiles/embree.dir/bvh4hair/bvh4hair_intersector1.o.provides.bui
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4hair/bvh4hair_intersector4.o: kernels/xeon/CMakeFiles/embree.dir/flags.make
 kernels/xeon/CMakeFiles/embree.dir/bvh4hair/bvh4hair_intersector4.o: kernels/xeon/bvh4hair/bvh4hair_intersector4.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_51)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_51)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kernels/xeon/CMakeFiles/embree.dir/bvh4hair/bvh4hair_intersector4.o"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/bvh4hair/bvh4hair_intersector4.o -c /home/gyz/code/work/embree-cl/kernels/xeon/bvh4hair/bvh4hair_intersector4.cpp
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree.dir/bvh4hair/bvh4hair_intersector4.o -c /home/gyz/code/good/embree-cl/kernels/xeon/bvh4hair/bvh4hair_intersector4.cpp
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4hair/bvh4hair_intersector4.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/embree.dir/bvh4hair/bvh4hair_intersector4.i"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/kernels/xeon/bvh4hair/bvh4hair_intersector4.cpp > CMakeFiles/embree.dir/bvh4hair/bvh4hair_intersector4.i
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/kernels/xeon/bvh4hair/bvh4hair_intersector4.cpp > CMakeFiles/embree.dir/bvh4hair/bvh4hair_intersector4.i
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4hair/bvh4hair_intersector4.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/embree.dir/bvh4hair/bvh4hair_intersector4.s"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/kernels/xeon/bvh4hair/bvh4hair_intersector4.cpp -o CMakeFiles/embree.dir/bvh4hair/bvh4hair_intersector4.s
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/kernels/xeon/bvh4hair/bvh4hair_intersector4.cpp -o CMakeFiles/embree.dir/bvh4hair/bvh4hair_intersector4.s
 
 kernels/xeon/CMakeFiles/embree.dir/bvh4hair/bvh4hair_intersector4.o.requires:
 .PHONY : kernels/xeon/CMakeFiles/embree.dir/bvh4hair/bvh4hair_intersector4.o.requires
@@ -1272,11 +1272,11 @@ embree_OBJECTS = \
 
 # External object files for target embree
 embree_EXTERNAL_OBJECTS = \
-"/home/gyz/code/work/embree-cl/kernels/xeon/../common/rtcore_ispc.dev.o" \
-"/home/gyz/code/work/embree-cl/kernels/xeon/../common/rtcore_ispc.dev_sse2.o" \
-"/home/gyz/code/work/embree-cl/kernels/xeon/../common/rtcore_ispc.dev_sse4.o" \
-"/home/gyz/code/work/embree-cl/kernels/xeon/../common/rtcore_ispc.dev_avx.o" \
-"/home/gyz/code/work/embree-cl/kernels/xeon/../common/rtcore_ispc.dev_avx2.o"
+"/home/gyz/code/good/embree-cl/kernels/xeon/../common/rtcore_ispc.dev.o" \
+"/home/gyz/code/good/embree-cl/kernels/xeon/../common/rtcore_ispc.dev_sse2.o" \
+"/home/gyz/code/good/embree-cl/kernels/xeon/../common/rtcore_ispc.dev_sse4.o" \
+"/home/gyz/code/good/embree-cl/kernels/xeon/../common/rtcore_ispc.dev_avx.o" \
+"/home/gyz/code/good/embree-cl/kernels/xeon/../common/rtcore_ispc.dev_avx2.o"
 
 libembree.so.2.3.1: kernels/xeon/CMakeFiles/embree.dir/__/common/stat.o
 libembree.so.2.3.1: kernels/xeon/CMakeFiles/embree.dir/__/common/globals.o
@@ -1342,8 +1342,8 @@ libembree.so.2.3.1: libsys.a
 libembree.so.2.3.1: libsimd.a
 libembree.so.2.3.1: kernels/xeon/CMakeFiles/embree.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../libembree.so"
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/embree.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && $(CMAKE_COMMAND) -E cmake_symlink_library ../../libembree.so.2.3.1 ../../libembree.so.2 ../../libembree.so
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/embree.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && $(CMAKE_COMMAND) -E cmake_symlink_library ../../libembree.so.2.3.1 ../../libembree.so.2 ../../libembree.so
 
 libembree.so.2: libembree.so.2.3.1
 
@@ -1406,7 +1406,7 @@ kernels/xeon/CMakeFiles/embree.dir/requires: kernels/xeon/CMakeFiles/embree.dir/
 .PHONY : kernels/xeon/CMakeFiles/embree.dir/requires
 
 kernels/xeon/CMakeFiles/embree.dir/clean:
-	cd /home/gyz/code/work/embree-cl/kernels/xeon && $(CMAKE_COMMAND) -P CMakeFiles/embree.dir/cmake_clean.cmake
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && $(CMAKE_COMMAND) -P CMakeFiles/embree.dir/cmake_clean.cmake
 .PHONY : kernels/xeon/CMakeFiles/embree.dir/clean
 
 kernels/xeon/CMakeFiles/embree.dir/depend: kernels/xeon/../common/rtcore_ispc.dev.o
@@ -1415,6 +1415,6 @@ kernels/xeon/CMakeFiles/embree.dir/depend: kernels/xeon/../common/rtcore_ispc.de
 kernels/xeon/CMakeFiles/embree.dir/depend: kernels/xeon/../common/rtcore_ispc.dev_avx.o
 kernels/xeon/CMakeFiles/embree.dir/depend: kernels/xeon/../common/rtcore_ispc.dev_avx2.o
 kernels/xeon/CMakeFiles/embree.dir/depend: kernels/xeon/rtcore_ispc_ispc.h
-	cd /home/gyz/code/work/embree-cl && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gyz/code/work/embree-cl /home/gyz/code/work/embree-cl/kernels/xeon /home/gyz/code/work/embree-cl /home/gyz/code/work/embree-cl/kernels/xeon /home/gyz/code/work/embree-cl/kernels/xeon/CMakeFiles/embree.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gyz/code/good/embree-cl && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gyz/code/good/embree-cl /home/gyz/code/good/embree-cl/kernels/xeon /home/gyz/code/good/embree-cl /home/gyz/code/good/embree-cl/kernels/xeon /home/gyz/code/good/embree-cl/kernels/xeon/CMakeFiles/embree.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : kernels/xeon/CMakeFiles/embree.dir/depend
 

@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gyz/code/work/embree-cl
+CMAKE_SOURCE_DIR = /home/gyz/code/good/embree-cl
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gyz/code/work/embree-cl
+CMAKE_BINARY_DIR = /home/gyz/code/good/embree-cl
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/gyz/code/work/embree-cl && $(CMAKE_COMMAND) -E cmake_progress_start /home/gyz/code/work/embree-cl/CMakeFiles /home/gyz/code/work/embree-cl/tutorials/common/image/CMakeFiles/progress.marks
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 tutorials/common/image/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gyz/code/work/embree-cl/CMakeFiles 0
+	cd /home/gyz/code/good/embree-cl && $(CMAKE_COMMAND) -E cmake_progress_start /home/gyz/code/good/embree-cl/CMakeFiles /home/gyz/code/good/embree-cl/tutorials/common/image/CMakeFiles/progress.marks
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 tutorials/common/image/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gyz/code/good/embree-cl/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 tutorials/common/image/clean
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 tutorials/common/image/clean
 .PHONY : clean
 
 # The main clean target
@@ -129,22 +129,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 tutorials/common/image/preinstall
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 tutorials/common/image/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 tutorials/common/image/preinstall
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 tutorials/common/image/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/gyz/code/work/embree-cl && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/gyz/code/good/embree-cl && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tutorials/common/image/CMakeFiles/image.dir/rule:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 tutorials/common/image/CMakeFiles/image.dir/rule
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 tutorials/common/image/CMakeFiles/image.dir/rule
 .PHONY : tutorials/common/image/CMakeFiles/image.dir/rule
 
 # Convenience name for target.
@@ -153,112 +153,112 @@ image: tutorials/common/image/CMakeFiles/image.dir/rule
 
 # fast build rule for target.
 image/fast:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/common/image/CMakeFiles/image.dir/build.make tutorials/common/image/CMakeFiles/image.dir/build
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/common/image/CMakeFiles/image.dir/build.make tutorials/common/image/CMakeFiles/image.dir/build
 .PHONY : image/fast
 
 # target to build an object file
 exr.o:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/common/image/CMakeFiles/image.dir/build.make tutorials/common/image/CMakeFiles/image.dir/exr.o
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/common/image/CMakeFiles/image.dir/build.make tutorials/common/image/CMakeFiles/image.dir/exr.o
 .PHONY : exr.o
 
 # target to preprocess a source file
 exr.i:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/common/image/CMakeFiles/image.dir/build.make tutorials/common/image/CMakeFiles/image.dir/exr.i
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/common/image/CMakeFiles/image.dir/build.make tutorials/common/image/CMakeFiles/image.dir/exr.i
 .PHONY : exr.i
 
 # target to generate assembly for a file
 exr.s:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/common/image/CMakeFiles/image.dir/build.make tutorials/common/image/CMakeFiles/image.dir/exr.s
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/common/image/CMakeFiles/image.dir/build.make tutorials/common/image/CMakeFiles/image.dir/exr.s
 .PHONY : exr.s
 
 # target to build an object file
 image.o:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/common/image/CMakeFiles/image.dir/build.make tutorials/common/image/CMakeFiles/image.dir/image.o
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/common/image/CMakeFiles/image.dir/build.make tutorials/common/image/CMakeFiles/image.dir/image.o
 .PHONY : image.o
 
 # target to preprocess a source file
 image.i:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/common/image/CMakeFiles/image.dir/build.make tutorials/common/image/CMakeFiles/image.dir/image.i
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/common/image/CMakeFiles/image.dir/build.make tutorials/common/image/CMakeFiles/image.dir/image.i
 .PHONY : image.i
 
 # target to generate assembly for a file
 image.s:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/common/image/CMakeFiles/image.dir/build.make tutorials/common/image/CMakeFiles/image.dir/image.s
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/common/image/CMakeFiles/image.dir/build.make tutorials/common/image/CMakeFiles/image.dir/image.s
 .PHONY : image.s
 
 # target to build an object file
 jpeg.o:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/common/image/CMakeFiles/image.dir/build.make tutorials/common/image/CMakeFiles/image.dir/jpeg.o
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/common/image/CMakeFiles/image.dir/build.make tutorials/common/image/CMakeFiles/image.dir/jpeg.o
 .PHONY : jpeg.o
 
 # target to preprocess a source file
 jpeg.i:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/common/image/CMakeFiles/image.dir/build.make tutorials/common/image/CMakeFiles/image.dir/jpeg.i
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/common/image/CMakeFiles/image.dir/build.make tutorials/common/image/CMakeFiles/image.dir/jpeg.i
 .PHONY : jpeg.i
 
 # target to generate assembly for a file
 jpeg.s:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/common/image/CMakeFiles/image.dir/build.make tutorials/common/image/CMakeFiles/image.dir/jpeg.s
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/common/image/CMakeFiles/image.dir/build.make tutorials/common/image/CMakeFiles/image.dir/jpeg.s
 .PHONY : jpeg.s
 
 # target to build an object file
 magick.o:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/common/image/CMakeFiles/image.dir/build.make tutorials/common/image/CMakeFiles/image.dir/magick.o
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/common/image/CMakeFiles/image.dir/build.make tutorials/common/image/CMakeFiles/image.dir/magick.o
 .PHONY : magick.o
 
 # target to preprocess a source file
 magick.i:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/common/image/CMakeFiles/image.dir/build.make tutorials/common/image/CMakeFiles/image.dir/magick.i
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/common/image/CMakeFiles/image.dir/build.make tutorials/common/image/CMakeFiles/image.dir/magick.i
 .PHONY : magick.i
 
 # target to generate assembly for a file
 magick.s:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/common/image/CMakeFiles/image.dir/build.make tutorials/common/image/CMakeFiles/image.dir/magick.s
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/common/image/CMakeFiles/image.dir/build.make tutorials/common/image/CMakeFiles/image.dir/magick.s
 .PHONY : magick.s
 
 # target to build an object file
 pfm.o:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/common/image/CMakeFiles/image.dir/build.make tutorials/common/image/CMakeFiles/image.dir/pfm.o
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/common/image/CMakeFiles/image.dir/build.make tutorials/common/image/CMakeFiles/image.dir/pfm.o
 .PHONY : pfm.o
 
 # target to preprocess a source file
 pfm.i:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/common/image/CMakeFiles/image.dir/build.make tutorials/common/image/CMakeFiles/image.dir/pfm.i
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/common/image/CMakeFiles/image.dir/build.make tutorials/common/image/CMakeFiles/image.dir/pfm.i
 .PHONY : pfm.i
 
 # target to generate assembly for a file
 pfm.s:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/common/image/CMakeFiles/image.dir/build.make tutorials/common/image/CMakeFiles/image.dir/pfm.s
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/common/image/CMakeFiles/image.dir/build.make tutorials/common/image/CMakeFiles/image.dir/pfm.s
 .PHONY : pfm.s
 
 # target to build an object file
 ppm.o:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/common/image/CMakeFiles/image.dir/build.make tutorials/common/image/CMakeFiles/image.dir/ppm.o
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/common/image/CMakeFiles/image.dir/build.make tutorials/common/image/CMakeFiles/image.dir/ppm.o
 .PHONY : ppm.o
 
 # target to preprocess a source file
 ppm.i:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/common/image/CMakeFiles/image.dir/build.make tutorials/common/image/CMakeFiles/image.dir/ppm.i
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/common/image/CMakeFiles/image.dir/build.make tutorials/common/image/CMakeFiles/image.dir/ppm.i
 .PHONY : ppm.i
 
 # target to generate assembly for a file
 ppm.s:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/common/image/CMakeFiles/image.dir/build.make tutorials/common/image/CMakeFiles/image.dir/ppm.s
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/common/image/CMakeFiles/image.dir/build.make tutorials/common/image/CMakeFiles/image.dir/ppm.s
 .PHONY : ppm.s
 
 # target to build an object file
 tga.o:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/common/image/CMakeFiles/image.dir/build.make tutorials/common/image/CMakeFiles/image.dir/tga.o
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/common/image/CMakeFiles/image.dir/build.make tutorials/common/image/CMakeFiles/image.dir/tga.o
 .PHONY : tga.o
 
 # target to preprocess a source file
 tga.i:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/common/image/CMakeFiles/image.dir/build.make tutorials/common/image/CMakeFiles/image.dir/tga.i
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/common/image/CMakeFiles/image.dir/build.make tutorials/common/image/CMakeFiles/image.dir/tga.i
 .PHONY : tga.i
 
 # target to generate assembly for a file
 tga.s:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/common/image/CMakeFiles/image.dir/build.make tutorials/common/image/CMakeFiles/image.dir/tga.s
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/common/image/CMakeFiles/image.dir/build.make tutorials/common/image/CMakeFiles/image.dir/tga.s
 .PHONY : tga.s
 
 # Help Target
@@ -306,6 +306,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/gyz/code/work/embree-cl && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/gyz/code/good/embree-cl && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

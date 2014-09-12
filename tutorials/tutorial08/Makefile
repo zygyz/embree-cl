@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gyz/code/work/embree-cl
+CMAKE_SOURCE_DIR = /home/gyz/code/good/embree-cl
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gyz/code/work/embree-cl
+CMAKE_BINARY_DIR = /home/gyz/code/good/embree-cl
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/gyz/code/work/embree-cl && $(CMAKE_COMMAND) -E cmake_progress_start /home/gyz/code/work/embree-cl/CMakeFiles /home/gyz/code/work/embree-cl/tutorials/tutorial08/CMakeFiles/progress.marks
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 tutorials/tutorial08/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gyz/code/work/embree-cl/CMakeFiles 0
+	cd /home/gyz/code/good/embree-cl && $(CMAKE_COMMAND) -E cmake_progress_start /home/gyz/code/good/embree-cl/CMakeFiles /home/gyz/code/good/embree-cl/tutorials/tutorial08/CMakeFiles/progress.marks
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 tutorials/tutorial08/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gyz/code/good/embree-cl/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 tutorials/tutorial08/clean
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 tutorials/tutorial08/clean
 .PHONY : clean
 
 # The main clean target
@@ -129,22 +129,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 tutorials/tutorial08/preinstall
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 tutorials/tutorial08/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 tutorials/tutorial08/preinstall
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 tutorials/tutorial08/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/gyz/code/work/embree-cl && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/gyz/code/good/embree-cl && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tutorials/tutorial08/CMakeFiles/tutorial08.dir/rule:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 tutorials/tutorial08/CMakeFiles/tutorial08.dir/rule
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 tutorials/tutorial08/CMakeFiles/tutorial08.dir/rule
 .PHONY : tutorials/tutorial08/CMakeFiles/tutorial08.dir/rule
 
 # Convenience name for target.
@@ -153,97 +153,97 @@ tutorial08: tutorials/tutorial08/CMakeFiles/tutorial08.dir/rule
 
 # fast build rule for target.
 tutorial08/fast:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/tutorial08/CMakeFiles/tutorial08.dir/build.make tutorials/tutorial08/CMakeFiles/tutorial08.dir/build
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/tutorial08/CMakeFiles/tutorial08.dir/build.make tutorials/tutorial08/CMakeFiles/tutorial08.dir/build
 .PHONY : tutorial08/fast
 
 # target to build an object file
 extensions/api.o:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/tutorial08/CMakeFiles/tutorial08.dir/build.make tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/api.o
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/tutorial08/CMakeFiles/tutorial08.dir/build.make tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/api.o
 .PHONY : extensions/api.o
 
 # target to preprocess a source file
 extensions/api.i:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/tutorial08/CMakeFiles/tutorial08.dir/build.make tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/api.i
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/tutorial08/CMakeFiles/tutorial08.dir/build.make tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/api.i
 .PHONY : extensions/api.i
 
 # target to generate assembly for a file
 extensions/api.s:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/tutorial08/CMakeFiles/tutorial08.dir/build.make tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/api.s
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/tutorial08/CMakeFiles/tutorial08.dir/build.make tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/api.s
 .PHONY : extensions/api.s
 
 # target to build an object file
 extensions/catmullclark.o:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/tutorial08/CMakeFiles/tutorial08.dir/build.make tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/catmullclark.o
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/tutorial08/CMakeFiles/tutorial08.dir/build.make tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/catmullclark.o
 .PHONY : extensions/catmullclark.o
 
 # target to preprocess a source file
 extensions/catmullclark.i:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/tutorial08/CMakeFiles/tutorial08.dir/build.make tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/catmullclark.i
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/tutorial08/CMakeFiles/tutorial08.dir/build.make tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/catmullclark.i
 .PHONY : extensions/catmullclark.i
 
 # target to generate assembly for a file
 extensions/catmullclark.s:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/tutorial08/CMakeFiles/tutorial08.dir/build.make tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/catmullclark.s
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/tutorial08/CMakeFiles/tutorial08.dir/build.make tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/catmullclark.s
 .PHONY : extensions/catmullclark.s
 
 # target to build an object file
 extensions/subdivisionmesh.o:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/tutorial08/CMakeFiles/tutorial08.dir/build.make tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/subdivisionmesh.o
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/tutorial08/CMakeFiles/tutorial08.dir/build.make tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/subdivisionmesh.o
 .PHONY : extensions/subdivisionmesh.o
 
 # target to preprocess a source file
 extensions/subdivisionmesh.i:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/tutorial08/CMakeFiles/tutorial08.dir/build.make tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/subdivisionmesh.i
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/tutorial08/CMakeFiles/tutorial08.dir/build.make tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/subdivisionmesh.i
 .PHONY : extensions/subdivisionmesh.i
 
 # target to generate assembly for a file
 extensions/subdivisionmesh.s:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/tutorial08/CMakeFiles/tutorial08.dir/build.make tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/subdivisionmesh.s
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/tutorial08/CMakeFiles/tutorial08.dir/build.make tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/subdivisionmesh.s
 .PHONY : extensions/subdivisionmesh.s
 
 # target to build an object file
 extensions/triangulatemesh.o:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/tutorial08/CMakeFiles/tutorial08.dir/build.make tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/triangulatemesh.o
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/tutorial08/CMakeFiles/tutorial08.dir/build.make tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/triangulatemesh.o
 .PHONY : extensions/triangulatemesh.o
 
 # target to preprocess a source file
 extensions/triangulatemesh.i:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/tutorial08/CMakeFiles/tutorial08.dir/build.make tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/triangulatemesh.i
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/tutorial08/CMakeFiles/tutorial08.dir/build.make tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/triangulatemesh.i
 .PHONY : extensions/triangulatemesh.i
 
 # target to generate assembly for a file
 extensions/triangulatemesh.s:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/tutorial08/CMakeFiles/tutorial08.dir/build.make tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/triangulatemesh.s
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/tutorial08/CMakeFiles/tutorial08.dir/build.make tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/triangulatemesh.s
 .PHONY : extensions/triangulatemesh.s
 
 # target to build an object file
 tutorial08.o:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/tutorial08/CMakeFiles/tutorial08.dir/build.make tutorials/tutorial08/CMakeFiles/tutorial08.dir/tutorial08.o
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/tutorial08/CMakeFiles/tutorial08.dir/build.make tutorials/tutorial08/CMakeFiles/tutorial08.dir/tutorial08.o
 .PHONY : tutorial08.o
 
 # target to preprocess a source file
 tutorial08.i:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/tutorial08/CMakeFiles/tutorial08.dir/build.make tutorials/tutorial08/CMakeFiles/tutorial08.dir/tutorial08.i
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/tutorial08/CMakeFiles/tutorial08.dir/build.make tutorials/tutorial08/CMakeFiles/tutorial08.dir/tutorial08.i
 .PHONY : tutorial08.i
 
 # target to generate assembly for a file
 tutorial08.s:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/tutorial08/CMakeFiles/tutorial08.dir/build.make tutorials/tutorial08/CMakeFiles/tutorial08.dir/tutorial08.s
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/tutorial08/CMakeFiles/tutorial08.dir/build.make tutorials/tutorial08/CMakeFiles/tutorial08.dir/tutorial08.s
 .PHONY : tutorial08.s
 
 # target to build an object file
 tutorial08_device.o:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/tutorial08/CMakeFiles/tutorial08.dir/build.make tutorials/tutorial08/CMakeFiles/tutorial08.dir/tutorial08_device.o
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/tutorial08/CMakeFiles/tutorial08.dir/build.make tutorials/tutorial08/CMakeFiles/tutorial08.dir/tutorial08_device.o
 .PHONY : tutorial08_device.o
 
 # target to preprocess a source file
 tutorial08_device.i:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/tutorial08/CMakeFiles/tutorial08.dir/build.make tutorials/tutorial08/CMakeFiles/tutorial08.dir/tutorial08_device.i
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/tutorial08/CMakeFiles/tutorial08.dir/build.make tutorials/tutorial08/CMakeFiles/tutorial08.dir/tutorial08_device.i
 .PHONY : tutorial08_device.i
 
 # target to generate assembly for a file
 tutorial08_device.s:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/tutorial08/CMakeFiles/tutorial08.dir/build.make tutorials/tutorial08/CMakeFiles/tutorial08.dir/tutorial08_device.s
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/tutorial08/CMakeFiles/tutorial08.dir/build.make tutorials/tutorial08/CMakeFiles/tutorial08.dir/tutorial08_device.s
 .PHONY : tutorial08_device.s
 
 # Help Target
@@ -288,6 +288,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/gyz/code/work/embree-cl && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/gyz/code/good/embree-cl && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

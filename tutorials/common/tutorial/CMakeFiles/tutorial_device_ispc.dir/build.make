@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gyz/code/work/embree-cl
+CMAKE_SOURCE_DIR = /home/gyz/code/good/embree-cl
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gyz/code/work/embree-cl
+CMAKE_BINARY_DIR = /home/gyz/code/good/embree-cl
 
 # Include any dependencies generated for this target.
 include tutorials/common/tutorial/CMakeFiles/tutorial_device_ispc.dir/depend.make
@@ -53,9 +53,9 @@ include tutorials/common/tutorial/CMakeFiles/tutorial_device_ispc.dir/progress.m
 include tutorials/common/tutorial/CMakeFiles/tutorial_device_ispc.dir/flags.make
 
 tutorials/common/tutorial/tutorial_device.dev.o: tutorials/common/tutorial/tutorial_device.ispc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating tutorial_device.dev.o, tutorial_device.dev_sse2.o, tutorial_device.dev_sse4.o, tutorial_device.dev_avx.o, tutorial_device.dev_avx2.o, tutorial_device_ispc.h"
-	cd /home/gyz/code/work/embree-cl/tutorials/common/tutorial && mkdir -p /home/gyz/code/work/embree-cl/tutorials/common/tutorial ; ispc -I /home/gyz/code/work/embree-cl/tutorials/common/tutorial -I /home/gyz/code/work/embree-cl -I /home/gyz/code/work/embree-cl/tutorials/common --arch=x86-64 --pic -O3 --target=sse2,sse4,avx,avx2 --woff --opt=fast-math -h /home/gyz/code/work/embree-cl/tutorials/common/tutorial/tutorial_device_ispc.h -MMM /home/gyz/code/work/embree-cl/tutorials/common/tutorial/tutorial_device.dev.idep -o /home/gyz/code/work/embree-cl/tutorials/common/tutorial/tutorial_device.dev.o /home/gyz/code/work/embree-cl/tutorials/common/tutorial/tutorial_device.ispc ;
+	cd /home/gyz/code/good/embree-cl/tutorials/common/tutorial && mkdir -p /home/gyz/code/good/embree-cl/tutorials/common/tutorial ; ispc -I /home/gyz/code/good/embree-cl/tutorials/common/tutorial -I /home/gyz/code/good/embree-cl -I /home/gyz/code/good/embree-cl/tutorials/common --arch=x86-64 --pic -O3 --target=sse2,sse4,avx,avx2 --woff --opt=fast-math -h /home/gyz/code/good/embree-cl/tutorials/common/tutorial/tutorial_device_ispc.h -MMM /home/gyz/code/good/embree-cl/tutorials/common/tutorial/tutorial_device.dev.idep -o /home/gyz/code/good/embree-cl/tutorials/common/tutorial/tutorial_device.dev.o /home/gyz/code/good/embree-cl/tutorials/common/tutorial/tutorial_device.ispc ;
 
 tutorials/common/tutorial/tutorial_device.dev_sse2.o: tutorials/common/tutorial/tutorial_device.dev.o
 
@@ -72,11 +72,11 @@ tutorial_device_ispc_OBJECTS =
 
 # External object files for target tutorial_device_ispc
 tutorial_device_ispc_EXTERNAL_OBJECTS = \
-"/home/gyz/code/work/embree-cl/tutorials/common/tutorial/tutorial_device.dev.o" \
-"/home/gyz/code/work/embree-cl/tutorials/common/tutorial/tutorial_device.dev_sse2.o" \
-"/home/gyz/code/work/embree-cl/tutorials/common/tutorial/tutorial_device.dev_sse4.o" \
-"/home/gyz/code/work/embree-cl/tutorials/common/tutorial/tutorial_device.dev_avx.o" \
-"/home/gyz/code/work/embree-cl/tutorials/common/tutorial/tutorial_device.dev_avx2.o"
+"/home/gyz/code/good/embree-cl/tutorials/common/tutorial/tutorial_device.dev.o" \
+"/home/gyz/code/good/embree-cl/tutorials/common/tutorial/tutorial_device.dev_sse2.o" \
+"/home/gyz/code/good/embree-cl/tutorials/common/tutorial/tutorial_device.dev_sse4.o" \
+"/home/gyz/code/good/embree-cl/tutorials/common/tutorial/tutorial_device.dev_avx.o" \
+"/home/gyz/code/good/embree-cl/tutorials/common/tutorial/tutorial_device.dev_avx2.o"
 
 libtutorial_device_ispc.a: tutorials/common/tutorial/tutorial_device.dev.o
 libtutorial_device_ispc.a: tutorials/common/tutorial/tutorial_device.dev_sse2.o
@@ -86,8 +86,8 @@ libtutorial_device_ispc.a: tutorials/common/tutorial/tutorial_device.dev_avx2.o
 libtutorial_device_ispc.a: tutorials/common/tutorial/CMakeFiles/tutorial_device_ispc.dir/build.make
 libtutorial_device_ispc.a: tutorials/common/tutorial/CMakeFiles/tutorial_device_ispc.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C static library ../../../libtutorial_device_ispc.a"
-	cd /home/gyz/code/work/embree-cl/tutorials/common/tutorial && $(CMAKE_COMMAND) -P CMakeFiles/tutorial_device_ispc.dir/cmake_clean_target.cmake
-	cd /home/gyz/code/work/embree-cl/tutorials/common/tutorial && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tutorial_device_ispc.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/gyz/code/good/embree-cl/tutorials/common/tutorial && $(CMAKE_COMMAND) -P CMakeFiles/tutorial_device_ispc.dir/cmake_clean_target.cmake
+	cd /home/gyz/code/good/embree-cl/tutorials/common/tutorial && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tutorial_device_ispc.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tutorials/common/tutorial/CMakeFiles/tutorial_device_ispc.dir/build: libtutorial_device_ispc.a
@@ -97,7 +97,7 @@ tutorials/common/tutorial/CMakeFiles/tutorial_device_ispc.dir/requires:
 .PHONY : tutorials/common/tutorial/CMakeFiles/tutorial_device_ispc.dir/requires
 
 tutorials/common/tutorial/CMakeFiles/tutorial_device_ispc.dir/clean:
-	cd /home/gyz/code/work/embree-cl/tutorials/common/tutorial && $(CMAKE_COMMAND) -P CMakeFiles/tutorial_device_ispc.dir/cmake_clean.cmake
+	cd /home/gyz/code/good/embree-cl/tutorials/common/tutorial && $(CMAKE_COMMAND) -P CMakeFiles/tutorial_device_ispc.dir/cmake_clean.cmake
 .PHONY : tutorials/common/tutorial/CMakeFiles/tutorial_device_ispc.dir/clean
 
 tutorials/common/tutorial/CMakeFiles/tutorial_device_ispc.dir/depend: tutorials/common/tutorial/tutorial_device.dev.o
@@ -106,6 +106,6 @@ tutorials/common/tutorial/CMakeFiles/tutorial_device_ispc.dir/depend: tutorials/
 tutorials/common/tutorial/CMakeFiles/tutorial_device_ispc.dir/depend: tutorials/common/tutorial/tutorial_device.dev_avx.o
 tutorials/common/tutorial/CMakeFiles/tutorial_device_ispc.dir/depend: tutorials/common/tutorial/tutorial_device.dev_avx2.o
 tutorials/common/tutorial/CMakeFiles/tutorial_device_ispc.dir/depend: tutorials/common/tutorial/tutorial_device_ispc.h
-	cd /home/gyz/code/work/embree-cl && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gyz/code/work/embree-cl /home/gyz/code/work/embree-cl/tutorials/common/tutorial /home/gyz/code/work/embree-cl /home/gyz/code/work/embree-cl/tutorials/common/tutorial /home/gyz/code/work/embree-cl/tutorials/common/tutorial/CMakeFiles/tutorial_device_ispc.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gyz/code/good/embree-cl && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gyz/code/good/embree-cl /home/gyz/code/good/embree-cl/tutorials/common/tutorial /home/gyz/code/good/embree-cl /home/gyz/code/good/embree-cl/tutorials/common/tutorial /home/gyz/code/good/embree-cl/tutorials/common/tutorial/CMakeFiles/tutorial_device_ispc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tutorials/common/tutorial/CMakeFiles/tutorial_device_ispc.dir/depend
 

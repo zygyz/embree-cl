@@ -192,7 +192,7 @@ namespace embree
   void displayFunc(void) 
   {
     AffineSpace3fa pixel2world = g_camera.pixel2world(g_width,g_height);
-
+    std::cout << "displayFunc " << std::endl;
     /* render image using ISPC */
     double t0 = getSeconds();
     render(g_time0-t0,

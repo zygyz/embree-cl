@@ -4,8 +4,8 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/gyz/code/work/embree-cl/tutorials/test00/test00.cpp" "/home/gyz/code/work/embree-cl/tutorials/test00/CMakeFiles/test00.dir/test00.o"
-  "/home/gyz/code/work/embree-cl/tutorials/test00/test00_device.cpp" "/home/gyz/code/work/embree-cl/tutorials/test00/CMakeFiles/test00.dir/test00_device.o"
+  "/home/gyz/code/good/embree-cl/tutorials/test00/test00.cpp" "/home/gyz/code/good/embree-cl/tutorials/test00/CMakeFiles/test00.dir/test00.o"
+  "/home/gyz/code/good/embree-cl/tutorials/test00/test00_device.cpp" "/home/gyz/code/good/embree-cl/tutorials/test00/CMakeFiles/test00.dir/test00_device.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -18,18 +18,18 @@ SET(CMAKE_TARGET_DEFINITIONS
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/gyz/code/work/embree-cl/kernels/xeon/CMakeFiles/embree.dir/DependInfo.cmake"
-  "/home/gyz/code/work/embree-cl/cl_kernels/common/tutorial/CMakeFiles/tutorial.dir/DependInfo.cmake"
-  "/home/gyz/code/work/embree-cl/cl_kernels/common/image/CMakeFiles/image.dir/DependInfo.cmake"
-  "/home/gyz/code/work/embree-cl/cl_kernels/common/transport/CMakeFiles/transport.dir/DependInfo.cmake"
-  "/home/gyz/code/work/embree-cl/cl_kernels/common/tutorial/CMakeFiles/tutorial_device.dir/DependInfo.cmake"
-  "/home/gyz/code/work/embree-cl/kernels/xeon/CMakeFiles/embree_sse41.dir/DependInfo.cmake"
-  "/home/gyz/code/work/embree-cl/kernels/xeon/CMakeFiles/embree_sse42.dir/DependInfo.cmake"
-  "/home/gyz/code/work/embree-cl/kernels/xeon/CMakeFiles/embree_avx.dir/DependInfo.cmake"
-  "/home/gyz/code/work/embree-cl/kernels/xeon/CMakeFiles/embree_avx2.dir/DependInfo.cmake"
-  "/home/gyz/code/work/embree-cl/common/simd/CMakeFiles/simd.dir/DependInfo.cmake"
-  "/home/gyz/code/work/embree-cl/cl_kernels/common/lexers/CMakeFiles/lexers.dir/DependInfo.cmake"
-  "/home/gyz/code/work/embree-cl/common/sys/CMakeFiles/sys.dir/DependInfo.cmake"
+  "/home/gyz/code/good/embree-cl/kernels/xeon/CMakeFiles/embree.dir/DependInfo.cmake"
+  "/home/gyz/code/good/embree-cl/tutorials/common/tutorial/CMakeFiles/tutorial.dir/DependInfo.cmake"
+  "/home/gyz/code/good/embree-cl/tutorials/common/image/CMakeFiles/image.dir/DependInfo.cmake"
+  "/home/gyz/code/good/embree-cl/tutorials/common/transport/CMakeFiles/transport.dir/DependInfo.cmake"
+  "/home/gyz/code/good/embree-cl/tutorials/common/tutorial/CMakeFiles/tutorial_device.dir/DependInfo.cmake"
+  "/home/gyz/code/good/embree-cl/kernels/xeon/CMakeFiles/embree_sse41.dir/DependInfo.cmake"
+  "/home/gyz/code/good/embree-cl/kernels/xeon/CMakeFiles/embree_sse42.dir/DependInfo.cmake"
+  "/home/gyz/code/good/embree-cl/kernels/xeon/CMakeFiles/embree_avx.dir/DependInfo.cmake"
+  "/home/gyz/code/good/embree-cl/kernels/xeon/CMakeFiles/embree_avx2.dir/DependInfo.cmake"
+  "/home/gyz/code/good/embree-cl/common/simd/CMakeFiles/simd.dir/DependInfo.cmake"
+  "/home/gyz/code/good/embree-cl/tutorials/common/lexers/CMakeFiles/lexers.dir/DependInfo.cmake"
+  "/home/gyz/code/good/embree-cl/common/sys/CMakeFiles/sys.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

@@ -106,7 +106,10 @@ extern "C" void device_init (int8* cfg)
 RTCScene convertScene(ISPCScene* scene_in)
 {
   /* create scene */
-    std::cout << "convertScene" << std::endl;
+  std::cout << "convertScene" << std::endl;
+  CLRTScene scene_cl_out = clrtNewScene();
+  std::cout << "clrtNewScene end " << std::endl;
+  
   RTCScene scene_out = rtcNewScene(RTC_SCENE_STATIC,RTC_INTERSECT1);
 
 
@@ -119,9 +122,16 @@ RTCScene convertScene(ISPCScene* scene_in)
     /* create a triangle mesh */
     unsigned int geometry = rtcNewTriangleMesh (scene_out, RTC_GEOMETRY_STATIC, mesh->numTriangles, mesh->numVertices);
 
+    unsigned int geometry_cl = clrtNewTriangleMesh(scene_cl_out, mesh->numTriangles, mesh->numVertices);   
+
+    std::cout << "barrier " << std::endl;
 #if !defined(__XEON_PHI__)
     /* share vertex buffer */
     std::cout << "share vertex buffer " << std::endl;
+    clrtSetBuffer(scene_cl_out, geometry_cl, RTC_VERTEX_BUFFER, mesh->positions, mesh->numVertices);
+
+    clrtSetBuffer(scene_cl_out, geometry_cl, RTC_INDEX_BUFFER, mesh->triangles, mesh->numTriangles);
+
     rtcSetBuffer(scene_out, geometry, RTC_VERTEX_BUFFER, mesh->positions, 0, sizeof(Vec3fa      ));
     rtcSetBuffer(scene_out, geometry, RTC_INDEX_BUFFER,  mesh->triangles, 0, sizeof(ISPCTriangle));
 #else
@@ -147,6 +157,8 @@ RTCScene convertScene(ISPCScene* scene_in)
   }
 
   /* commit changes to scene */
+  clrtBuildPrimitives(scene_cl_out); 
+  clrtPrintSceneInfo(scene_cl_out);
   rtcCommit (scene_out);
   return scene_out;
 }
@@ -276,7 +288,7 @@ extern "C" void device_render (int* pixels,
 {
   /* create scene */
     std::cout << "device_render called " << std::endl;
-  if (g_scene == NULL)
+  if (g_scene == NULL) // only called once
     g_scene = convertScene(g_ispc_scene);
 
   /* render image */

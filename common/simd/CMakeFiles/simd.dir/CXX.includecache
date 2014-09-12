@@ -6,25 +6,25 @@
 
 #IncludeRegexTransform: 
 
-/home/gyz/code/work/embree-cl/common/simd/sse.cpp
+/home/gyz/code/good/embree-cl/common/simd/sse.cpp
 sse.h
-/home/gyz/code/work/embree-cl/common/simd/sse.h
+/home/gyz/code/good/embree-cl/common/simd/sse.h
 
-/home/gyz/code/work/embree-cl/common/simd/sse.h
+/home/gyz/code/good/embree-cl/common/simd/sse.h
 sys/platform.h
-/home/gyz/code/work/embree-cl/common/simd/sys/platform.h
+/home/gyz/code/good/embree-cl/common/simd/sys/platform.h
 sys/intrinsics.h
-/home/gyz/code/work/embree-cl/common/simd/sys/intrinsics.h
+/home/gyz/code/good/embree-cl/common/simd/sys/intrinsics.h
 sse_special.h
-/home/gyz/code/work/embree-cl/common/simd/sse_special.h
+/home/gyz/code/good/embree-cl/common/simd/sse_special.h
 simd/sseb.h
-/home/gyz/code/work/embree-cl/common/simd/simd/sseb.h
+/home/gyz/code/good/embree-cl/common/simd/simd/sseb.h
 simd/ssei.h
-/home/gyz/code/work/embree-cl/common/simd/simd/ssei.h
+/home/gyz/code/good/embree-cl/common/simd/simd/ssei.h
 simd/ssef.h
-/home/gyz/code/work/embree-cl/common/simd/simd/ssef.h
+/home/gyz/code/good/embree-cl/common/simd/simd/ssef.h
 
-/home/gyz/code/work/embree-cl/common/simd/sse_special.h
+/home/gyz/code/good/embree-cl/common/simd/sse_special.h
 xmmintrin.h
 -
 emmintrin.h

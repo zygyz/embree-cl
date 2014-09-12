@@ -36,6 +36,7 @@
 #include "rtcore_scene.h"
 #include "rtcore_geometry.h"
 #include "rtcore_geometry_user.h"
+#include  "cl_rtcore.h"
 
 /*! \file rtcore.h Defines the Embree Ray Tracing Kernel API for C and C++ 
 

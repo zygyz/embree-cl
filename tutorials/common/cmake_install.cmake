@@ -1,4 +1,4 @@
-# Install script for directory: /home/gyz/code/work/embree-cl/tutorials/common
+# Install script for directory: /home/gyz/code/good/embree-cl/tutorials/common
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,10 +34,10 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/home/gyz/code/work/embree-cl/tutorials/common/image/cmake_install.cmake")
-  INCLUDE("/home/gyz/code/work/embree-cl/tutorials/common/lexers/cmake_install.cmake")
-  INCLUDE("/home/gyz/code/work/embree-cl/tutorials/common/transport/cmake_install.cmake")
-  INCLUDE("/home/gyz/code/work/embree-cl/tutorials/common/tutorial/cmake_install.cmake")
+  INCLUDE("/home/gyz/code/good/embree-cl/tutorials/common/image/cmake_install.cmake")
+  INCLUDE("/home/gyz/code/good/embree-cl/tutorials/common/lexers/cmake_install.cmake")
+  INCLUDE("/home/gyz/code/good/embree-cl/tutorials/common/transport/cmake_install.cmake")
+  INCLUDE("/home/gyz/code/good/embree-cl/tutorials/common/tutorial/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

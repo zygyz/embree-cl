@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gyz/code/work/embree-cl
+CMAKE_SOURCE_DIR = /home/gyz/code/good/embree-cl
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gyz/code/work/embree-cl
+CMAKE_BINARY_DIR = /home/gyz/code/good/embree-cl
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/gyz/code/work/embree-cl && $(CMAKE_COMMAND) -E cmake_progress_start /home/gyz/code/work/embree-cl/CMakeFiles /home/gyz/code/work/embree-cl/tutorials/test00/CMakeFiles/progress.marks
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 tutorials/test00/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gyz/code/work/embree-cl/CMakeFiles 0
+	cd /home/gyz/code/good/embree-cl && $(CMAKE_COMMAND) -E cmake_progress_start /home/gyz/code/good/embree-cl/CMakeFiles /home/gyz/code/good/embree-cl/tutorials/test00/CMakeFiles/progress.marks
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 tutorials/test00/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gyz/code/good/embree-cl/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 tutorials/test00/clean
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 tutorials/test00/clean
 .PHONY : clean
 
 # The main clean target
@@ -129,22 +129,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 tutorials/test00/preinstall
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 tutorials/test00/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 tutorials/test00/preinstall
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 tutorials/test00/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/gyz/code/work/embree-cl && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/gyz/code/good/embree-cl && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tutorials/test00/CMakeFiles/test00.dir/rule:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 tutorials/test00/CMakeFiles/test00.dir/rule
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 tutorials/test00/CMakeFiles/test00.dir/rule
 .PHONY : tutorials/test00/CMakeFiles/test00.dir/rule
 
 # Convenience name for target.
@@ -153,37 +153,37 @@ test00: tutorials/test00/CMakeFiles/test00.dir/rule
 
 # fast build rule for target.
 test00/fast:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/test00/CMakeFiles/test00.dir/build.make tutorials/test00/CMakeFiles/test00.dir/build
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/test00/CMakeFiles/test00.dir/build.make tutorials/test00/CMakeFiles/test00.dir/build
 .PHONY : test00/fast
 
 # target to build an object file
 test00.o:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/test00/CMakeFiles/test00.dir/build.make tutorials/test00/CMakeFiles/test00.dir/test00.o
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/test00/CMakeFiles/test00.dir/build.make tutorials/test00/CMakeFiles/test00.dir/test00.o
 .PHONY : test00.o
 
 # target to preprocess a source file
 test00.i:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/test00/CMakeFiles/test00.dir/build.make tutorials/test00/CMakeFiles/test00.dir/test00.i
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/test00/CMakeFiles/test00.dir/build.make tutorials/test00/CMakeFiles/test00.dir/test00.i
 .PHONY : test00.i
 
 # target to generate assembly for a file
 test00.s:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/test00/CMakeFiles/test00.dir/build.make tutorials/test00/CMakeFiles/test00.dir/test00.s
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/test00/CMakeFiles/test00.dir/build.make tutorials/test00/CMakeFiles/test00.dir/test00.s
 .PHONY : test00.s
 
 # target to build an object file
 test00_device.o:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/test00/CMakeFiles/test00.dir/build.make tutorials/test00/CMakeFiles/test00.dir/test00_device.o
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/test00/CMakeFiles/test00.dir/build.make tutorials/test00/CMakeFiles/test00.dir/test00_device.o
 .PHONY : test00_device.o
 
 # target to preprocess a source file
 test00_device.i:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/test00/CMakeFiles/test00.dir/build.make tutorials/test00/CMakeFiles/test00.dir/test00_device.i
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/test00/CMakeFiles/test00.dir/build.make tutorials/test00/CMakeFiles/test00.dir/test00_device.i
 .PHONY : test00_device.i
 
 # target to generate assembly for a file
 test00_device.s:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/test00/CMakeFiles/test00.dir/build.make tutorials/test00/CMakeFiles/test00.dir/test00_device.s
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/test00/CMakeFiles/test00.dir/build.make tutorials/test00/CMakeFiles/test00.dir/test00_device.s
 .PHONY : test00_device.s
 
 # Help Target
@@ -216,6 +216,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/gyz/code/work/embree-cl && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/gyz/code/good/embree-cl && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

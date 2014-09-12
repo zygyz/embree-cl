@@ -6,19 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/gyz/code/work/embree-cl/common/sys/filename.cpp
+/home/gyz/code/good/embree-cl/common/sys/filename.cpp
 platform.h
-/home/gyz/code/work/embree-cl/common/sys/platform.h
+/home/gyz/code/good/embree-cl/common/sys/platform.h
 filename.h
-/home/gyz/code/work/embree-cl/common/sys/filename.h
+/home/gyz/code/good/embree-cl/common/sys/filename.h
 
-/home/gyz/code/work/embree-cl/common/sys/filename.h
+/home/gyz/code/good/embree-cl/common/sys/filename.h
 platform.h
-/home/gyz/code/work/embree-cl/common/sys/platform.h
+/home/gyz/code/good/embree-cl/common/sys/platform.h
 
-/home/gyz/code/work/embree-cl/common/sys/intrinsics.h
+/home/gyz/code/good/embree-cl/common/sys/intrinsics.h
 platform.h
-/home/gyz/code/work/embree-cl/common/sys/platform.h
+/home/gyz/code/good/embree-cl/common/sys/platform.h
 xmmintrin.h
 -
 emmintrin.h
@@ -38,29 +38,29 @@ immintrin.h
 intrin.h
 -
 
-/home/gyz/code/work/embree-cl/common/sys/library.cpp
+/home/gyz/code/good/embree-cl/common/sys/library.cpp
 library.h
-/home/gyz/code/work/embree-cl/common/sys/library.h
+/home/gyz/code/good/embree-cl/common/sys/library.h
 sysinfo.h
-/home/gyz/code/work/embree-cl/common/sys/sysinfo.h
+/home/gyz/code/good/embree-cl/common/sys/sysinfo.h
 filename.h
-/home/gyz/code/work/embree-cl/common/sys/filename.h
+/home/gyz/code/good/embree-cl/common/sys/filename.h
 windows.h
 -
 dlfcn.h
 -
 
-/home/gyz/code/work/embree-cl/common/sys/library.h
+/home/gyz/code/good/embree-cl/common/sys/library.h
 platform.h
-/home/gyz/code/work/embree-cl/common/sys/platform.h
+/home/gyz/code/good/embree-cl/common/sys/platform.h
 
-/home/gyz/code/work/embree-cl/common/sys/network.cpp
+/home/gyz/code/good/embree-cl/common/sys/network.cpp
 network.h
-/home/gyz/code/work/embree-cl/common/sys/network.h
+/home/gyz/code/good/embree-cl/common/sys/network.h
 stl/string.h
-/home/gyz/code/work/embree-cl/common/sys/stl/string.h
+/home/gyz/code/good/embree-cl/common/sys/stl/string.h
 sync/mutex.h
-/home/gyz/code/work/embree-cl/common/sys/sync/mutex.h
+/home/gyz/code/good/embree-cl/common/sys/sync/mutex.h
 winsock2.h
 -
 io.h
@@ -80,15 +80,15 @@ netinet/tcp.h
 netdb.h
 -
 
-/home/gyz/code/work/embree-cl/common/sys/network.h
+/home/gyz/code/good/embree-cl/common/sys/network.h
 platform.h
-/home/gyz/code/work/embree-cl/common/sys/platform.h
+/home/gyz/code/good/embree-cl/common/sys/platform.h
 
-/home/gyz/code/work/embree-cl/common/sys/platform.cpp
+/home/gyz/code/good/embree-cl/common/sys/platform.cpp
 platform.h
-/home/gyz/code/work/embree-cl/common/sys/platform.h
+/home/gyz/code/good/embree-cl/common/sys/platform.h
 intrinsics.h
-/home/gyz/code/work/embree-cl/common/sys/intrinsics.h
+/home/gyz/code/good/embree-cl/common/sys/intrinsics.h
 windows.h
 -
 sys/time.h
@@ -104,7 +104,7 @@ stdlib.h
 string.h
 -
 
-/home/gyz/code/work/embree-cl/common/sys/platform.h
+/home/gyz/code/good/embree-cl/common/sys/platform.h
 stddef.h
 -
 assert.h
@@ -126,19 +126,19 @@ string
 string.h
 -
 sys/constants.h
-/home/gyz/code/work/embree-cl/common/sys/sys/constants.h
+/home/gyz/code/good/embree-cl/common/sys/sys/constants.h
 
-/home/gyz/code/work/embree-cl/common/sys/stl/string.cpp
+/home/gyz/code/good/embree-cl/common/sys/stl/string.cpp
 algorithm
 -
 ctype.h
 -
 string.h
-/home/gyz/code/work/embree-cl/common/sys/stl/string.h
+/home/gyz/code/good/embree-cl/common/sys/stl/string.h
 
-/home/gyz/code/work/embree-cl/common/sys/stl/string.h
+/home/gyz/code/good/embree-cl/common/sys/stl/string.h
 ../platform.h
-/home/gyz/code/work/embree-cl/common/sys/platform.h
+/home/gyz/code/good/embree-cl/common/sys/platform.h
 stdio.h
 -
 string
@@ -150,57 +150,57 @@ string.h
 sstream
 -
 
-/home/gyz/code/work/embree-cl/common/sys/sync/atomic.h
+/home/gyz/code/good/embree-cl/common/sys/sync/atomic.h
 ../intrinsics.h
-/home/gyz/code/work/embree-cl/common/sys/intrinsics.h
+/home/gyz/code/good/embree-cl/common/sys/intrinsics.h
 
-/home/gyz/code/work/embree-cl/common/sys/sync/barrier.cpp
+/home/gyz/code/good/embree-cl/common/sys/sync/barrier.cpp
 barrier.h
-/home/gyz/code/work/embree-cl/common/sys/sync/barrier.h
+/home/gyz/code/good/embree-cl/common/sys/sync/barrier.h
 condition.h
-/home/gyz/code/work/embree-cl/common/sys/sync/condition.h
+/home/gyz/code/good/embree-cl/common/sys/sync/condition.h
 windows.h
 -
 
-/home/gyz/code/work/embree-cl/common/sys/sync/barrier.h
+/home/gyz/code/good/embree-cl/common/sys/sync/barrier.h
 sys/platform.h
-/home/gyz/code/work/embree-cl/common/sys/sync/sys/platform.h
+/home/gyz/code/good/embree-cl/common/sys/sync/sys/platform.h
 sys/intrinsics.h
-/home/gyz/code/work/embree-cl/common/sys/sync/sys/intrinsics.h
+/home/gyz/code/good/embree-cl/common/sys/sync/sys/intrinsics.h
 
-/home/gyz/code/work/embree-cl/common/sys/sync/condition.cpp
+/home/gyz/code/good/embree-cl/common/sys/sync/condition.cpp
 condition.h
-/home/gyz/code/work/embree-cl/common/sys/sync/condition.h
+/home/gyz/code/good/embree-cl/common/sys/sync/condition.h
 windows.h
 -
 pthread.h
 -
 
-/home/gyz/code/work/embree-cl/common/sys/sync/condition.h
+/home/gyz/code/good/embree-cl/common/sys/sync/condition.h
 mutex.h
-/home/gyz/code/work/embree-cl/common/sys/sync/mutex.h
+/home/gyz/code/good/embree-cl/common/sys/sync/mutex.h
 
-/home/gyz/code/work/embree-cl/common/sys/sync/mutex.cpp
+/home/gyz/code/good/embree-cl/common/sys/sync/mutex.cpp
 mutex.h
-/home/gyz/code/work/embree-cl/common/sys/sync/mutex.h
+/home/gyz/code/good/embree-cl/common/sys/sync/mutex.h
 windows.h
 -
 pthread.h
 -
 
-/home/gyz/code/work/embree-cl/common/sys/sync/mutex.h
+/home/gyz/code/good/embree-cl/common/sys/sync/mutex.h
 ../platform.h
-/home/gyz/code/work/embree-cl/common/sys/platform.h
+/home/gyz/code/good/embree-cl/common/sys/platform.h
 atomic.h
-/home/gyz/code/work/embree-cl/common/sys/sync/atomic.h
+/home/gyz/code/good/embree-cl/common/sys/sync/atomic.h
 
-/home/gyz/code/work/embree-cl/common/sys/sysinfo.cpp
+/home/gyz/code/good/embree-cl/common/sys/sysinfo.cpp
 sysinfo.h
-/home/gyz/code/work/embree-cl/common/sys/sysinfo.h
+/home/gyz/code/good/embree-cl/common/sys/sysinfo.h
 intrinsics.h
-/home/gyz/code/work/embree-cl/common/sys/intrinsics.h
+/home/gyz/code/good/embree-cl/common/sys/intrinsics.h
 stl/string.h
-/home/gyz/code/work/embree-cl/common/sys/stl/string.h
+/home/gyz/code/good/embree-cl/common/sys/stl/string.h
 windows.h
 -
 stdio.h
@@ -216,97 +216,97 @@ sys/ioctl.h
 numa.h
 -
 
-/home/gyz/code/work/embree-cl/common/sys/sysinfo.h
+/home/gyz/code/good/embree-cl/common/sys/sysinfo.h
 sys/platform.h
-/home/gyz/code/work/embree-cl/common/sys/sys/platform.h
+/home/gyz/code/good/embree-cl/common/sys/sys/platform.h
 
-/home/gyz/code/work/embree-cl/common/sys/tasklogger.cpp
+/home/gyz/code/good/embree-cl/common/sys/tasklogger.cpp
 tasklogger.h
-/home/gyz/code/work/embree-cl/common/sys/tasklogger.h
+/home/gyz/code/good/embree-cl/common/sys/tasklogger.h
 sys/sysinfo.h
-/home/gyz/code/work/embree-cl/common/sys/sys/sysinfo.h
+/home/gyz/code/good/embree-cl/common/sys/sys/sysinfo.h
 math/math.h
-/home/gyz/code/work/embree-cl/common/sys/math/math.h
+/home/gyz/code/good/embree-cl/common/sys/math/math.h
 math/vec2.h
-/home/gyz/code/work/embree-cl/common/sys/math/vec2.h
+/home/gyz/code/good/embree-cl/common/sys/math/vec2.h
 math/bbox.h
-/home/gyz/code/work/embree-cl/common/sys/math/bbox.h
+/home/gyz/code/good/embree-cl/common/sys/math/bbox.h
 fstream
 -
 string.h
-/home/gyz/code/work/embree-cl/common/sys/string.h
+/home/gyz/code/good/embree-cl/common/sys/string.h
 
-/home/gyz/code/work/embree-cl/common/sys/tasklogger.h
+/home/gyz/code/good/embree-cl/common/sys/tasklogger.h
 sys/platform.h
-/home/gyz/code/work/embree-cl/common/sys/sys/platform.h
+/home/gyz/code/good/embree-cl/common/sys/sys/platform.h
 sys/intrinsics.h
-/home/gyz/code/work/embree-cl/common/sys/sys/intrinsics.h
+/home/gyz/code/good/embree-cl/common/sys/sys/intrinsics.h
 sys/sysinfo.h
-/home/gyz/code/work/embree-cl/common/sys/sys/sysinfo.h
+/home/gyz/code/good/embree-cl/common/sys/sys/sysinfo.h
 vector
 -
 
-/home/gyz/code/work/embree-cl/common/sys/taskscheduler.cpp
+/home/gyz/code/good/embree-cl/common/sys/taskscheduler.cpp
 taskscheduler.h
-/home/gyz/code/work/embree-cl/common/sys/taskscheduler.h
+/home/gyz/code/good/embree-cl/common/sys/taskscheduler.h
 taskscheduler_sys.h
-/home/gyz/code/work/embree-cl/common/sys/taskscheduler_sys.h
+/home/gyz/code/good/embree-cl/common/sys/taskscheduler_sys.h
 taskscheduler_mic.h
-/home/gyz/code/work/embree-cl/common/sys/taskscheduler_mic.h
+/home/gyz/code/good/embree-cl/common/sys/taskscheduler_mic.h
 sysinfo.h
-/home/gyz/code/work/embree-cl/common/sys/sysinfo.h
+/home/gyz/code/good/embree-cl/common/sys/sysinfo.h
 tasklogger.h
-/home/gyz/code/work/embree-cl/common/sys/tasklogger.h
+/home/gyz/code/good/embree-cl/common/sys/tasklogger.h
 sys/sync/atomic.h
-/home/gyz/code/work/embree-cl/common/sys/sys/sync/atomic.h
+/home/gyz/code/good/embree-cl/common/sys/sys/sync/atomic.h
 
-/home/gyz/code/work/embree-cl/common/sys/taskscheduler.h
+/home/gyz/code/good/embree-cl/common/sys/taskscheduler.h
 sys/platform.h
-/home/gyz/code/work/embree-cl/common/sys/sys/platform.h
+/home/gyz/code/good/embree-cl/common/sys/sys/platform.h
 sys/thread.h
-/home/gyz/code/work/embree-cl/common/sys/sys/thread.h
+/home/gyz/code/good/embree-cl/common/sys/sys/thread.h
 sys/sync/event.h
-/home/gyz/code/work/embree-cl/common/sys/sys/sync/event.h
+/home/gyz/code/good/embree-cl/common/sys/sys/sync/event.h
 sys/sync/atomic.h
-/home/gyz/code/work/embree-cl/common/sys/sys/sync/atomic.h
+/home/gyz/code/good/embree-cl/common/sys/sys/sync/atomic.h
 sys/sync/barrier.h
-/home/gyz/code/work/embree-cl/common/sys/sys/sync/barrier.h
+/home/gyz/code/good/embree-cl/common/sys/sys/sync/barrier.h
 sys/ref.h
-/home/gyz/code/work/embree-cl/common/sys/sys/ref.h
+/home/gyz/code/good/embree-cl/common/sys/sys/ref.h
 vector
 -
 
-/home/gyz/code/work/embree-cl/common/sys/taskscheduler_mic.h
+/home/gyz/code/good/embree-cl/common/sys/taskscheduler_mic.h
 taskscheduler.h
-/home/gyz/code/work/embree-cl/common/sys/taskscheduler.h
+/home/gyz/code/good/embree-cl/common/sys/taskscheduler.h
 sys/sync/mutex.h
-/home/gyz/code/work/embree-cl/common/sys/sys/sync/mutex.h
+/home/gyz/code/good/embree-cl/common/sys/sys/sync/mutex.h
 sys/sync/barrier.h
-/home/gyz/code/work/embree-cl/common/sys/sys/sync/barrier.h
+/home/gyz/code/good/embree-cl/common/sys/sys/sync/barrier.h
 sys/sync/atomic.h
-/home/gyz/code/work/embree-cl/common/sys/sys/sync/atomic.h
+/home/gyz/code/good/embree-cl/common/sys/sys/sync/atomic.h
 
-/home/gyz/code/work/embree-cl/common/sys/taskscheduler_sys.cpp
+/home/gyz/code/good/embree-cl/common/sys/taskscheduler_sys.cpp
 taskscheduler_sys.h
-/home/gyz/code/work/embree-cl/common/sys/taskscheduler_sys.h
+/home/gyz/code/good/embree-cl/common/sys/taskscheduler_sys.h
 tasklogger.h
-/home/gyz/code/work/embree-cl/common/sys/tasklogger.h
+/home/gyz/code/good/embree-cl/common/sys/tasklogger.h
 
-/home/gyz/code/work/embree-cl/common/sys/taskscheduler_sys.h
+/home/gyz/code/good/embree-cl/common/sys/taskscheduler_sys.h
 taskscheduler.h
-/home/gyz/code/work/embree-cl/common/sys/taskscheduler.h
+/home/gyz/code/good/embree-cl/common/sys/taskscheduler.h
 sys/sync/mutex.h
-/home/gyz/code/work/embree-cl/common/sys/sys/sync/mutex.h
+/home/gyz/code/good/embree-cl/common/sys/sys/sync/mutex.h
 sys/sync/condition.h
-/home/gyz/code/work/embree-cl/common/sys/sys/sync/condition.h
+/home/gyz/code/good/embree-cl/common/sys/sys/sync/condition.h
 
-/home/gyz/code/work/embree-cl/common/sys/thread.cpp
+/home/gyz/code/good/embree-cl/common/sys/thread.cpp
 thread.h
-/home/gyz/code/work/embree-cl/common/sys/thread.h
+/home/gyz/code/good/embree-cl/common/sys/thread.h
 sysinfo.h
-/home/gyz/code/work/embree-cl/common/sys/sysinfo.h
+/home/gyz/code/good/embree-cl/common/sys/sysinfo.h
 sys/stl/string.h
-/home/gyz/code/work/embree-cl/common/sys/sys/stl/string.h
+/home/gyz/code/good/embree-cl/common/sys/sys/stl/string.h
 iostream
 -
 xmmintrin.h
@@ -326,9 +326,9 @@ sched.h
 numa.h
 -
 
-/home/gyz/code/work/embree-cl/common/sys/thread.h
+/home/gyz/code/good/embree-cl/common/sys/thread.h
 platform.h
-/home/gyz/code/work/embree-cl/common/sys/platform.h
+/home/gyz/code/good/embree-cl/common/sys/platform.h
 
 common/math/bbox.h
 vec2.h

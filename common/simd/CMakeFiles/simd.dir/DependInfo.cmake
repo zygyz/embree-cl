@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/gyz/code/work/embree-cl/common/simd/sse.cpp" "/home/gyz/code/work/embree-cl/common/simd/CMakeFiles/simd.dir/sse.o"
+  "/home/gyz/code/good/embree-cl/common/simd/sse.cpp" "/home/gyz/code/good/embree-cl/common/simd/CMakeFiles/simd.dir/sse.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

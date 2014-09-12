@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gyz/code/work/embree-cl
+CMAKE_SOURCE_DIR = /home/gyz/code/good/embree-cl
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gyz/code/work/embree-cl
+CMAKE_BINARY_DIR = /home/gyz/code/good/embree-cl
 
 # Include any dependencies generated for this target.
 include tutorials/tutorial08/CMakeFiles/tutorial08.dir/depend.make
@@ -54,17 +54,17 @@ include tutorials/tutorial08/CMakeFiles/tutorial08.dir/flags.make
 
 tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/api.o: tutorials/tutorial08/CMakeFiles/tutorial08.dir/flags.make
 tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/api.o: tutorials/tutorial08/extensions/api.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/api.o"
-	cd /home/gyz/code/work/embree-cl/tutorials/tutorial08 && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tutorial08.dir/extensions/api.o -c /home/gyz/code/work/embree-cl/tutorials/tutorial08/extensions/api.cpp
+	cd /home/gyz/code/good/embree-cl/tutorials/tutorial08 && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tutorial08.dir/extensions/api.o -c /home/gyz/code/good/embree-cl/tutorials/tutorial08/extensions/api.cpp
 
 tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/api.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tutorial08.dir/extensions/api.i"
-	cd /home/gyz/code/work/embree-cl/tutorials/tutorial08 && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/tutorials/tutorial08/extensions/api.cpp > CMakeFiles/tutorial08.dir/extensions/api.i
+	cd /home/gyz/code/good/embree-cl/tutorials/tutorial08 && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/tutorials/tutorial08/extensions/api.cpp > CMakeFiles/tutorial08.dir/extensions/api.i
 
 tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/api.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tutorial08.dir/extensions/api.s"
-	cd /home/gyz/code/work/embree-cl/tutorials/tutorial08 && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/tutorials/tutorial08/extensions/api.cpp -o CMakeFiles/tutorial08.dir/extensions/api.s
+	cd /home/gyz/code/good/embree-cl/tutorials/tutorial08 && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/tutorials/tutorial08/extensions/api.cpp -o CMakeFiles/tutorial08.dir/extensions/api.s
 
 tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/api.o.requires:
 .PHONY : tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/api.o.requires
@@ -77,17 +77,17 @@ tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/api.o.provides.build: 
 
 tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/catmullclark.o: tutorials/tutorial08/CMakeFiles/tutorial08.dir/flags.make
 tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/catmullclark.o: tutorials/tutorial08/extensions/catmullclark.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/catmullclark.o"
-	cd /home/gyz/code/work/embree-cl/tutorials/tutorial08 && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tutorial08.dir/extensions/catmullclark.o -c /home/gyz/code/work/embree-cl/tutorials/tutorial08/extensions/catmullclark.cpp
+	cd /home/gyz/code/good/embree-cl/tutorials/tutorial08 && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tutorial08.dir/extensions/catmullclark.o -c /home/gyz/code/good/embree-cl/tutorials/tutorial08/extensions/catmullclark.cpp
 
 tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/catmullclark.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tutorial08.dir/extensions/catmullclark.i"
-	cd /home/gyz/code/work/embree-cl/tutorials/tutorial08 && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/tutorials/tutorial08/extensions/catmullclark.cpp > CMakeFiles/tutorial08.dir/extensions/catmullclark.i
+	cd /home/gyz/code/good/embree-cl/tutorials/tutorial08 && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/tutorials/tutorial08/extensions/catmullclark.cpp > CMakeFiles/tutorial08.dir/extensions/catmullclark.i
 
 tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/catmullclark.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tutorial08.dir/extensions/catmullclark.s"
-	cd /home/gyz/code/work/embree-cl/tutorials/tutorial08 && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/tutorials/tutorial08/extensions/catmullclark.cpp -o CMakeFiles/tutorial08.dir/extensions/catmullclark.s
+	cd /home/gyz/code/good/embree-cl/tutorials/tutorial08 && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/tutorials/tutorial08/extensions/catmullclark.cpp -o CMakeFiles/tutorial08.dir/extensions/catmullclark.s
 
 tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/catmullclark.o.requires:
 .PHONY : tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/catmullclark.o.requires
@@ -100,17 +100,17 @@ tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/catmullclark.o.provide
 
 tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/subdivisionmesh.o: tutorials/tutorial08/CMakeFiles/tutorial08.dir/flags.make
 tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/subdivisionmesh.o: tutorials/tutorial08/extensions/subdivisionmesh.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/subdivisionmesh.o"
-	cd /home/gyz/code/work/embree-cl/tutorials/tutorial08 && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tutorial08.dir/extensions/subdivisionmesh.o -c /home/gyz/code/work/embree-cl/tutorials/tutorial08/extensions/subdivisionmesh.cpp
+	cd /home/gyz/code/good/embree-cl/tutorials/tutorial08 && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tutorial08.dir/extensions/subdivisionmesh.o -c /home/gyz/code/good/embree-cl/tutorials/tutorial08/extensions/subdivisionmesh.cpp
 
 tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/subdivisionmesh.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tutorial08.dir/extensions/subdivisionmesh.i"
-	cd /home/gyz/code/work/embree-cl/tutorials/tutorial08 && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/tutorials/tutorial08/extensions/subdivisionmesh.cpp > CMakeFiles/tutorial08.dir/extensions/subdivisionmesh.i
+	cd /home/gyz/code/good/embree-cl/tutorials/tutorial08 && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/tutorials/tutorial08/extensions/subdivisionmesh.cpp > CMakeFiles/tutorial08.dir/extensions/subdivisionmesh.i
 
 tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/subdivisionmesh.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tutorial08.dir/extensions/subdivisionmesh.s"
-	cd /home/gyz/code/work/embree-cl/tutorials/tutorial08 && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/tutorials/tutorial08/extensions/subdivisionmesh.cpp -o CMakeFiles/tutorial08.dir/extensions/subdivisionmesh.s
+	cd /home/gyz/code/good/embree-cl/tutorials/tutorial08 && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/tutorials/tutorial08/extensions/subdivisionmesh.cpp -o CMakeFiles/tutorial08.dir/extensions/subdivisionmesh.s
 
 tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/subdivisionmesh.o.requires:
 .PHONY : tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/subdivisionmesh.o.requires
@@ -123,17 +123,17 @@ tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/subdivisionmesh.o.prov
 
 tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/triangulatemesh.o: tutorials/tutorial08/CMakeFiles/tutorial08.dir/flags.make
 tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/triangulatemesh.o: tutorials/tutorial08/extensions/triangulatemesh.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/triangulatemesh.o"
-	cd /home/gyz/code/work/embree-cl/tutorials/tutorial08 && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tutorial08.dir/extensions/triangulatemesh.o -c /home/gyz/code/work/embree-cl/tutorials/tutorial08/extensions/triangulatemesh.cpp
+	cd /home/gyz/code/good/embree-cl/tutorials/tutorial08 && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tutorial08.dir/extensions/triangulatemesh.o -c /home/gyz/code/good/embree-cl/tutorials/tutorial08/extensions/triangulatemesh.cpp
 
 tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/triangulatemesh.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tutorial08.dir/extensions/triangulatemesh.i"
-	cd /home/gyz/code/work/embree-cl/tutorials/tutorial08 && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/tutorials/tutorial08/extensions/triangulatemesh.cpp > CMakeFiles/tutorial08.dir/extensions/triangulatemesh.i
+	cd /home/gyz/code/good/embree-cl/tutorials/tutorial08 && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/tutorials/tutorial08/extensions/triangulatemesh.cpp > CMakeFiles/tutorial08.dir/extensions/triangulatemesh.i
 
 tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/triangulatemesh.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tutorial08.dir/extensions/triangulatemesh.s"
-	cd /home/gyz/code/work/embree-cl/tutorials/tutorial08 && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/tutorials/tutorial08/extensions/triangulatemesh.cpp -o CMakeFiles/tutorial08.dir/extensions/triangulatemesh.s
+	cd /home/gyz/code/good/embree-cl/tutorials/tutorial08 && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/tutorials/tutorial08/extensions/triangulatemesh.cpp -o CMakeFiles/tutorial08.dir/extensions/triangulatemesh.s
 
 tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/triangulatemesh.o.requires:
 .PHONY : tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/triangulatemesh.o.requires
@@ -146,17 +146,17 @@ tutorials/tutorial08/CMakeFiles/tutorial08.dir/extensions/triangulatemesh.o.prov
 
 tutorials/tutorial08/CMakeFiles/tutorial08.dir/tutorial08_device.o: tutorials/tutorial08/CMakeFiles/tutorial08.dir/flags.make
 tutorials/tutorial08/CMakeFiles/tutorial08.dir/tutorial08_device.o: tutorials/tutorial08/tutorial08_device.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object tutorials/tutorial08/CMakeFiles/tutorial08.dir/tutorial08_device.o"
-	cd /home/gyz/code/work/embree-cl/tutorials/tutorial08 && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tutorial08.dir/tutorial08_device.o -c /home/gyz/code/work/embree-cl/tutorials/tutorial08/tutorial08_device.cpp
+	cd /home/gyz/code/good/embree-cl/tutorials/tutorial08 && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tutorial08.dir/tutorial08_device.o -c /home/gyz/code/good/embree-cl/tutorials/tutorial08/tutorial08_device.cpp
 
 tutorials/tutorial08/CMakeFiles/tutorial08.dir/tutorial08_device.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tutorial08.dir/tutorial08_device.i"
-	cd /home/gyz/code/work/embree-cl/tutorials/tutorial08 && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/tutorials/tutorial08/tutorial08_device.cpp > CMakeFiles/tutorial08.dir/tutorial08_device.i
+	cd /home/gyz/code/good/embree-cl/tutorials/tutorial08 && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/tutorials/tutorial08/tutorial08_device.cpp > CMakeFiles/tutorial08.dir/tutorial08_device.i
 
 tutorials/tutorial08/CMakeFiles/tutorial08.dir/tutorial08_device.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tutorial08.dir/tutorial08_device.s"
-	cd /home/gyz/code/work/embree-cl/tutorials/tutorial08 && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/tutorials/tutorial08/tutorial08_device.cpp -o CMakeFiles/tutorial08.dir/tutorial08_device.s
+	cd /home/gyz/code/good/embree-cl/tutorials/tutorial08 && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/tutorials/tutorial08/tutorial08_device.cpp -o CMakeFiles/tutorial08.dir/tutorial08_device.s
 
 tutorials/tutorial08/CMakeFiles/tutorial08.dir/tutorial08_device.o.requires:
 .PHONY : tutorials/tutorial08/CMakeFiles/tutorial08.dir/tutorial08_device.o.requires
@@ -169,17 +169,17 @@ tutorials/tutorial08/CMakeFiles/tutorial08.dir/tutorial08_device.o.provides.buil
 
 tutorials/tutorial08/CMakeFiles/tutorial08.dir/tutorial08.o: tutorials/tutorial08/CMakeFiles/tutorial08.dir/flags.make
 tutorials/tutorial08/CMakeFiles/tutorial08.dir/tutorial08.o: tutorials/tutorial08/tutorial08.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/work/embree-cl/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object tutorials/tutorial08/CMakeFiles/tutorial08.dir/tutorial08.o"
-	cd /home/gyz/code/work/embree-cl/tutorials/tutorial08 && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tutorial08.dir/tutorial08.o -c /home/gyz/code/work/embree-cl/tutorials/tutorial08/tutorial08.cpp
+	cd /home/gyz/code/good/embree-cl/tutorials/tutorial08 && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tutorial08.dir/tutorial08.o -c /home/gyz/code/good/embree-cl/tutorials/tutorial08/tutorial08.cpp
 
 tutorials/tutorial08/CMakeFiles/tutorial08.dir/tutorial08.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tutorial08.dir/tutorial08.i"
-	cd /home/gyz/code/work/embree-cl/tutorials/tutorial08 && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/work/embree-cl/tutorials/tutorial08/tutorial08.cpp > CMakeFiles/tutorial08.dir/tutorial08.i
+	cd /home/gyz/code/good/embree-cl/tutorials/tutorial08 && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/tutorials/tutorial08/tutorial08.cpp > CMakeFiles/tutorial08.dir/tutorial08.i
 
 tutorials/tutorial08/CMakeFiles/tutorial08.dir/tutorial08.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tutorial08.dir/tutorial08.s"
-	cd /home/gyz/code/work/embree-cl/tutorials/tutorial08 && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/work/embree-cl/tutorials/tutorial08/tutorial08.cpp -o CMakeFiles/tutorial08.dir/tutorial08.s
+	cd /home/gyz/code/good/embree-cl/tutorials/tutorial08 && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/tutorials/tutorial08/tutorial08.cpp -o CMakeFiles/tutorial08.dir/tutorial08.s
 
 tutorials/tutorial08/CMakeFiles/tutorial08.dir/tutorial08.o.requires:
 .PHONY : tutorials/tutorial08/CMakeFiles/tutorial08.dir/tutorial08.o.requires
@@ -233,7 +233,7 @@ tutorial08: /usr/lib64/libjpeg.so
 tutorial08: libsys.a
 tutorial08: tutorials/tutorial08/CMakeFiles/tutorial08.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable ../../tutorial08"
-	cd /home/gyz/code/work/embree-cl/tutorials/tutorial08 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tutorial08.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/gyz/code/good/embree-cl/tutorials/tutorial08 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tutorial08.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tutorials/tutorial08/CMakeFiles/tutorial08.dir/build: tutorial08
@@ -248,10 +248,10 @@ tutorials/tutorial08/CMakeFiles/tutorial08.dir/requires: tutorials/tutorial08/CM
 .PHONY : tutorials/tutorial08/CMakeFiles/tutorial08.dir/requires
 
 tutorials/tutorial08/CMakeFiles/tutorial08.dir/clean:
-	cd /home/gyz/code/work/embree-cl/tutorials/tutorial08 && $(CMAKE_COMMAND) -P CMakeFiles/tutorial08.dir/cmake_clean.cmake
+	cd /home/gyz/code/good/embree-cl/tutorials/tutorial08 && $(CMAKE_COMMAND) -P CMakeFiles/tutorial08.dir/cmake_clean.cmake
 .PHONY : tutorials/tutorial08/CMakeFiles/tutorial08.dir/clean
 
 tutorials/tutorial08/CMakeFiles/tutorial08.dir/depend:
-	cd /home/gyz/code/work/embree-cl && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gyz/code/work/embree-cl /home/gyz/code/work/embree-cl/tutorials/tutorial08 /home/gyz/code/work/embree-cl /home/gyz/code/work/embree-cl/tutorials/tutorial08 /home/gyz/code/work/embree-cl/tutorials/tutorial08/CMakeFiles/tutorial08.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gyz/code/good/embree-cl && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gyz/code/good/embree-cl /home/gyz/code/good/embree-cl/tutorials/tutorial08 /home/gyz/code/good/embree-cl /home/gyz/code/good/embree-cl/tutorials/tutorial08 /home/gyz/code/good/embree-cl/tutorials/tutorial08/CMakeFiles/tutorial08.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tutorials/tutorial08/CMakeFiles/tutorial08.dir/depend
 

@@ -172,9 +172,10 @@ namespace embree
       g_rtcore += ",benchmark=1";
 
     /* initialize task scheduler */
-//#if !defined(__EXPORT_ALL_SYMBOLS__)
-//   TaskScheduler::create(g_numThreads);
-//#endif
+#if !defined(__EXPORT_ALL_SYMBOLS__)
+   std::cout << "export all symbols " << std::endl;
+   TaskScheduler::create(g_numThreads);
+#endif
 
     /* load scene */
     if (filename.str() != "")

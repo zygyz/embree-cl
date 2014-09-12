@@ -41,7 +41,6 @@ namespace embree
   
   void AccelN::intersect (void* ptr, RTCRay& ray) 
   {
-    std::cout << "AccelN::intersect " << std::endl;    
     AccelN* This = (AccelN*)ptr;
     for (size_t i=0; i<This->M; i++)
       This->validAccels[i]->intersect(ray);

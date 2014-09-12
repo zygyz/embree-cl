@@ -1,4 +1,4 @@
-# Install script for directory: /home/gyz/code/work/embree-cl/common/simd
+# Install script for directory: /home/gyz/code/good/embree-cl/common/simd
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

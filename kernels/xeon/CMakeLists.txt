@@ -48,6 +48,7 @@ ADD_ISPC_LIBRARY(embree SHARED
   ../common/scene_user_geometry.cpp
   ../common/scene_triangle_mesh.cpp
   ../common/scene_bezier_curves.cpp
+  #  ../common/testcpl.cpp
   
   builders/bezierrefgen.cpp 
   builders/primrefgen.cpp
@@ -98,6 +99,12 @@ IF (TARGET_SSE41)
     bvh4/bvh4_builder_toplevel.cpp
     bvh4/bvh4_intersector1.cpp   
     bvh4/bvh4_intersector4_chunk.cpp
+
+      ../common/cl_scene.cpp
+     ../common/cl_geometry.cpp   
+    ../common/cl_rtcore.cpp
+    ../common/cl_triangleMesh.cpp
+
   )
   SET_TARGET_PROPERTIES(embree_sse41 PROPERTIES COMPILE_FLAGS "${FLAGS_SSE41}")
   SET(EMBREE_LIBRARIES ${EMBREE_LIBRARIES} embree_sse41)
@@ -106,6 +113,11 @@ ENDIF ()
 IF (TARGET_SSE42) 
   ADD_LIBRARY(embree_sse42 STATIC
     bvh4/bvh4_intersector4_hybrid.cpp
+
+     ../common/cl_scene.cpp
+     ../common/cl_geometry.cpp   
+    ../common/cl_rtcore.cpp
+    ../common/cl_triangleMesh.cpp
   )
   SET_TARGET_PROPERTIES(embree_sse42 PROPERTIES COMPILE_FLAGS "${FLAGS_SSE42}")
   SET(EMBREE_LIBRARIES ${EMBREE_LIBRARIES} embree_sse42)
@@ -113,6 +125,11 @@ ENDIF ()
 
 IF (TARGET_AVX) 
   ADD_LIBRARY(embree_avx STATIC
+
+      ../common/cl_scene.cpp
+      ../common/cl_geometry.cpp   
+      ../common/cl_rtcore.cpp
+      ../common/cl_triangleMesh.cpp
 
   builders/bezierrefgen.cpp 
   builders/primrefgen.cpp
@@ -157,6 +174,7 @@ IF (TARGET_AVX)
    bvh8/bvh8_intersector4_hybrid.cpp   
    bvh8/bvh8_intersector8_chunk.cpp   
    bvh8/bvh8_intersector8_hybrid.cpp   
+
 )
 
   SET_TARGET_PROPERTIES(embree_avx PROPERTIES COMPILE_FLAGS "${FLAGS_AVX}")

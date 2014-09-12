@@ -1,4 +1,4 @@
-# Install script for directory: /home/gyz/code/work/embree-cl/tutorials/common/tutorial
+# Install script for directory: /home/gyz/code/good/embree-cl/tutorials/common/tutorial
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

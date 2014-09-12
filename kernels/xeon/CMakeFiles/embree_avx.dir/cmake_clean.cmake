@@ -1,4 +1,8 @@
 FILE(REMOVE_RECURSE
+  "CMakeFiles/embree_avx.dir/__/common/cl_scene.o"
+  "CMakeFiles/embree_avx.dir/__/common/cl_geometry.o"
+  "CMakeFiles/embree_avx.dir/__/common/cl_rtcore.o"
+  "CMakeFiles/embree_avx.dir/__/common/cl_triangleMesh.o"
   "CMakeFiles/embree_avx.dir/builders/bezierrefgen.o"
   "CMakeFiles/embree_avx.dir/builders/primrefgen.o"
   "CMakeFiles/embree_avx.dir/builders/heuristic_object_partition_unaligned.o"

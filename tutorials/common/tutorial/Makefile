@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gyz/code/work/embree-cl
+CMAKE_SOURCE_DIR = /home/gyz/code/good/embree-cl
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gyz/code/work/embree-cl
+CMAKE_BINARY_DIR = /home/gyz/code/good/embree-cl
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/gyz/code/work/embree-cl && $(CMAKE_COMMAND) -E cmake_progress_start /home/gyz/code/work/embree-cl/CMakeFiles /home/gyz/code/work/embree-cl/tutorials/common/tutorial/CMakeFiles/progress.marks
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 tutorials/common/tutorial/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gyz/code/work/embree-cl/CMakeFiles 0
+	cd /home/gyz/code/good/embree-cl && $(CMAKE_COMMAND) -E cmake_progress_start /home/gyz/code/good/embree-cl/CMakeFiles /home/gyz/code/good/embree-cl/tutorials/common/tutorial/CMakeFiles/progress.marks
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 tutorials/common/tutorial/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gyz/code/good/embree-cl/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 tutorials/common/tutorial/clean
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 tutorials/common/tutorial/clean
 .PHONY : clean
 
 # The main clean target
@@ -129,22 +129,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 tutorials/common/tutorial/preinstall
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 tutorials/common/tutorial/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 tutorials/common/tutorial/preinstall
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 tutorials/common/tutorial/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/gyz/code/work/embree-cl && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/gyz/code/good/embree-cl && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tutorials/common/tutorial/CMakeFiles/tutorial.dir/rule:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 tutorials/common/tutorial/CMakeFiles/tutorial.dir/rule
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 tutorials/common/tutorial/CMakeFiles/tutorial.dir/rule
 .PHONY : tutorials/common/tutorial/CMakeFiles/tutorial.dir/rule
 
 # Convenience name for target.
@@ -153,12 +153,12 @@ tutorial: tutorials/common/tutorial/CMakeFiles/tutorial.dir/rule
 
 # fast build rule for target.
 tutorial/fast:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/common/tutorial/CMakeFiles/tutorial.dir/build.make tutorials/common/tutorial/CMakeFiles/tutorial.dir/build
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/common/tutorial/CMakeFiles/tutorial.dir/build.make tutorials/common/tutorial/CMakeFiles/tutorial.dir/build
 .PHONY : tutorial/fast
 
 # Convenience name for target.
 tutorials/common/tutorial/CMakeFiles/tutorial_device.dir/rule:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 tutorials/common/tutorial/CMakeFiles/tutorial_device.dir/rule
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 tutorials/common/tutorial/CMakeFiles/tutorial_device.dir/rule
 .PHONY : tutorials/common/tutorial/CMakeFiles/tutorial_device.dir/rule
 
 # Convenience name for target.
@@ -167,12 +167,12 @@ tutorial_device: tutorials/common/tutorial/CMakeFiles/tutorial_device.dir/rule
 
 # fast build rule for target.
 tutorial_device/fast:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/common/tutorial/CMakeFiles/tutorial_device.dir/build.make tutorials/common/tutorial/CMakeFiles/tutorial_device.dir/build
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/common/tutorial/CMakeFiles/tutorial_device.dir/build.make tutorials/common/tutorial/CMakeFiles/tutorial_device.dir/build
 .PHONY : tutorial_device/fast
 
 # Convenience name for target.
 tutorials/common/tutorial/CMakeFiles/tutorial_device_ispc.dir/rule:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 tutorials/common/tutorial/CMakeFiles/tutorial_device_ispc.dir/rule
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 tutorials/common/tutorial/CMakeFiles/tutorial_device_ispc.dir/rule
 .PHONY : tutorials/common/tutorial/CMakeFiles/tutorial_device_ispc.dir/rule
 
 # Convenience name for target.
@@ -181,82 +181,82 @@ tutorial_device_ispc: tutorials/common/tutorial/CMakeFiles/tutorial_device_ispc.
 
 # fast build rule for target.
 tutorial_device_ispc/fast:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/common/tutorial/CMakeFiles/tutorial_device_ispc.dir/build.make tutorials/common/tutorial/CMakeFiles/tutorial_device_ispc.dir/build
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/common/tutorial/CMakeFiles/tutorial_device_ispc.dir/build.make tutorials/common/tutorial/CMakeFiles/tutorial_device_ispc.dir/build
 .PHONY : tutorial_device_ispc/fast
 
 # target to build an object file
 cy_hair_loader.o:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/common/tutorial/CMakeFiles/tutorial.dir/build.make tutorials/common/tutorial/CMakeFiles/tutorial.dir/cy_hair_loader.o
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/common/tutorial/CMakeFiles/tutorial.dir/build.make tutorials/common/tutorial/CMakeFiles/tutorial.dir/cy_hair_loader.o
 .PHONY : cy_hair_loader.o
 
 # target to preprocess a source file
 cy_hair_loader.i:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/common/tutorial/CMakeFiles/tutorial.dir/build.make tutorials/common/tutorial/CMakeFiles/tutorial.dir/cy_hair_loader.i
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/common/tutorial/CMakeFiles/tutorial.dir/build.make tutorials/common/tutorial/CMakeFiles/tutorial.dir/cy_hair_loader.i
 .PHONY : cy_hair_loader.i
 
 # target to generate assembly for a file
 cy_hair_loader.s:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/common/tutorial/CMakeFiles/tutorial.dir/build.make tutorials/common/tutorial/CMakeFiles/tutorial.dir/cy_hair_loader.s
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/common/tutorial/CMakeFiles/tutorial.dir/build.make tutorials/common/tutorial/CMakeFiles/tutorial.dir/cy_hair_loader.s
 .PHONY : cy_hair_loader.s
 
 # target to build an object file
 glutdisplay.o:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/common/tutorial/CMakeFiles/tutorial.dir/build.make tutorials/common/tutorial/CMakeFiles/tutorial.dir/glutdisplay.o
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/common/tutorial/CMakeFiles/tutorial.dir/build.make tutorials/common/tutorial/CMakeFiles/tutorial.dir/glutdisplay.o
 .PHONY : glutdisplay.o
 
 # target to preprocess a source file
 glutdisplay.i:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/common/tutorial/CMakeFiles/tutorial.dir/build.make tutorials/common/tutorial/CMakeFiles/tutorial.dir/glutdisplay.i
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/common/tutorial/CMakeFiles/tutorial.dir/build.make tutorials/common/tutorial/CMakeFiles/tutorial.dir/glutdisplay.i
 .PHONY : glutdisplay.i
 
 # target to generate assembly for a file
 glutdisplay.s:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/common/tutorial/CMakeFiles/tutorial.dir/build.make tutorials/common/tutorial/CMakeFiles/tutorial.dir/glutdisplay.s
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/common/tutorial/CMakeFiles/tutorial.dir/build.make tutorials/common/tutorial/CMakeFiles/tutorial.dir/glutdisplay.s
 .PHONY : glutdisplay.s
 
 # target to build an object file
 hair_loader.o:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/common/tutorial/CMakeFiles/tutorial.dir/build.make tutorials/common/tutorial/CMakeFiles/tutorial.dir/hair_loader.o
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/common/tutorial/CMakeFiles/tutorial.dir/build.make tutorials/common/tutorial/CMakeFiles/tutorial.dir/hair_loader.o
 .PHONY : hair_loader.o
 
 # target to preprocess a source file
 hair_loader.i:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/common/tutorial/CMakeFiles/tutorial.dir/build.make tutorials/common/tutorial/CMakeFiles/tutorial.dir/hair_loader.i
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/common/tutorial/CMakeFiles/tutorial.dir/build.make tutorials/common/tutorial/CMakeFiles/tutorial.dir/hair_loader.i
 .PHONY : hair_loader.i
 
 # target to generate assembly for a file
 hair_loader.s:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/common/tutorial/CMakeFiles/tutorial.dir/build.make tutorials/common/tutorial/CMakeFiles/tutorial.dir/hair_loader.s
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/common/tutorial/CMakeFiles/tutorial.dir/build.make tutorials/common/tutorial/CMakeFiles/tutorial.dir/hair_loader.s
 .PHONY : hair_loader.s
 
 # target to build an object file
 obj_loader.o:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/common/tutorial/CMakeFiles/tutorial.dir/build.make tutorials/common/tutorial/CMakeFiles/tutorial.dir/obj_loader.o
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/common/tutorial/CMakeFiles/tutorial.dir/build.make tutorials/common/tutorial/CMakeFiles/tutorial.dir/obj_loader.o
 .PHONY : obj_loader.o
 
 # target to preprocess a source file
 obj_loader.i:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/common/tutorial/CMakeFiles/tutorial.dir/build.make tutorials/common/tutorial/CMakeFiles/tutorial.dir/obj_loader.i
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/common/tutorial/CMakeFiles/tutorial.dir/build.make tutorials/common/tutorial/CMakeFiles/tutorial.dir/obj_loader.i
 .PHONY : obj_loader.i
 
 # target to generate assembly for a file
 obj_loader.s:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/common/tutorial/CMakeFiles/tutorial.dir/build.make tutorials/common/tutorial/CMakeFiles/tutorial.dir/obj_loader.s
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/common/tutorial/CMakeFiles/tutorial.dir/build.make tutorials/common/tutorial/CMakeFiles/tutorial.dir/obj_loader.s
 .PHONY : obj_loader.s
 
 # target to build an object file
 tutorial_device.o:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/common/tutorial/CMakeFiles/tutorial_device.dir/build.make tutorials/common/tutorial/CMakeFiles/tutorial_device.dir/tutorial_device.o
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/common/tutorial/CMakeFiles/tutorial_device.dir/build.make tutorials/common/tutorial/CMakeFiles/tutorial_device.dir/tutorial_device.o
 .PHONY : tutorial_device.o
 
 # target to preprocess a source file
 tutorial_device.i:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/common/tutorial/CMakeFiles/tutorial_device.dir/build.make tutorials/common/tutorial/CMakeFiles/tutorial_device.dir/tutorial_device.i
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/common/tutorial/CMakeFiles/tutorial_device.dir/build.make tutorials/common/tutorial/CMakeFiles/tutorial_device.dir/tutorial_device.i
 .PHONY : tutorial_device.i
 
 # target to generate assembly for a file
 tutorial_device.s:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f tutorials/common/tutorial/CMakeFiles/tutorial_device.dir/build.make tutorials/common/tutorial/CMakeFiles/tutorial_device.dir/tutorial_device.s
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f tutorials/common/tutorial/CMakeFiles/tutorial_device.dir/build.make tutorials/common/tutorial/CMakeFiles/tutorial_device.dir/tutorial_device.s
 .PHONY : tutorial_device.s
 
 # Help Target
@@ -300,6 +300,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/gyz/code/work/embree-cl && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/gyz/code/good/embree-cl && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

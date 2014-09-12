@@ -51,6 +51,7 @@ tutorials/common/tutorial/CMakeFiles/tutorial_device.dir/tutorial_device.o: comm
 tutorials/common/tutorial/CMakeFiles/tutorial_device.dir/tutorial_device.o: common/sys/sysinfo.h
 tutorials/common/tutorial/CMakeFiles/tutorial_device.dir/tutorial_device.o: common/sys/taskscheduler.h
 tutorials/common/tutorial/CMakeFiles/tutorial_device.dir/tutorial_device.o: common/sys/thread.h
+tutorials/common/tutorial/CMakeFiles/tutorial_device.dir/tutorial_device.o: include/embree2/cl_rtcore.h
 tutorials/common/tutorial/CMakeFiles/tutorial_device.dir/tutorial_device.o: include/embree2/rtcore.h
 tutorials/common/tutorial/CMakeFiles/tutorial_device.dir/tutorial_device.o: include/embree2/rtcore_geometry.h
 tutorials/common/tutorial/CMakeFiles/tutorial_device.dir/tutorial_device.o: include/embree2/rtcore_geometry_user.h

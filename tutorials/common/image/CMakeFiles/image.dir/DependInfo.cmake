@@ -4,13 +4,13 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/gyz/code/work/embree-cl/tutorials/common/image/exr.cpp" "/home/gyz/code/work/embree-cl/tutorials/common/image/CMakeFiles/image.dir/exr.o"
-  "/home/gyz/code/work/embree-cl/tutorials/common/image/image.cpp" "/home/gyz/code/work/embree-cl/tutorials/common/image/CMakeFiles/image.dir/image.o"
-  "/home/gyz/code/work/embree-cl/tutorials/common/image/jpeg.cpp" "/home/gyz/code/work/embree-cl/tutorials/common/image/CMakeFiles/image.dir/jpeg.o"
-  "/home/gyz/code/work/embree-cl/tutorials/common/image/magick.cpp" "/home/gyz/code/work/embree-cl/tutorials/common/image/CMakeFiles/image.dir/magick.o"
-  "/home/gyz/code/work/embree-cl/tutorials/common/image/pfm.cpp" "/home/gyz/code/work/embree-cl/tutorials/common/image/CMakeFiles/image.dir/pfm.o"
-  "/home/gyz/code/work/embree-cl/tutorials/common/image/ppm.cpp" "/home/gyz/code/work/embree-cl/tutorials/common/image/CMakeFiles/image.dir/ppm.o"
-  "/home/gyz/code/work/embree-cl/tutorials/common/image/tga.cpp" "/home/gyz/code/work/embree-cl/tutorials/common/image/CMakeFiles/image.dir/tga.o"
+  "/home/gyz/code/good/embree-cl/tutorials/common/image/exr.cpp" "/home/gyz/code/good/embree-cl/tutorials/common/image/CMakeFiles/image.dir/exr.o"
+  "/home/gyz/code/good/embree-cl/tutorials/common/image/image.cpp" "/home/gyz/code/good/embree-cl/tutorials/common/image/CMakeFiles/image.dir/image.o"
+  "/home/gyz/code/good/embree-cl/tutorials/common/image/jpeg.cpp" "/home/gyz/code/good/embree-cl/tutorials/common/image/CMakeFiles/image.dir/jpeg.o"
+  "/home/gyz/code/good/embree-cl/tutorials/common/image/magick.cpp" "/home/gyz/code/good/embree-cl/tutorials/common/image/CMakeFiles/image.dir/magick.o"
+  "/home/gyz/code/good/embree-cl/tutorials/common/image/pfm.cpp" "/home/gyz/code/good/embree-cl/tutorials/common/image/CMakeFiles/image.dir/pfm.o"
+  "/home/gyz/code/good/embree-cl/tutorials/common/image/ppm.cpp" "/home/gyz/code/good/embree-cl/tutorials/common/image/CMakeFiles/image.dir/ppm.o"
+  "/home/gyz/code/good/embree-cl/tutorials/common/image/tga.cpp" "/home/gyz/code/good/embree-cl/tutorials/common/image/CMakeFiles/image.dir/tga.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -24,7 +24,7 @@ SET(CMAKE_TARGET_DEFINITIONS
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/gyz/code/work/embree-cl/common/sys/CMakeFiles/sys.dir/DependInfo.cmake"
+  "/home/gyz/code/good/embree-cl/common/sys/CMakeFiles/sys.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

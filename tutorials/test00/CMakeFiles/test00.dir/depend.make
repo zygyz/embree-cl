@@ -111,6 +111,7 @@ tutorials/test00/CMakeFiles/test00.dir/test00_device.o: common/sys/sync/mutex.h
 tutorials/test00/CMakeFiles/test00.dir/test00_device.o: common/sys/sysinfo.h
 tutorials/test00/CMakeFiles/test00.dir/test00_device.o: common/sys/taskscheduler.h
 tutorials/test00/CMakeFiles/test00.dir/test00_device.o: common/sys/thread.h
+tutorials/test00/CMakeFiles/test00.dir/test00_device.o: include/embree2/cl_rtcore.h
 tutorials/test00/CMakeFiles/test00.dir/test00_device.o: include/embree2/rtcore.h
 tutorials/test00/CMakeFiles/test00.dir/test00_device.o: include/embree2/rtcore_geometry.h
 tutorials/test00/CMakeFiles/test00.dir/test00_device.o: include/embree2/rtcore_geometry_user.h

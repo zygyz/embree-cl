@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gyz/code/work/embree-cl
+CMAKE_SOURCE_DIR = /home/gyz/code/good/embree-cl
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gyz/code/work/embree-cl
+CMAKE_BINARY_DIR = /home/gyz/code/good/embree-cl
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/gyz/code/work/embree-cl && $(CMAKE_COMMAND) -E cmake_progress_start /home/gyz/code/work/embree-cl/CMakeFiles /home/gyz/code/work/embree-cl/common/sys/CMakeFiles/progress.marks
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 common/sys/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gyz/code/work/embree-cl/CMakeFiles 0
+	cd /home/gyz/code/good/embree-cl && $(CMAKE_COMMAND) -E cmake_progress_start /home/gyz/code/good/embree-cl/CMakeFiles /home/gyz/code/good/embree-cl/common/sys/CMakeFiles/progress.marks
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 common/sys/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gyz/code/good/embree-cl/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 common/sys/clean
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 common/sys/clean
 .PHONY : clean
 
 # The main clean target
@@ -129,22 +129,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 common/sys/preinstall
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 common/sys/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 common/sys/preinstall
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 common/sys/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/gyz/code/work/embree-cl && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/gyz/code/good/embree-cl && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 common/sys/CMakeFiles/sys.dir/rule:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 common/sys/CMakeFiles/sys.dir/rule
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f CMakeFiles/Makefile2 common/sys/CMakeFiles/sys.dir/rule
 .PHONY : common/sys/CMakeFiles/sys.dir/rule
 
 # Convenience name for target.
@@ -153,202 +153,202 @@ sys: common/sys/CMakeFiles/sys.dir/rule
 
 # fast build rule for target.
 sys/fast:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/build
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/build
 .PHONY : sys/fast
 
 # target to build an object file
 filename.o:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/filename.o
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/filename.o
 .PHONY : filename.o
 
 # target to preprocess a source file
 filename.i:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/filename.i
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/filename.i
 .PHONY : filename.i
 
 # target to generate assembly for a file
 filename.s:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/filename.s
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/filename.s
 .PHONY : filename.s
 
 # target to build an object file
 library.o:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/library.o
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/library.o
 .PHONY : library.o
 
 # target to preprocess a source file
 library.i:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/library.i
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/library.i
 .PHONY : library.i
 
 # target to generate assembly for a file
 library.s:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/library.s
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/library.s
 .PHONY : library.s
 
 # target to build an object file
 network.o:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/network.o
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/network.o
 .PHONY : network.o
 
 # target to preprocess a source file
 network.i:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/network.i
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/network.i
 .PHONY : network.i
 
 # target to generate assembly for a file
 network.s:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/network.s
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/network.s
 .PHONY : network.s
 
 # target to build an object file
 platform.o:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/platform.o
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/platform.o
 .PHONY : platform.o
 
 # target to preprocess a source file
 platform.i:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/platform.i
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/platform.i
 .PHONY : platform.i
 
 # target to generate assembly for a file
 platform.s:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/platform.s
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/platform.s
 .PHONY : platform.s
 
 # target to build an object file
 stl/string.o:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/stl/string.o
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/stl/string.o
 .PHONY : stl/string.o
 
 # target to preprocess a source file
 stl/string.i:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/stl/string.i
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/stl/string.i
 .PHONY : stl/string.i
 
 # target to generate assembly for a file
 stl/string.s:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/stl/string.s
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/stl/string.s
 .PHONY : stl/string.s
 
 # target to build an object file
 sync/barrier.o:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/sync/barrier.o
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/sync/barrier.o
 .PHONY : sync/barrier.o
 
 # target to preprocess a source file
 sync/barrier.i:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/sync/barrier.i
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/sync/barrier.i
 .PHONY : sync/barrier.i
 
 # target to generate assembly for a file
 sync/barrier.s:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/sync/barrier.s
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/sync/barrier.s
 .PHONY : sync/barrier.s
 
 # target to build an object file
 sync/condition.o:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/sync/condition.o
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/sync/condition.o
 .PHONY : sync/condition.o
 
 # target to preprocess a source file
 sync/condition.i:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/sync/condition.i
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/sync/condition.i
 .PHONY : sync/condition.i
 
 # target to generate assembly for a file
 sync/condition.s:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/sync/condition.s
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/sync/condition.s
 .PHONY : sync/condition.s
 
 # target to build an object file
 sync/mutex.o:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/sync/mutex.o
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/sync/mutex.o
 .PHONY : sync/mutex.o
 
 # target to preprocess a source file
 sync/mutex.i:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/sync/mutex.i
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/sync/mutex.i
 .PHONY : sync/mutex.i
 
 # target to generate assembly for a file
 sync/mutex.s:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/sync/mutex.s
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/sync/mutex.s
 .PHONY : sync/mutex.s
 
 # target to build an object file
 sysinfo.o:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/sysinfo.o
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/sysinfo.o
 .PHONY : sysinfo.o
 
 # target to preprocess a source file
 sysinfo.i:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/sysinfo.i
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/sysinfo.i
 .PHONY : sysinfo.i
 
 # target to generate assembly for a file
 sysinfo.s:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/sysinfo.s
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/sysinfo.s
 .PHONY : sysinfo.s
 
 # target to build an object file
 tasklogger.o:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/tasklogger.o
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/tasklogger.o
 .PHONY : tasklogger.o
 
 # target to preprocess a source file
 tasklogger.i:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/tasklogger.i
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/tasklogger.i
 .PHONY : tasklogger.i
 
 # target to generate assembly for a file
 tasklogger.s:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/tasklogger.s
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/tasklogger.s
 .PHONY : tasklogger.s
 
 # target to build an object file
 taskscheduler.o:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/taskscheduler.o
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/taskscheduler.o
 .PHONY : taskscheduler.o
 
 # target to preprocess a source file
 taskscheduler.i:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/taskscheduler.i
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/taskscheduler.i
 .PHONY : taskscheduler.i
 
 # target to generate assembly for a file
 taskscheduler.s:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/taskscheduler.s
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/taskscheduler.s
 .PHONY : taskscheduler.s
 
 # target to build an object file
 taskscheduler_sys.o:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/taskscheduler_sys.o
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/taskscheduler_sys.o
 .PHONY : taskscheduler_sys.o
 
 # target to preprocess a source file
 taskscheduler_sys.i:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/taskscheduler_sys.i
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/taskscheduler_sys.i
 .PHONY : taskscheduler_sys.i
 
 # target to generate assembly for a file
 taskscheduler_sys.s:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/taskscheduler_sys.s
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/taskscheduler_sys.s
 .PHONY : taskscheduler_sys.s
 
 # target to build an object file
 thread.o:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/thread.o
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/thread.o
 .PHONY : thread.o
 
 # target to preprocess a source file
 thread.i:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/thread.i
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/thread.i
 .PHONY : thread.i
 
 # target to generate assembly for a file
 thread.s:
-	cd /home/gyz/code/work/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/thread.s
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f common/sys/CMakeFiles/sys.dir/build.make common/sys/CMakeFiles/sys.dir/thread.s
 .PHONY : thread.s
 
 # Help Target
@@ -414,6 +414,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/gyz/code/work/embree-cl && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/gyz/code/good/embree-cl && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/gyz/code/work/embree-cl/tutorials/common/image/exr.cpp
+/home/gyz/code/good/embree-cl/tutorials/common/image/exr.cpp
 image/image.h
-/home/gyz/code/work/embree-cl/tutorials/common/image/image/image.h
+/home/gyz/code/good/embree-cl/tutorials/common/image/image/image.h
 ImfRgbaFile.h
 -
 ImfArray.h
@@ -18,47 +18,47 @@ ImfRgbaFile.h
 ImfArray.h
 -
 
-/home/gyz/code/work/embree-cl/tutorials/common/image/image.cpp
+/home/gyz/code/good/embree-cl/tutorials/common/image/image.cpp
 image.h
-/home/gyz/code/work/embree-cl/tutorials/common/image/image.h
+/home/gyz/code/good/embree-cl/tutorials/common/image/image.h
 sys/stl/string.h
-/home/gyz/code/work/embree-cl/tutorials/common/image/sys/stl/string.h
+/home/gyz/code/good/embree-cl/tutorials/common/image/sys/stl/string.h
 map
 -
 iostream
 -
 
-/home/gyz/code/work/embree-cl/tutorials/common/image/image.h
+/home/gyz/code/good/embree-cl/tutorials/common/image/image.h
 vector
 -
 string
 -
 sys/platform.h
-/home/gyz/code/work/embree-cl/tutorials/common/image/sys/platform.h
+/home/gyz/code/good/embree-cl/tutorials/common/image/sys/platform.h
 sys/ref.h
-/home/gyz/code/work/embree-cl/tutorials/common/image/sys/ref.h
+/home/gyz/code/good/embree-cl/tutorials/common/image/sys/ref.h
 sys/filename.h
-/home/gyz/code/work/embree-cl/tutorials/common/image/sys/filename.h
+/home/gyz/code/good/embree-cl/tutorials/common/image/sys/filename.h
 math/color.h
-/home/gyz/code/work/embree-cl/tutorials/common/image/math/color.h
+/home/gyz/code/good/embree-cl/tutorials/common/image/math/color.h
 
-/home/gyz/code/work/embree-cl/tutorials/common/image/jpeg.cpp
+/home/gyz/code/good/embree-cl/tutorials/common/image/jpeg.cpp
 image/image.h
-/home/gyz/code/work/embree-cl/tutorials/common/image/image/image.h
+/home/gyz/code/good/embree-cl/tutorials/common/image/image/image.h
 jpeglib.h
-/home/gyz/code/work/embree-cl/tutorials/common/image/jpeglib.h
+/home/gyz/code/good/embree-cl/tutorials/common/image/jpeglib.h
 
-/home/gyz/code/work/embree-cl/tutorials/common/image/magick.cpp
+/home/gyz/code/good/embree-cl/tutorials/common/image/magick.cpp
 image/image.h
-/home/gyz/code/work/embree-cl/tutorials/common/image/image/image.h
+/home/gyz/code/good/embree-cl/tutorials/common/image/image/image.h
 iostream
 -
 Magick++.h
 -
 
-/home/gyz/code/work/embree-cl/tutorials/common/image/pfm.cpp
+/home/gyz/code/good/embree-cl/tutorials/common/image/pfm.cpp
 image/image.h
-/home/gyz/code/work/embree-cl/tutorials/common/image/image/image.h
+/home/gyz/code/good/embree-cl/tutorials/common/image/image/image.h
 iostream
 -
 cstring
@@ -66,9 +66,9 @@ cstring
 cstdio
 -
 
-/home/gyz/code/work/embree-cl/tutorials/common/image/ppm.cpp
+/home/gyz/code/good/embree-cl/tutorials/common/image/ppm.cpp
 image/image.h
-/home/gyz/code/work/embree-cl/tutorials/common/image/image/image.h
+/home/gyz/code/good/embree-cl/tutorials/common/image/image/image.h
 iostream
 -
 cstring
@@ -76,9 +76,9 @@ cstring
 cstdio
 -
 
-/home/gyz/code/work/embree-cl/tutorials/common/image/tga.cpp
+/home/gyz/code/good/embree-cl/tutorials/common/image/tga.cpp
 image/image.h
-/home/gyz/code/work/embree-cl/tutorials/common/image/image/image.h
+/home/gyz/code/good/embree-cl/tutorials/common/image/image/image.h
 cstdio
 -
 
