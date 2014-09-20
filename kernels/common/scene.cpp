@@ -122,7 +122,7 @@ namespace embree
 #endif
           {
             if (isHighQuality()) accels.add(BVH4::BVH4Triangle4SpatialSplit(this));
-            else                 accels.add(BVH4::BVH4Triangle4ObjectSplit(this)); 
+            else   { std::cout << "BVH4Triangle4ObjectSplit " << std::endl;  accels.add(BVH4::BVH4Triangle4ObjectSplit(this)); }
           }
           break;
 

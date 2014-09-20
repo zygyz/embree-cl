@@ -1,6 +1,8 @@
 #include "cl_scene.h"
 #include "cl_triangleMesh.h"
 #include "default.h"
+#include "cl_bvh/cl_bvh.h"
+
 struct RTCRay;
 namespace embree {
     SceneCL::SceneCL() {
@@ -10,21 +12,23 @@ namespace embree {
 	numTriangles = 0;
 	geometries.reserve(128);
 	std::cout << "construct geometries.size() " << geometries.size() << std::endl;
+        acceln.add(BVHCL::BVHCLTriangle(this));	 
     }
-    
+
     void SceneCL::buildBVH() {
 	std::cout << "build BVH " << std::endl;
-	// to do: bvh->build();
+	BVHCL* accel = (BVHCL*)acceln.accels[0];
+	accel->init(geometries);
     }
-      
+
     void SceneCL::build() {
         buildBVH();		
     }
 
     unsigned SceneCL::add(GeometryCL* geometry) {
-	// assume the geometry is triangle;
 	std::cout << "start SceneCL::add " << std::endl;
-	if(geometry->type == TRIANGLE_MESH) {
+	geom_num += 1;
+	if(geometry->type == TRIANGLE_MESH_CL) {
 	std::cout << "type == TRIANGLE_MESH  " << std::endl;
 	    numTriangles += geometry->numPrimitives;
 	    numTriangleMeshes += 1;
@@ -40,7 +44,7 @@ namespace embree {
     void SceneCL::remove(GeometryCL* geometry) {
 	usedIDs.push_back(geometry->id);
 	geometries[geometry->id] = NULL;
-	if(geometry->type == TRIANGLE_MESH) {
+	if(geometry->type == TRIANGLE_MESH_CL) {
 	    numTriangles -= geometry->numPrimitives;
 	    numTriangleMeshes -= 1;
 	}

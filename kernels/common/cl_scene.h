@@ -1,13 +1,13 @@
 #pragma once
 #include "common/default.h"
 #include "cl_geometry.h"
+#include "common/acceln.h"
 
 namespace embree {
     class SceneCL {
 	public:
 	    SceneCL();
 	    ~SceneCL() {};
-	    void buildBVH();
 	    void build();
 	    unsigned add(GeometryCL* geometry);
 	    void remove(GeometryCL* geometry);
@@ -23,8 +23,11 @@ namespace embree {
 	    int numTriangleMeshes;
 	    int numTriangles;
 	public:
+	    AccelN acceln;
 	    std::vector<GeometryCL*> geometries;
 	    std::vector<int> usedIDs;
-		
+	private:
+	    void buildBVH();
+	     
     };
 }

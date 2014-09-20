@@ -19,6 +19,7 @@ SET(CMAKE_DEPENDS_CHECK_CXX
   "/home/gyz/code/good/embree-cl/kernels/xeon/bvh8/bvh8_intersector4_hybrid.cpp" "/home/gyz/code/good/embree-cl/kernels/xeon/CMakeFiles/embree_avx2.dir/bvh8/bvh8_intersector4_hybrid.o"
   "/home/gyz/code/good/embree-cl/kernels/xeon/bvh8/bvh8_intersector8_chunk.cpp" "/home/gyz/code/good/embree-cl/kernels/xeon/CMakeFiles/embree_avx2.dir/bvh8/bvh8_intersector8_chunk.o"
   "/home/gyz/code/good/embree-cl/kernels/xeon/bvh8/bvh8_intersector8_hybrid.cpp" "/home/gyz/code/good/embree-cl/kernels/xeon/CMakeFiles/embree_avx2.dir/bvh8/bvh8_intersector8_hybrid.o"
+  "/home/gyz/code/good/embree-cl/kernels/xeon/cl_bvh/cl_bvh.cpp" "/home/gyz/code/good/embree-cl/kernels/xeon/CMakeFiles/embree_avx2.dir/cl_bvh/cl_bvh.o"
   "/home/gyz/code/good/embree-cl/kernels/xeon/geometry/instance_intersector1.cpp" "/home/gyz/code/good/embree-cl/kernels/xeon/CMakeFiles/embree_avx2.dir/geometry/instance_intersector1.o"
   "/home/gyz/code/good/embree-cl/kernels/xeon/geometry/instance_intersector4.cpp" "/home/gyz/code/good/embree-cl/kernels/xeon/CMakeFiles/embree_avx2.dir/geometry/instance_intersector4.o"
   "/home/gyz/code/good/embree-cl/kernels/xeon/geometry/instance_intersector8.cpp" "/home/gyz/code/good/embree-cl/kernels/xeon/CMakeFiles/embree_avx2.dir/geometry/instance_intersector8.o"

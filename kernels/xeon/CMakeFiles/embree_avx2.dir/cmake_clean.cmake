@@ -18,6 +18,7 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/embree_avx2.dir/bvh8/bvh8_intersector4_hybrid.o"
   "CMakeFiles/embree_avx2.dir/bvh8/bvh8_intersector8_chunk.o"
   "CMakeFiles/embree_avx2.dir/bvh8/bvh8_intersector8_hybrid.o"
+  "CMakeFiles/embree_avx2.dir/cl_bvh/cl_bvh.o"
   "../../libembree_avx2.pdb"
   "../../libembree_avx2.a"
 )

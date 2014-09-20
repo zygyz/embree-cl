@@ -645,6 +645,7 @@ namespace embree
 
   Accel* BVH4::BVH4Triangle1SpatialSplit(Scene* scene)
   {
+     
     BVH4* accel = new BVH4(SceneTriangle1::type,scene);
     Builder* builder = BVH4Triangle1Builder(accel,scene,1);
     Accel::Intersectors intersectors = BVH4Triangle1Intersectors(accel);

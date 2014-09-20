@@ -58,6 +58,8 @@ kernels/xeon/CMakeFiles/embree_avx.dir/__/common/cl_geometry.o
  include/embree2/rtcore_geometry.h
  include/embree2/rtcore_geometry_user.h
  include/embree2/rtcore_scene.h
+ kernels/common/accel.h
+ kernels/common/acceln.h
  kernels/common/default.h
  kernels/common/stat.h
  kernels/version.h
@@ -116,6 +118,8 @@ kernels/xeon/CMakeFiles/embree_avx.dir/__/common/cl_rtcore.o
  include/embree2/rtcore_geometry.h
  include/embree2/rtcore_geometry_user.h
  include/embree2/rtcore_scene.h
+ kernels/common/accel.h
+ kernels/common/acceln.h
  kernels/common/cl_geometry.h
  kernels/common/cl_scene.h
  kernels/common/default.h
@@ -182,7 +186,25 @@ kernels/xeon/CMakeFiles/embree_avx.dir/__/common/cl_scene.o
  include/embree2/rtcore_geometry.h
  include/embree2/rtcore_geometry_user.h
  include/embree2/rtcore_scene.h
+ kernels/common/accel.h
+ kernels/common/acceln.h
+ kernels/common/accelset.h
+ kernels/common/alloc.h
+ kernels/common/atomic_set.h
+ kernels/common/buffer.h
+ kernels/common/builder.h
+ kernels/common/cl_scene.h
+ kernels/common/cl_triangleMesh.h
  kernels/common/default.h
+ kernels/common/geometry.h
+ kernels/common/primref.h
+ kernels/common/scene.h
+ kernels/common/scene_bezier_curves.h
+ kernels/common/scene_triangle_mesh.h
+ kernels/common/scene_user_geometry.h
+ kernels/xeon/builders/primrefblock.h
+ kernels/xeon/cl_bvh/cl_bvh.h
+ kernels/xeon/geometry/primitive.h
 kernels/xeon/CMakeFiles/embree_avx.dir/__/common/cl_triangleMesh.o
  /home/gyz/code/good/embree-cl/kernels/common/cl_geometry.h
  /home/gyz/code/good/embree-cl/kernels/common/cl_scene.h
@@ -241,6 +263,8 @@ kernels/xeon/CMakeFiles/embree_avx.dir/__/common/cl_triangleMesh.o
  include/embree2/rtcore_geometry.h
  include/embree2/rtcore_geometry_user.h
  include/embree2/rtcore_scene.h
+ kernels/common/accel.h
+ kernels/common/acceln.h
  kernels/common/default.h
  kernels/common/stat.h
  kernels/version.h
@@ -2876,6 +2900,84 @@ kernels/xeon/CMakeFiles/embree_avx.dir/bvh8/bvh8_statistics.o
  kernels/common/atomic_set.h
  kernels/common/buffer.h
  kernels/common/builder.h
+ kernels/common/default.h
+ kernels/common/geometry.h
+ kernels/common/primref.h
+ kernels/common/scene.h
+ kernels/common/scene_bezier_curves.h
+ kernels/common/scene_triangle_mesh.h
+ kernels/common/scene_user_geometry.h
+ kernels/common/stat.h
+ kernels/version.h
+ kernels/xeon/builders/primrefblock.h
+ kernels/xeon/geometry/primitive.h
+kernels/xeon/CMakeFiles/embree_avx.dir/cl_bvh/cl_bvh.o
+ /home/gyz/code/good/embree-cl/kernels/xeon/cl_bvh/cl_bvh.cpp
+ /home/gyz/code/good/embree-cl/kernels/xeon/cl_bvh/cl_bvh.h
+ common/math/affinespace.h
+ common/math/bbox.h
+ common/math/linearspace3.h
+ common/math/math.h
+ common/math/naabbox.h
+ common/math/quaternion.h
+ common/math/vec2.h
+ common/math/vec3.h
+ common/math/vec3ba.h
+ common/math/vec3ba_mic.h
+ common/math/vec3fa.h
+ common/math/vec3fa_mic.h
+ common/math/vec3ia.h
+ common/math/vec3ia_mic.h
+ common/math/vec4.h
+ common/simd/avx.h
+ common/simd/avxb.h
+ common/simd/avxf.h
+ common/simd/avxi.h
+ common/simd/avxi_emu.h
+ common/simd/mic.h
+ common/simd/mic_f.h
+ common/simd/mic_i.h
+ common/simd/mic_m.h
+ common/simd/simd.h
+ common/simd/sse.h
+ common/simd/sse_mic.h
+ common/simd/sse_special.h
+ common/simd/sseb.h
+ common/simd/sseb_mic.h
+ common/simd/ssef.h
+ common/simd/ssef_mic.h
+ common/simd/ssei.h
+ common/simd/ssei_mic.h
+ common/sys/constants.h
+ common/sys/intrinsics.h
+ common/sys/platform.h
+ common/sys/ref.h
+ common/sys/stl/string.h
+ common/sys/stl/vector.h
+ common/sys/sync/atomic.h
+ common/sys/sync/barrier.h
+ common/sys/sync/condition.h
+ common/sys/sync/event.h
+ common/sys/sync/mutex.h
+ common/sys/sysinfo.h
+ common/sys/taskscheduler.h
+ common/sys/thread.h
+ include/embree2/cl_rtcore.h
+ include/embree2/rtcore.h
+ include/embree2/rtcore_geometry.h
+ include/embree2/rtcore_geometry_user.h
+ include/embree2/rtcore_scene.h
+ kernels/common/accel.h
+ kernels/common/accelinstance.h
+ kernels/common/acceln.h
+ kernels/common/accelset.h
+ kernels/common/alloc.h
+ kernels/common/atomic_set.h
+ kernels/common/buffer.h
+ kernels/common/builder.h
+ kernels/common/cl_geometry.h
+ kernels/common/cl_scene.h
+ kernels/common/cl_triangleMesh.h
  kernels/common/default.h
  kernels/common/geometry.h
  kernels/common/primref.h

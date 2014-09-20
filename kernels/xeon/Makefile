@@ -215,16 +215,19 @@ embree_sse42/fast:
 # target to build an object file
 __/common/acceln.o:
 	cd /home/gyz/code/good/embree-cl && $(MAKE) -f kernels/xeon/CMakeFiles/embree.dir/build.make kernels/xeon/CMakeFiles/embree.dir/__/common/acceln.o
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f kernels/xeon/CMakeFiles/embree_sse41.dir/build.make kernels/xeon/CMakeFiles/embree_sse41.dir/__/common/acceln.o
 .PHONY : __/common/acceln.o
 
 # target to preprocess a source file
 __/common/acceln.i:
 	cd /home/gyz/code/good/embree-cl && $(MAKE) -f kernels/xeon/CMakeFiles/embree.dir/build.make kernels/xeon/CMakeFiles/embree.dir/__/common/acceln.i
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f kernels/xeon/CMakeFiles/embree_sse41.dir/build.make kernels/xeon/CMakeFiles/embree_sse41.dir/__/common/acceln.i
 .PHONY : __/common/acceln.i
 
 # target to generate assembly for a file
 __/common/acceln.s:
 	cd /home/gyz/code/good/embree-cl && $(MAKE) -f kernels/xeon/CMakeFiles/embree.dir/build.make kernels/xeon/CMakeFiles/embree.dir/__/common/acceln.s
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f kernels/xeon/CMakeFiles/embree_sse41.dir/build.make kernels/xeon/CMakeFiles/embree_sse41.dir/__/common/acceln.s
 .PHONY : __/common/acceln.s
 
 # target to build an object file
@@ -1194,6 +1197,27 @@ bvh8/bvh8_statistics.s:
 .PHONY : bvh8/bvh8_statistics.s
 
 # target to build an object file
+cl_bvh/cl_bvh.o:
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f kernels/xeon/CMakeFiles/embree_avx.dir/build.make kernels/xeon/CMakeFiles/embree_avx.dir/cl_bvh/cl_bvh.o
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f kernels/xeon/CMakeFiles/embree_avx2.dir/build.make kernels/xeon/CMakeFiles/embree_avx2.dir/cl_bvh/cl_bvh.o
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f kernels/xeon/CMakeFiles/embree_sse41.dir/build.make kernels/xeon/CMakeFiles/embree_sse41.dir/cl_bvh/cl_bvh.o
+.PHONY : cl_bvh/cl_bvh.o
+
+# target to preprocess a source file
+cl_bvh/cl_bvh.i:
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f kernels/xeon/CMakeFiles/embree_avx.dir/build.make kernels/xeon/CMakeFiles/embree_avx.dir/cl_bvh/cl_bvh.i
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f kernels/xeon/CMakeFiles/embree_avx2.dir/build.make kernels/xeon/CMakeFiles/embree_avx2.dir/cl_bvh/cl_bvh.i
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f kernels/xeon/CMakeFiles/embree_sse41.dir/build.make kernels/xeon/CMakeFiles/embree_sse41.dir/cl_bvh/cl_bvh.i
+.PHONY : cl_bvh/cl_bvh.i
+
+# target to generate assembly for a file
+cl_bvh/cl_bvh.s:
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f kernels/xeon/CMakeFiles/embree_avx.dir/build.make kernels/xeon/CMakeFiles/embree_avx.dir/cl_bvh/cl_bvh.s
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f kernels/xeon/CMakeFiles/embree_avx2.dir/build.make kernels/xeon/CMakeFiles/embree_avx2.dir/cl_bvh/cl_bvh.s
+	cd /home/gyz/code/good/embree-cl && $(MAKE) -f kernels/xeon/CMakeFiles/embree_sse41.dir/build.make kernels/xeon/CMakeFiles/embree_sse41.dir/cl_bvh/cl_bvh.s
+.PHONY : cl_bvh/cl_bvh.s
+
+# target to build an object file
 geometry/bezier1.o:
 	cd /home/gyz/code/good/embree-cl && $(MAKE) -f kernels/xeon/CMakeFiles/embree.dir/build.make kernels/xeon/CMakeFiles/embree.dir/geometry/bezier1.o
 .PHONY : geometry/bezier1.o
@@ -1591,6 +1615,9 @@ help:
 	@echo "... bvh8/bvh8_statistics.o"
 	@echo "... bvh8/bvh8_statistics.i"
 	@echo "... bvh8/bvh8_statistics.s"
+	@echo "... cl_bvh/cl_bvh.o"
+	@echo "... cl_bvh/cl_bvh.i"
+	@echo "... cl_bvh/cl_bvh.s"
 	@echo "... geometry/bezier1.o"
 	@echo "... geometry/bezier1.i"
 	@echo "... geometry/bezier1.s"

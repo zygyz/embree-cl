@@ -34,6 +34,7 @@ namespace embree
 
   void AccelN::add(Accel* accel) 
   {
+      std::cout << "Accel::add " << std::endl;
     assert(N<16);
     assert(accel);
     if (N<16) accels[N++] = accel;
@@ -123,7 +124,7 @@ namespace embree
   {
     /* build all acceleration structures */
     M = 0;
-
+    std::cout << "AccelN N =  M = " << N << " " << M <<  std::endl;
     for (size_t i=0; i<N; i++) 
     {
       cout << "build " << threadIndex << threadCount << N << i <<  endl;	
@@ -132,9 +133,10 @@ namespace embree
       if (accels[i]->bounds.empty()) continue;
       validAccels[M++] = accels[i];
     }
-
+    std::cout << "After accels[i]->build M=" << M << std::endl;
 
     if (M == 1) {
+      std::cout << "only one accels " << std::endl;
       intersectors = validAccels[0]->intersectors;
     }
     else 

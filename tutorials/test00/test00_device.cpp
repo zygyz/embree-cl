@@ -62,6 +62,7 @@ struct ISPCScene
 /* scene data */
 extern "C" ISPCScene* g_ispc_scene;
 RTCScene g_scene = NULL;
+CLRTScene g_scene_cl = NULL;
 
 /* render function to use */
 renderPixelFunc renderPixel;
@@ -103,6 +104,20 @@ extern "C" void device_init (int8* cfg)
   //renderPixel = renderPixelEyeLight;	
 }
 
+CLRTScene convertSceneCL(ISPCScene* scene_in) {
+    CLRTScene scene_cl_out = clrtNewScene();
+    for(int i = 0; i < scene_in->numMeshes; ++i) {
+	ISPCMesh* mesh = scene_in->meshes[i];
+	unsigned int geometry_cl = clrtNewTriangleMesh(scene_cl_out, mesh->numTriangles, mesh->numVertices);
+	clrtSetBuffer(scene_cl_out, geometry_cl, RTC_VERTEX_BUFFER, mesh->positions, mesh->numVertices);
+	clrtSetBuffer(scene_cl_out, geometry_cl, RTC_INDEX_BUFFER, mesh->triangles, mesh->numTriangles);
+    }
+    clrtBuildPrimitives(scene_cl_out); 
+    clrtPrintSceneInfo(scene_cl_out);
+    clrtCommit(scene_cl_out);
+    return scene_cl_out;
+}
+
 RTCScene convertScene(ISPCScene* scene_in)
 {
   /* create scene */
@@ -118,12 +133,9 @@ RTCScene convertScene(ISPCScene* scene_in)
   {
     /* get ith mesh */
     ISPCMesh* mesh = scene_in->meshes[i];
-
     /* create a triangle mesh */
     unsigned int geometry = rtcNewTriangleMesh (scene_out, RTC_GEOMETRY_STATIC, mesh->numTriangles, mesh->numVertices);
-
     unsigned int geometry_cl = clrtNewTriangleMesh(scene_cl_out, mesh->numTriangles, mesh->numVertices);   
-
     std::cout << "barrier " << std::endl;
 #if !defined(__XEON_PHI__)
     /* share vertex buffer */
@@ -144,7 +156,6 @@ RTCScene convertScene(ISPCScene* scene_in)
       vertices[j].z = mesh->positions[j].z;
     }
     rtcUnmapBuffer(scene_out,geometry,RTC_VERTEX_BUFFER); 
-
     /* set triangles */
     Triangle* triangles = (Triangle*) rtcMapBuffer(scene_out,geometry,RTC_INDEX_BUFFER);
     for (int j=0; j<mesh->numTriangles; j++) {
@@ -155,10 +166,10 @@ RTCScene convertScene(ISPCScene* scene_in)
     rtcUnmapBuffer(scene_out,geometry,RTC_INDEX_BUFFER);
 #endif
   }
-
   /* commit changes to scene */
   clrtBuildPrimitives(scene_cl_out); 
   clrtPrintSceneInfo(scene_cl_out);
+  clrtCommit(scene_cl_out);
   rtcCommit (scene_out);
   return scene_out;
 }
@@ -176,10 +187,9 @@ Vec3fa renderPixelStandard(float x, float y, const Vec3fa& vx, const Vec3fa& vy,
   ray.primID = RTC_INVALID_GEOMETRY_ID;
   ray.mask = -1;
   ray.time = 0;
-  
   /* intersect ray with scene */
   rtcIntersect(g_scene,ray);
-  
+  // clrtIntersect(g_scene,ray); 
   /* shade background black */
   if (ray.geomID == RTC_INVALID_GEOMETRY_ID) return Vec3fa(0.0f);
   
@@ -187,7 +197,6 @@ Vec3fa renderPixelStandard(float x, float y, const Vec3fa& vx, const Vec3fa& vy,
   Vec3fa color = Vec3fa(0.0f);
   Vec3fa Ns = Vec3fa(0.0f);
 
-#if 1 // FIXME: pointer gather not implemented on ISPC for Xeon Phi
   ISPCMesh* mesh = g_ispc_scene->meshes[ray.geomID];
   ISPCTriangle* tri = &mesh->triangles[ray.primID];
 
@@ -205,41 +214,12 @@ Vec3fa renderPixelStandard(float x, float y, const Vec3fa& vx, const Vec3fa& vy,
     Ns = normalize(ray.Ng);
   }
 
-#else
-
-  int materialID = 0;
-  foreach_unique (geomID in ray.geomID) 
-  {
-    ISPCMesh* mesh = g_ispc_scene->meshes[geomID];
-    
-    foreach_unique (primID in ray.primID) 
-    {
-      ISPCTriangle* tri = &mesh->triangles[primID];
-      
-      /* load material ID */
-      materialID = tri->materialID;
-
-      /* interpolate shading normal */
-      if (mesh->normals) {
-        Vec3fa n0 = Vec3fa(mesh->normals[tri->v0]);
-        Vec3fa n1 = Vec3fa(mesh->normals[tri->v1]);
-        Vec3fa n2 = Vec3fa(mesh->normals[tri->v2]);
-        float u = ray.u, v = ray.v, w = 1.0f-ray.u-ray.v;
-        Ns = w*n0 + u*n1 + v*n2;
-      } else {
-        Ns = normalize(ray.Ng);
-      }
-    }
-  }
-  Ns = normalize(Ns);
-#endif
   ISPCMaterial* material = &g_ispc_scene->materials[materialID];
   color = Vec3fa(material->Kd);
 
   /* apply ambient light */
   Vec3fa Nf = faceforward(Ns,neg(ray.dir),Ns);
-  //Vec3fa Ng = normalize(ray.Ng);
-  //Vec3fa Nf = dot(ray.dir,Ng) < 0.0f ? Ng : neg(Ng);
+
   color = color*dot(ray.dir,Nf);   // FIXME: *=
   return color;
 }
@@ -258,6 +238,7 @@ void renderTile(int taskIndex, int* pixels,
 {
   const int tileY = taskIndex / numTilesX;
   const int tileX = taskIndex - tileY * numTilesX;
+  std::cout << "renderTile tileX " << tileX << " tileY " << tileY << std::endl;
   const int x0 = tileX * TILE_SIZE_X;
   const int x1 = min(x0+TILE_SIZE_X,width);
   const int y0 = tileY * TILE_SIZE_Y;
@@ -289,11 +270,14 @@ extern "C" void device_render (int* pixels,
   /* create scene */
     std::cout << "device_render called " << std::endl;
   if (g_scene == NULL) // only called once
-    g_scene = convertScene(g_ispc_scene);
+      g_scene = convertScene(g_ispc_scene);
+  if(g_scene_cl == NULL) 
+      g_scene_cl = convertSceneCL(g_ispc_scene);
 
   /* render image */
   const int numTilesX = (width +TILE_SIZE_X-1)/TILE_SIZE_X;
   const int numTilesY = (height+TILE_SIZE_Y-1)/TILE_SIZE_Y;
+  std::cout << "numTilesX " << numTilesX << " numTilesY " << numTilesY << std::endl;
   launch_renderTile(numTilesX*numTilesY,pixels,width,height,time,vx,vy,vz,p,numTilesX,numTilesY); 
   rtcDebug();
 }

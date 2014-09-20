@@ -142,7 +142,7 @@ namespace embree
   }
 
   void render(const float time, const Vec3fa& vx, const Vec3fa& vy, const Vec3fa& vz, const Vec3fa& p) {
-    std::cout << "render called " << std::endl;    
+    std::cout << "render called g_width " << g_width << " g_height " << g_height <<  std::endl;    
     device_render(g_pixels,g_width,g_height,time,vx,vy,vz,p);
   }
 

@@ -99,12 +99,12 @@ IF (TARGET_SSE41)
     bvh4/bvh4_builder_toplevel.cpp
     bvh4/bvh4_intersector1.cpp   
     bvh4/bvh4_intersector4_chunk.cpp
-
+      ../common/acceln.cpp
       ../common/cl_scene.cpp
      ../common/cl_geometry.cpp   
     ../common/cl_rtcore.cpp
     ../common/cl_triangleMesh.cpp
-
+     cl_bvh/cl_bvh.cpp
   )
   SET_TARGET_PROPERTIES(embree_sse41 PROPERTIES COMPILE_FLAGS "${FLAGS_SSE41}")
   SET(EMBREE_LIBRARIES ${EMBREE_LIBRARIES} embree_sse41)
@@ -118,6 +118,7 @@ IF (TARGET_SSE42)
      ../common/cl_geometry.cpp   
     ../common/cl_rtcore.cpp
     ../common/cl_triangleMesh.cpp
+
   )
   SET_TARGET_PROPERTIES(embree_sse42 PROPERTIES COMPILE_FLAGS "${FLAGS_SSE42}")
   SET(EMBREE_LIBRARIES ${EMBREE_LIBRARIES} embree_sse42)
@@ -174,6 +175,7 @@ IF (TARGET_AVX)
    bvh8/bvh8_intersector4_hybrid.cpp   
    bvh8/bvh8_intersector8_chunk.cpp   
    bvh8/bvh8_intersector8_hybrid.cpp   
+   cl_bvh/cl_bvh.cpp
 
 )
 
@@ -208,6 +210,8 @@ IF (TARGET_AVX2)
     bvh8/bvh8_intersector4_hybrid.cpp 
     bvh8/bvh8_intersector8_chunk.cpp   
     bvh8/bvh8_intersector8_hybrid.cpp   
+    cl_bvh/cl_bvh.cpp
+
 )
 
   SET_TARGET_PROPERTIES(embree_avx2 PROPERTIES COMPILE_FLAGS "${FLAGS_AVX2}")

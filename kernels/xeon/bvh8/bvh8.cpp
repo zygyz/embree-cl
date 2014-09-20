@@ -102,6 +102,7 @@ namespace embree
 
   Accel* BVH8::BVH8Triangle8(Scene* scene)
   { 
+      std::cout << " Accel* BVH8::BVH8Triangle8(Scene* scene) " << std::endl;
     BVH8* accel = new BVH8(SceneTriangle8::type,scene);
     Accel::Intersectors intersectors= BVH8Triangle8Intersectors(accel);
     

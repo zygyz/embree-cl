@@ -489,6 +489,29 @@ kernels/xeon/CMakeFiles/embree_avx2.dir/bvh8/bvh8_intersector8_hybrid.o.provides
 
 kernels/xeon/CMakeFiles/embree_avx2.dir/bvh8/bvh8_intersector8_hybrid.o.provides.build: kernels/xeon/CMakeFiles/embree_avx2.dir/bvh8/bvh8_intersector8_hybrid.o
 
+kernels/xeon/CMakeFiles/embree_avx2.dir/cl_bvh/cl_bvh.o: kernels/xeon/CMakeFiles/embree_avx2.dir/flags.make
+kernels/xeon/CMakeFiles/embree_avx2.dir/cl_bvh/cl_bvh.o: kernels/xeon/cl_bvh/cl_bvh.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_20)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kernels/xeon/CMakeFiles/embree_avx2.dir/cl_bvh/cl_bvh.o"
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree_avx2.dir/cl_bvh/cl_bvh.o -c /home/gyz/code/good/embree-cl/kernels/xeon/cl_bvh/cl_bvh.cpp
+
+kernels/xeon/CMakeFiles/embree_avx2.dir/cl_bvh/cl_bvh.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/embree_avx2.dir/cl_bvh/cl_bvh.i"
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/kernels/xeon/cl_bvh/cl_bvh.cpp > CMakeFiles/embree_avx2.dir/cl_bvh/cl_bvh.i
+
+kernels/xeon/CMakeFiles/embree_avx2.dir/cl_bvh/cl_bvh.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/embree_avx2.dir/cl_bvh/cl_bvh.s"
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/kernels/xeon/cl_bvh/cl_bvh.cpp -o CMakeFiles/embree_avx2.dir/cl_bvh/cl_bvh.s
+
+kernels/xeon/CMakeFiles/embree_avx2.dir/cl_bvh/cl_bvh.o.requires:
+.PHONY : kernels/xeon/CMakeFiles/embree_avx2.dir/cl_bvh/cl_bvh.o.requires
+
+kernels/xeon/CMakeFiles/embree_avx2.dir/cl_bvh/cl_bvh.o.provides: kernels/xeon/CMakeFiles/embree_avx2.dir/cl_bvh/cl_bvh.o.requires
+	$(MAKE) -f kernels/xeon/CMakeFiles/embree_avx2.dir/build.make kernels/xeon/CMakeFiles/embree_avx2.dir/cl_bvh/cl_bvh.o.provides.build
+.PHONY : kernels/xeon/CMakeFiles/embree_avx2.dir/cl_bvh/cl_bvh.o.provides
+
+kernels/xeon/CMakeFiles/embree_avx2.dir/cl_bvh/cl_bvh.o.provides.build: kernels/xeon/CMakeFiles/embree_avx2.dir/cl_bvh/cl_bvh.o
+
 # Object files for target embree_avx2
 embree_avx2_OBJECTS = \
 "CMakeFiles/embree_avx2.dir/geometry/instance_intersector1.o" \
@@ -509,7 +532,8 @@ embree_avx2_OBJECTS = \
 "CMakeFiles/embree_avx2.dir/bvh8/bvh8_intersector1.o" \
 "CMakeFiles/embree_avx2.dir/bvh8/bvh8_intersector4_hybrid.o" \
 "CMakeFiles/embree_avx2.dir/bvh8/bvh8_intersector8_chunk.o" \
-"CMakeFiles/embree_avx2.dir/bvh8/bvh8_intersector8_hybrid.o"
+"CMakeFiles/embree_avx2.dir/bvh8/bvh8_intersector8_hybrid.o" \
+"CMakeFiles/embree_avx2.dir/cl_bvh/cl_bvh.o"
 
 # External object files for target embree_avx2
 embree_avx2_EXTERNAL_OBJECTS =
@@ -533,6 +557,7 @@ libembree_avx2.a: kernels/xeon/CMakeFiles/embree_avx2.dir/bvh8/bvh8_intersector1
 libembree_avx2.a: kernels/xeon/CMakeFiles/embree_avx2.dir/bvh8/bvh8_intersector4_hybrid.o
 libembree_avx2.a: kernels/xeon/CMakeFiles/embree_avx2.dir/bvh8/bvh8_intersector8_chunk.o
 libembree_avx2.a: kernels/xeon/CMakeFiles/embree_avx2.dir/bvh8/bvh8_intersector8_hybrid.o
+libembree_avx2.a: kernels/xeon/CMakeFiles/embree_avx2.dir/cl_bvh/cl_bvh.o
 libembree_avx2.a: kernels/xeon/CMakeFiles/embree_avx2.dir/build.make
 libembree_avx2.a: kernels/xeon/CMakeFiles/embree_avx2.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library ../../libembree_avx2.a"
@@ -562,6 +587,7 @@ kernels/xeon/CMakeFiles/embree_avx2.dir/requires: kernels/xeon/CMakeFiles/embree
 kernels/xeon/CMakeFiles/embree_avx2.dir/requires: kernels/xeon/CMakeFiles/embree_avx2.dir/bvh8/bvh8_intersector4_hybrid.o.requires
 kernels/xeon/CMakeFiles/embree_avx2.dir/requires: kernels/xeon/CMakeFiles/embree_avx2.dir/bvh8/bvh8_intersector8_chunk.o.requires
 kernels/xeon/CMakeFiles/embree_avx2.dir/requires: kernels/xeon/CMakeFiles/embree_avx2.dir/bvh8/bvh8_intersector8_hybrid.o.requires
+kernels/xeon/CMakeFiles/embree_avx2.dir/requires: kernels/xeon/CMakeFiles/embree_avx2.dir/cl_bvh/cl_bvh.o.requires
 .PHONY : kernels/xeon/CMakeFiles/embree_avx2.dir/requires
 
 kernels/xeon/CMakeFiles/embree_avx2.dir/clean:

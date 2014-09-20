@@ -377,6 +377,7 @@ void launch_renderTile (int numTiles,
                         const Vec3fa& vx, const Vec3fa& vy, const Vec3fa& vz, const Vec3fa& p, const int numTilesX, const int numTilesY)
 {
   TaskScheduler::EventSync event;
+  std::cout << "Num Tiles : " << numTiles << std::endl;
   RenderTileTask parms(pixels,width,height,time,vx,vy,vz,p,numTilesX,numTilesY);
   TaskScheduler::Task task(&event,(TaskScheduler::runFunction)renderTile_parallel,&parms,numTiles,NULL,NULL,"render");//numTiles: total number of elements
   TaskScheduler::addTask(-1,TaskScheduler::GLOBAL_FRONT,&task);

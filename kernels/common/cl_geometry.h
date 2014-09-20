@@ -4,7 +4,6 @@
 namespace embree {
     class SceneCL;
 
-//    enum GeometryTyCL { TRIANGLE_MESH = 1, USER_GEOMETRY=2,BEZIER_CURVES = 4};
 
     class GeometryCL {
 	public:

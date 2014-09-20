@@ -12,7 +12,7 @@
 
 typedef struct __CLRTScene {}* CLRTScene;
 
-enum GeometryTyCL { TRIANGLE_MESH = 1, USER_GEOMETRY = 2, BEZIER_CURVES = 4};
+enum GeometryTyCL { TRIANGLE_MESH_CL = 1, USER_GEOMETRY_CL = 2, BEZIER_CURVES_CL = 4};
 
 RTCORE_API void clrtInit(const char* cfg = NULL);
 
@@ -31,4 +31,6 @@ RTCORE_API unsigned clrtSetBuffer(CLRTScene scene, unsigned geomID, RTCBufferTyp
 RTCORE_API void clrtPrintSceneInfo(CLRTScene scene);
 
 RTCORE_API void clrtBuildPrimitives(CLRTScene scene);
+
+RTCORE_API void clrtCommit(CLRTScene scene);
 #endif

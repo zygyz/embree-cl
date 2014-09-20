@@ -57,6 +57,8 @@ kernels/xeon/CMakeFiles/embree_sse42.dir/__/common/cl_geometry.o: include/embree
 kernels/xeon/CMakeFiles/embree_sse42.dir/__/common/cl_geometry.o: include/embree2/rtcore_geometry.h
 kernels/xeon/CMakeFiles/embree_sse42.dir/__/common/cl_geometry.o: include/embree2/rtcore_geometry_user.h
 kernels/xeon/CMakeFiles/embree_sse42.dir/__/common/cl_geometry.o: include/embree2/rtcore_scene.h
+kernels/xeon/CMakeFiles/embree_sse42.dir/__/common/cl_geometry.o: kernels/common/accel.h
+kernels/xeon/CMakeFiles/embree_sse42.dir/__/common/cl_geometry.o: kernels/common/acceln.h
 kernels/xeon/CMakeFiles/embree_sse42.dir/__/common/cl_geometry.o: kernels/common/default.h
 kernels/xeon/CMakeFiles/embree_sse42.dir/__/common/cl_geometry.o: kernels/common/stat.h
 kernels/xeon/CMakeFiles/embree_sse42.dir/__/common/cl_geometry.o: kernels/version.h
@@ -115,6 +117,8 @@ kernels/xeon/CMakeFiles/embree_sse42.dir/__/common/cl_rtcore.o: include/embree2/
 kernels/xeon/CMakeFiles/embree_sse42.dir/__/common/cl_rtcore.o: include/embree2/rtcore_geometry.h
 kernels/xeon/CMakeFiles/embree_sse42.dir/__/common/cl_rtcore.o: include/embree2/rtcore_geometry_user.h
 kernels/xeon/CMakeFiles/embree_sse42.dir/__/common/cl_rtcore.o: include/embree2/rtcore_scene.h
+kernels/xeon/CMakeFiles/embree_sse42.dir/__/common/cl_rtcore.o: kernels/common/accel.h
+kernels/xeon/CMakeFiles/embree_sse42.dir/__/common/cl_rtcore.o: kernels/common/acceln.h
 kernels/xeon/CMakeFiles/embree_sse42.dir/__/common/cl_rtcore.o: kernels/common/cl_geometry.h
 kernels/xeon/CMakeFiles/embree_sse42.dir/__/common/cl_rtcore.o: kernels/common/cl_scene.h
 kernels/xeon/CMakeFiles/embree_sse42.dir/__/common/cl_rtcore.o: kernels/common/default.h
@@ -181,7 +185,25 @@ kernels/xeon/CMakeFiles/embree_sse42.dir/__/common/cl_scene.o: include/embree2/r
 kernels/xeon/CMakeFiles/embree_sse42.dir/__/common/cl_scene.o: include/embree2/rtcore_geometry.h
 kernels/xeon/CMakeFiles/embree_sse42.dir/__/common/cl_scene.o: include/embree2/rtcore_geometry_user.h
 kernels/xeon/CMakeFiles/embree_sse42.dir/__/common/cl_scene.o: include/embree2/rtcore_scene.h
+kernels/xeon/CMakeFiles/embree_sse42.dir/__/common/cl_scene.o: kernels/common/accel.h
+kernels/xeon/CMakeFiles/embree_sse42.dir/__/common/cl_scene.o: kernels/common/acceln.h
+kernels/xeon/CMakeFiles/embree_sse42.dir/__/common/cl_scene.o: kernels/common/accelset.h
+kernels/xeon/CMakeFiles/embree_sse42.dir/__/common/cl_scene.o: kernels/common/alloc.h
+kernels/xeon/CMakeFiles/embree_sse42.dir/__/common/cl_scene.o: kernels/common/atomic_set.h
+kernels/xeon/CMakeFiles/embree_sse42.dir/__/common/cl_scene.o: kernels/common/buffer.h
+kernels/xeon/CMakeFiles/embree_sse42.dir/__/common/cl_scene.o: kernels/common/builder.h
+kernels/xeon/CMakeFiles/embree_sse42.dir/__/common/cl_scene.o: kernels/common/cl_scene.h
+kernels/xeon/CMakeFiles/embree_sse42.dir/__/common/cl_scene.o: kernels/common/cl_triangleMesh.h
 kernels/xeon/CMakeFiles/embree_sse42.dir/__/common/cl_scene.o: kernels/common/default.h
+kernels/xeon/CMakeFiles/embree_sse42.dir/__/common/cl_scene.o: kernels/common/geometry.h
+kernels/xeon/CMakeFiles/embree_sse42.dir/__/common/cl_scene.o: kernels/common/primref.h
+kernels/xeon/CMakeFiles/embree_sse42.dir/__/common/cl_scene.o: kernels/common/scene.h
+kernels/xeon/CMakeFiles/embree_sse42.dir/__/common/cl_scene.o: kernels/common/scene_bezier_curves.h
+kernels/xeon/CMakeFiles/embree_sse42.dir/__/common/cl_scene.o: kernels/common/scene_triangle_mesh.h
+kernels/xeon/CMakeFiles/embree_sse42.dir/__/common/cl_scene.o: kernels/common/scene_user_geometry.h
+kernels/xeon/CMakeFiles/embree_sse42.dir/__/common/cl_scene.o: kernels/xeon/builders/primrefblock.h
+kernels/xeon/CMakeFiles/embree_sse42.dir/__/common/cl_scene.o: kernels/xeon/cl_bvh/cl_bvh.h
+kernels/xeon/CMakeFiles/embree_sse42.dir/__/common/cl_scene.o: kernels/xeon/geometry/primitive.h
 
 kernels/xeon/CMakeFiles/embree_sse42.dir/__/common/cl_triangleMesh.o: kernels/common/cl_geometry.h
 kernels/xeon/CMakeFiles/embree_sse42.dir/__/common/cl_triangleMesh.o: kernels/common/cl_scene.h
@@ -240,6 +262,8 @@ kernels/xeon/CMakeFiles/embree_sse42.dir/__/common/cl_triangleMesh.o: include/em
 kernels/xeon/CMakeFiles/embree_sse42.dir/__/common/cl_triangleMesh.o: include/embree2/rtcore_geometry.h
 kernels/xeon/CMakeFiles/embree_sse42.dir/__/common/cl_triangleMesh.o: include/embree2/rtcore_geometry_user.h
 kernels/xeon/CMakeFiles/embree_sse42.dir/__/common/cl_triangleMesh.o: include/embree2/rtcore_scene.h
+kernels/xeon/CMakeFiles/embree_sse42.dir/__/common/cl_triangleMesh.o: kernels/common/accel.h
+kernels/xeon/CMakeFiles/embree_sse42.dir/__/common/cl_triangleMesh.o: kernels/common/acceln.h
 kernels/xeon/CMakeFiles/embree_sse42.dir/__/common/cl_triangleMesh.o: kernels/common/default.h
 kernels/xeon/CMakeFiles/embree_sse42.dir/__/common/cl_triangleMesh.o: kernels/common/stat.h
 kernels/xeon/CMakeFiles/embree_sse42.dir/__/common/cl_triangleMesh.o: kernels/version.h

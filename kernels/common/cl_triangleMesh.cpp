@@ -2,7 +2,7 @@
 
 namespace embree {
 
-  TriangleMeshCL::TriangleMeshCL(SceneCL* parent, size_t numTriangles, size_t numVertices):GeometryCL(parent,numTriangles,TRIANGLE_MESH) {
+  TriangleMeshCL::TriangleMeshCL(SceneCL* parent, size_t numTriangles, size_t numVertices):GeometryCL(parent,numTriangles,TRIANGLE_MESH_CL) {
     vtriangles.reserve(numTriangles);
     vvertices.reserve(numVertices);
     vtriangleCL.reserve(numTriangles); 

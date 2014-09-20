@@ -144,9 +144,32 @@ kernels/xeon/CMakeFiles/embree_sse41.dir/bvh4/bvh4_intersector4_chunk.o.provides
 
 kernels/xeon/CMakeFiles/embree_sse41.dir/bvh4/bvh4_intersector4_chunk.o.provides.build: kernels/xeon/CMakeFiles/embree_sse41.dir/bvh4/bvh4_intersector4_chunk.o
 
+kernels/xeon/CMakeFiles/embree_sse41.dir/__/common/acceln.o: kernels/xeon/CMakeFiles/embree_sse41.dir/flags.make
+kernels/xeon/CMakeFiles/embree_sse41.dir/__/common/acceln.o: kernels/common/acceln.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_5)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kernels/xeon/CMakeFiles/embree_sse41.dir/__/common/acceln.o"
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree_sse41.dir/__/common/acceln.o -c /home/gyz/code/good/embree-cl/kernels/common/acceln.cpp
+
+kernels/xeon/CMakeFiles/embree_sse41.dir/__/common/acceln.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/embree_sse41.dir/__/common/acceln.i"
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/kernels/common/acceln.cpp > CMakeFiles/embree_sse41.dir/__/common/acceln.i
+
+kernels/xeon/CMakeFiles/embree_sse41.dir/__/common/acceln.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/embree_sse41.dir/__/common/acceln.s"
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/kernels/common/acceln.cpp -o CMakeFiles/embree_sse41.dir/__/common/acceln.s
+
+kernels/xeon/CMakeFiles/embree_sse41.dir/__/common/acceln.o.requires:
+.PHONY : kernels/xeon/CMakeFiles/embree_sse41.dir/__/common/acceln.o.requires
+
+kernels/xeon/CMakeFiles/embree_sse41.dir/__/common/acceln.o.provides: kernels/xeon/CMakeFiles/embree_sse41.dir/__/common/acceln.o.requires
+	$(MAKE) -f kernels/xeon/CMakeFiles/embree_sse41.dir/build.make kernels/xeon/CMakeFiles/embree_sse41.dir/__/common/acceln.o.provides.build
+.PHONY : kernels/xeon/CMakeFiles/embree_sse41.dir/__/common/acceln.o.provides
+
+kernels/xeon/CMakeFiles/embree_sse41.dir/__/common/acceln.o.provides.build: kernels/xeon/CMakeFiles/embree_sse41.dir/__/common/acceln.o
+
 kernels/xeon/CMakeFiles/embree_sse41.dir/__/common/cl_scene.o: kernels/xeon/CMakeFiles/embree_sse41.dir/flags.make
 kernels/xeon/CMakeFiles/embree_sse41.dir/__/common/cl_scene.o: kernels/common/cl_scene.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kernels/xeon/CMakeFiles/embree_sse41.dir/__/common/cl_scene.o"
 	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree_sse41.dir/__/common/cl_scene.o -c /home/gyz/code/good/embree-cl/kernels/common/cl_scene.cpp
 
@@ -169,7 +192,7 @@ kernels/xeon/CMakeFiles/embree_sse41.dir/__/common/cl_scene.o.provides.build: ke
 
 kernels/xeon/CMakeFiles/embree_sse41.dir/__/common/cl_geometry.o: kernels/xeon/CMakeFiles/embree_sse41.dir/flags.make
 kernels/xeon/CMakeFiles/embree_sse41.dir/__/common/cl_geometry.o: kernels/common/cl_geometry.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kernels/xeon/CMakeFiles/embree_sse41.dir/__/common/cl_geometry.o"
 	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree_sse41.dir/__/common/cl_geometry.o -c /home/gyz/code/good/embree-cl/kernels/common/cl_geometry.cpp
 
@@ -192,7 +215,7 @@ kernels/xeon/CMakeFiles/embree_sse41.dir/__/common/cl_geometry.o.provides.build:
 
 kernels/xeon/CMakeFiles/embree_sse41.dir/__/common/cl_rtcore.o: kernels/xeon/CMakeFiles/embree_sse41.dir/flags.make
 kernels/xeon/CMakeFiles/embree_sse41.dir/__/common/cl_rtcore.o: kernels/common/cl_rtcore.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kernels/xeon/CMakeFiles/embree_sse41.dir/__/common/cl_rtcore.o"
 	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree_sse41.dir/__/common/cl_rtcore.o -c /home/gyz/code/good/embree-cl/kernels/common/cl_rtcore.cpp
 
@@ -215,7 +238,7 @@ kernels/xeon/CMakeFiles/embree_sse41.dir/__/common/cl_rtcore.o.provides.build: k
 
 kernels/xeon/CMakeFiles/embree_sse41.dir/__/common/cl_triangleMesh.o: kernels/xeon/CMakeFiles/embree_sse41.dir/flags.make
 kernels/xeon/CMakeFiles/embree_sse41.dir/__/common/cl_triangleMesh.o: kernels/common/cl_triangleMesh.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kernels/xeon/CMakeFiles/embree_sse41.dir/__/common/cl_triangleMesh.o"
 	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree_sse41.dir/__/common/cl_triangleMesh.o -c /home/gyz/code/good/embree-cl/kernels/common/cl_triangleMesh.cpp
 
@@ -236,16 +259,41 @@ kernels/xeon/CMakeFiles/embree_sse41.dir/__/common/cl_triangleMesh.o.provides: k
 
 kernels/xeon/CMakeFiles/embree_sse41.dir/__/common/cl_triangleMesh.o.provides.build: kernels/xeon/CMakeFiles/embree_sse41.dir/__/common/cl_triangleMesh.o
 
+kernels/xeon/CMakeFiles/embree_sse41.dir/cl_bvh/cl_bvh.o: kernels/xeon/CMakeFiles/embree_sse41.dir/flags.make
+kernels/xeon/CMakeFiles/embree_sse41.dir/cl_bvh/cl_bvh.o: kernels/xeon/cl_bvh/cl_bvh.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gyz/code/good/embree-cl/CMakeFiles $(CMAKE_PROGRESS_10)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kernels/xeon/CMakeFiles/embree_sse41.dir/cl_bvh/cl_bvh.o"
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/embree_sse41.dir/cl_bvh/cl_bvh.o -c /home/gyz/code/good/embree-cl/kernels/xeon/cl_bvh/cl_bvh.cpp
+
+kernels/xeon/CMakeFiles/embree_sse41.dir/cl_bvh/cl_bvh.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/embree_sse41.dir/cl_bvh/cl_bvh.i"
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gyz/code/good/embree-cl/kernels/xeon/cl_bvh/cl_bvh.cpp > CMakeFiles/embree_sse41.dir/cl_bvh/cl_bvh.i
+
+kernels/xeon/CMakeFiles/embree_sse41.dir/cl_bvh/cl_bvh.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/embree_sse41.dir/cl_bvh/cl_bvh.s"
+	cd /home/gyz/code/good/embree-cl/kernels/xeon && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gyz/code/good/embree-cl/kernels/xeon/cl_bvh/cl_bvh.cpp -o CMakeFiles/embree_sse41.dir/cl_bvh/cl_bvh.s
+
+kernels/xeon/CMakeFiles/embree_sse41.dir/cl_bvh/cl_bvh.o.requires:
+.PHONY : kernels/xeon/CMakeFiles/embree_sse41.dir/cl_bvh/cl_bvh.o.requires
+
+kernels/xeon/CMakeFiles/embree_sse41.dir/cl_bvh/cl_bvh.o.provides: kernels/xeon/CMakeFiles/embree_sse41.dir/cl_bvh/cl_bvh.o.requires
+	$(MAKE) -f kernels/xeon/CMakeFiles/embree_sse41.dir/build.make kernels/xeon/CMakeFiles/embree_sse41.dir/cl_bvh/cl_bvh.o.provides.build
+.PHONY : kernels/xeon/CMakeFiles/embree_sse41.dir/cl_bvh/cl_bvh.o.provides
+
+kernels/xeon/CMakeFiles/embree_sse41.dir/cl_bvh/cl_bvh.o.provides.build: kernels/xeon/CMakeFiles/embree_sse41.dir/cl_bvh/cl_bvh.o
+
 # Object files for target embree_sse41
 embree_sse41_OBJECTS = \
 "CMakeFiles/embree_sse41.dir/bvh4/bvh4_builder_binner.o" \
 "CMakeFiles/embree_sse41.dir/bvh4/bvh4_builder_toplevel.o" \
 "CMakeFiles/embree_sse41.dir/bvh4/bvh4_intersector1.o" \
 "CMakeFiles/embree_sse41.dir/bvh4/bvh4_intersector4_chunk.o" \
+"CMakeFiles/embree_sse41.dir/__/common/acceln.o" \
 "CMakeFiles/embree_sse41.dir/__/common/cl_scene.o" \
 "CMakeFiles/embree_sse41.dir/__/common/cl_geometry.o" \
 "CMakeFiles/embree_sse41.dir/__/common/cl_rtcore.o" \
-"CMakeFiles/embree_sse41.dir/__/common/cl_triangleMesh.o"
+"CMakeFiles/embree_sse41.dir/__/common/cl_triangleMesh.o" \
+"CMakeFiles/embree_sse41.dir/cl_bvh/cl_bvh.o"
 
 # External object files for target embree_sse41
 embree_sse41_EXTERNAL_OBJECTS =
@@ -254,10 +302,12 @@ libembree_sse41.a: kernels/xeon/CMakeFiles/embree_sse41.dir/bvh4/bvh4_builder_bi
 libembree_sse41.a: kernels/xeon/CMakeFiles/embree_sse41.dir/bvh4/bvh4_builder_toplevel.o
 libembree_sse41.a: kernels/xeon/CMakeFiles/embree_sse41.dir/bvh4/bvh4_intersector1.o
 libembree_sse41.a: kernels/xeon/CMakeFiles/embree_sse41.dir/bvh4/bvh4_intersector4_chunk.o
+libembree_sse41.a: kernels/xeon/CMakeFiles/embree_sse41.dir/__/common/acceln.o
 libembree_sse41.a: kernels/xeon/CMakeFiles/embree_sse41.dir/__/common/cl_scene.o
 libembree_sse41.a: kernels/xeon/CMakeFiles/embree_sse41.dir/__/common/cl_geometry.o
 libembree_sse41.a: kernels/xeon/CMakeFiles/embree_sse41.dir/__/common/cl_rtcore.o
 libembree_sse41.a: kernels/xeon/CMakeFiles/embree_sse41.dir/__/common/cl_triangleMesh.o
+libembree_sse41.a: kernels/xeon/CMakeFiles/embree_sse41.dir/cl_bvh/cl_bvh.o
 libembree_sse41.a: kernels/xeon/CMakeFiles/embree_sse41.dir/build.make
 libembree_sse41.a: kernels/xeon/CMakeFiles/embree_sse41.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library ../../libembree_sse41.a"
@@ -272,10 +322,12 @@ kernels/xeon/CMakeFiles/embree_sse41.dir/requires: kernels/xeon/CMakeFiles/embre
 kernels/xeon/CMakeFiles/embree_sse41.dir/requires: kernels/xeon/CMakeFiles/embree_sse41.dir/bvh4/bvh4_builder_toplevel.o.requires
 kernels/xeon/CMakeFiles/embree_sse41.dir/requires: kernels/xeon/CMakeFiles/embree_sse41.dir/bvh4/bvh4_intersector1.o.requires
 kernels/xeon/CMakeFiles/embree_sse41.dir/requires: kernels/xeon/CMakeFiles/embree_sse41.dir/bvh4/bvh4_intersector4_chunk.o.requires
+kernels/xeon/CMakeFiles/embree_sse41.dir/requires: kernels/xeon/CMakeFiles/embree_sse41.dir/__/common/acceln.o.requires
 kernels/xeon/CMakeFiles/embree_sse41.dir/requires: kernels/xeon/CMakeFiles/embree_sse41.dir/__/common/cl_scene.o.requires
 kernels/xeon/CMakeFiles/embree_sse41.dir/requires: kernels/xeon/CMakeFiles/embree_sse41.dir/__/common/cl_geometry.o.requires
 kernels/xeon/CMakeFiles/embree_sse41.dir/requires: kernels/xeon/CMakeFiles/embree_sse41.dir/__/common/cl_rtcore.o.requires
 kernels/xeon/CMakeFiles/embree_sse41.dir/requires: kernels/xeon/CMakeFiles/embree_sse41.dir/__/common/cl_triangleMesh.o.requires
+kernels/xeon/CMakeFiles/embree_sse41.dir/requires: kernels/xeon/CMakeFiles/embree_sse41.dir/cl_bvh/cl_bvh.o.requires
 .PHONY : kernels/xeon/CMakeFiles/embree_sse41.dir/requires
 
 kernels/xeon/CMakeFiles/embree_sse41.dir/clean:

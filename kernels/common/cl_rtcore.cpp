@@ -9,9 +9,6 @@ namespace embree {
 	return (CLRTScene) new SceneCL();
    }
 
-   RTCORE_API void clrtCommit(CLRTScene scene) {
-	((SceneCL*)scene)->build();
-   }
   
    RTCORE_API void clrtIntersect(CLRTScene scene, RTCRay & ray) {
 	((SceneCL*)scene)->intersect(ray);
@@ -32,9 +29,14 @@ namespace embree {
    RTCORE_API void clrtBuildPrimitives(CLRTScene scene) {
 	((SceneCL*)scene)->buildPrimitives();
    }
+
    RTCORE_API void clrtPrintSceneInfo(CLRTScene scene) {
        std::cout << "CLRT PRINT SCENE INFO " << std::endl;
 	((SceneCL*)scene)->printSceneInfo();
+   }
+    
+   RTCORE_API void clrtCommit(CLRTScene scene) {
+	((SceneCL*)scene)->build();	
    }
 }
 

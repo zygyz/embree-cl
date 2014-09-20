@@ -6,7 +6,7 @@
 namespace embree {
     
     class TriangleMeshCL : public GeometryCL {
-
+	public:
 	struct TriangleCL {
 	    Vec3fa v0;
 	    Vec3fa v1;
